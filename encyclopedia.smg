@@ -1,0 +1,22 @@
+{
+  "current": {
+    "position": "1.0", 
+    "markdown": "", 
+    "fontsize": 14, 
+    "page": [
+      ""
+    ], 
+    "language": "en: English"
+  }, 
+  "site": {
+    "files": {
+      "source": "C:/Users/Ryan/Documents/TinellbianLanguages/encyclopedia/data.json", 
+      "searchindex": "C:/Users/Ryan/Documents/TinellbianLanguages/encyclopedia/searching.json", 
+      "template_file": "C:/Users/Ryan/Documents/TinellbianLanguages/encyclopedia/template.html"
+    }, 
+    "destination": "C:/Users/Ryan/Documents/TinellbianLanguages/encyclopedia", 
+    "name": "Tinellbian Encyclopedia"
+  }, 
+  "links": {}, 
+  "history": []
+}
