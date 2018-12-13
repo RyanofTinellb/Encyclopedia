@@ -20,6 +20,16 @@
                 0
             ]
         }, 
+        "describe": {
+            "1": [
+                1
+            ]
+        }, 
+        "here": {
+            "1": [
+                1
+            ]
+        }, 
         "an": {
             "0": [
                 0
@@ -34,15 +44,23 @@
             "0": [
                 0
             ]
+        }, 
+        "physics": {
+            "1": [
+                1
+            ]
         }
     }, 
     "names": [
-        "Tinellbian Encyclopedia"
+        "Tinellbian Encyclopedia", 
+        "Physics"
     ], 
     "urls": [
-        "tinellbianencyclopedia.html"
+        "index.html", 
+        "physics.html"
     ], 
     "sentences": [
-        "This is an encyclopedia of knowledge of Tinellb"
+        "This is an encyclopedia of knowledge of Tinellb", 
+        "Describe Physics here"
     ]
 }

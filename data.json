@@ -3,6 +3,16 @@
     "text": [
         "This is an encyclopedia of knowledge of Tinellb."
     ], 
+    "children": [
+        {
+            "date": "2018-12-13", 
+            "position": "1.0", 
+            "name": "Physics", 
+            "text": [
+                "Describe Physics here!\n"
+            ]
+        }
+    ], 
     "name": "Tinellbian Encyclopedia", 
-    "position": "1.0"
+    "position": "1.48"
 }
