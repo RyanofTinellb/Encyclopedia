@@ -17,13 +17,34 @@
     "destination": "C:/Users/Ryan/Documents/TinellbianLanguages/encyclopedia", 
     "name": "Tinellbian Encyclopedia"
   }, 
-  "links": {}, 
+  "links": {
+    "ExternalDictionary": "http://dictionary.tinellb.com"
+  }, 
   "history": [
     [
       "Physics"
     ], 
     [
       "Tinellb"
+    ], 
+    [
+      "Tinellb"
+    ], 
+    [
+      "Physics"
+    ], 
+    [
+      "Tinellb"
+    ], 
+    [
+      "Particle Physics"
+    ], 
+    [
+      "Tinellb"
+    ], 
+    [], 
+    [
+      "Particle Physics"
     ]
   ]
 }

@@ -3,7 +3,7 @@ a:link {
 }
 
 a:visited {
-  color: #9955AA; /* light violet */
+  color: #95A; /* light violet */
 }
 
 .symbol {
@@ -31,13 +31,6 @@ small-caps {
 
 overline {
   text-decoration: overline;
-}
-
-highlight {
-    border: 1px solid red;
-    padding: 4px 5px;
-    border-radius: 15px;
-    line-height: 2;
 }
 
 @font-face {
@@ -69,6 +62,11 @@ table high-lulani:hover {
     font-weight: inherit;
     padding: inherit;
     cursor: inherit;
+}
+
+h1 a:visited, h1 a:link {
+    color: black;
+    text-decoration: none;
 }
 
 .flex {
@@ -135,6 +133,13 @@ input[type='checkbox'] {
 
 .content td {
   text-align: center;
+}
+
+.content .message p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: smaller;
+    color: red;
 }
 
 .content div.mobile-table {
@@ -303,6 +308,18 @@ input[type='checkbox'] {
     }
 
     .mobile {
-        display: inherit;
+        display: initial;
+    }
+
+    .content input.folder:checked + div.folding .tooltip-text {
+        display: none;
+    }
+
+    .content span.tooltip:hover .tooltip-text {
+        display: none;
+    }
+
+    .content span.tooltip::after {
+        content: none;
     }
 }

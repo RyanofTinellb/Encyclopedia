@@ -2,31 +2,57 @@
 <html>
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
-  <title>
-    {category-title} - Tinellbian Encyclopedia
-  </title>
-  {stylesheet} {search-script}
+    <meta name="viewport" content="width=device-width,
+                                initial-scale=1.0, user-scalable=yes">
+    <meta charset="utf-8">
+    <title>
+        {title: category} - Tinellbian Encyclopedia
+    </title>
+    {stylesheets: basic_style.css style.css}
+    {icon: favicon.png}
+    {search-script}
 </head>
 
 <body>
-  <div class="flex">
-    <div class="nav-pane">
-      {family-links}
+    <div class="flex">
+        <div class="nav-pane">
+            {links: family}
+        </div>
+        <div class="content">
+            {nav-footer}
+            {heading: title}
+            {main-contents}
+            {toc}
+            {nav-footer}
+            <div class="copyright">
+                <span class="no-breaks">
+                    {copyright: &copy;2017-%Y <a href="http://www.tinellb.com/about.html">Ryan Eakins</a>.}
+                </span>
+                <span class="no-breaks">
+                    {copyright: Last updated: %A, %B %#d%t, %Y.}
+                </span>
+            </div>
+        </div>
     </div>
-    <div class="content">
-        {nav-footer}
-        {main-contents}
-        {toc}
-        {nav-footer}
-        {copyright}
-    </div>
-  </div>
-  <script type="text/javascript">
-    document.getElementById('search').style.display = 'list-item';
-    document.getElementsByClassName('level-1')[0].style.paddingLeft = "0em";
-  </script>
+    <script type="text/javascript">
+        for (elt of document.getElementsByClassName('javascript')) {
+            elt.style.display = "block";
+        }
+        let terms = window.location.href.split("?highlight=")[1];
+        terms = terms.split("+");
+        let loc = document.getElementsByClassName("main-contents")[0];
+        let text = loc.innerHTML;
+        for (term of terms) {
+            const rep = new RegExp(`(^|\\W)(${term})($|\\W)`, "gim");
+            text = text.replace(rep, "$1<highlight>$2</highlight>$3");
+            text = text.replace(/(<[^>]*?)<highlight>([^>]*?)<.highlight>([^>]*?>)/g, "$1$2$3");
+            text = text.replace(/(<[^>]*?)<highlight>([^>]*?)<.highlight>([^>]*?>)/g, "$1$2$3");
+            text = text.replace(/<highlight>/g, "<highlight id=\"searchterm\">");
+        }
+        loc.innerHTML = text;
+        loc = document.getElementsByTagName("h1")[0];
+        loc.innerHTML += " <a href=\"#searchterm\">&rarr;</a>";
+    </script>
+    {scripts}
 </body>
-
 </html>

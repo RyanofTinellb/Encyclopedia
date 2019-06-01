@@ -1,3 +1,8 @@
+<a href=" | {{ | <br>
+"> | :: | <br>
+</a> | }} | <br>
+[d message] | [[message >> | <br>
+[/d] | ]] | <br>
 ' | &quot; | <br>
 " | &dblquot; | <br>
 &#x2248; | ~= | <br>
@@ -30,3 +35,7 @@ Brequ&egrave;n | Brequen | <br>
 <span class=""universe"">A<sup>376</sup>&gamma;</span> | &Zhalad; | <br>
 <span class=""universe"">D<sup>578</sup>&eta;</span> | &Breque; | <br>
 <span class=""universe"">E<sup>415</sup>&chi;</span> | &Tsarein; | <br>
+
+
+
+
