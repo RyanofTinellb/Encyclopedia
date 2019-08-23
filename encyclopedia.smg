@@ -1,48 +1,43 @@
 {
+  "site": {
+    "name": "Tinellbian Encyclopedia",
+    "destination": "C:/Users/Ryan/TinellbianLanguages/encyclopedia",
+    "files": {
+      "source": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/data.src",
+      "template_file": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/template.html",
+      "wordlist": "",
+      "wholepage": {
+        "file": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/wholepage.html",
+        "template": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/wholetemplate.html"
+      },
+      "search": {
+        "index": "",
+        "template": "",
+        "page": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/search.html",
+        "template404": "",
+        "page404": ""
+      }
+    }
+  },
   "current": {
-    "position": "1.0", 
-    "markdown": "C:/Users/Ryan/Documents/TinellbianLanguages/encyclopedia/encyclopedia.mkd", 
-    "fontsize": 14, 
     "page": [
       ""
-    ], 
-    "language": "en: English"
-  }, 
-  "site": {
-    "files": {
-      "source": "C:/Users/Ryan/Documents/TinellbianLanguages/encyclopedia/data.json", 
-      "searchindex": "C:/Users/Ryan/Documents/TinellbianLanguages/encyclopedia/searching.json", 
-      "template_file": "C:/Users/Ryan/Documents/TinellbianLanguages/encyclopedia/template.html"
-    }, 
-    "destination": "C:/Users/Ryan/Documents/TinellbianLanguages/encyclopedia", 
-    "name": "Tinellbian Encyclopedia"
-  }, 
+    ],
+    "markdown": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/encyclopedia.mkd",
+    "language": "en: English",
+    "position": "1.0",
+    "fontsize": 14
+  },
   "links": {
     "ExternalDictionary": "http://dictionary.tinellb.com"
-  }, 
+  },
   "history": [
     [
-      "Physics"
-    ], 
-    [
-      "Tinellb"
-    ], 
-    [
-      "Tinellb"
-    ], 
-    [
-      "Physics"
-    ], 
-    [
-      "Tinellb"
-    ], 
-    [
       "Particle Physics"
-    ], 
+    ],
     [
       "Tinellb"
-    ], 
-    [], 
+    ],
     [
       "Particle Physics"
     ]
