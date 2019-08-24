@@ -11,17 +11,13 @@
             "text": [
                 "Subatomic particles can be divided into material <a href=\"https://en.wikipedia.org/wiki/Fermion\">fermions</a>, and the energy-like <a href=\"https://en.wikipedia.org/wiki/Boson\">bosons</a>.\n",
                 "1]Fermions\nThe fundamental particle making up all fermions is the <a href=\"http://dictionary.tinellb.com/d/darill.html#particlephysics\">darill</a>. These combine to make the four generations of <a href=\"https://en.wikipedia.org/wiki/Quark\">quarks</a> and the corresponding four generations of <a href=\"https://en.wikipedia.org/wiki/Lepton\">leptons</a>.\n",
-                "t]hr2 Generation |hc2 quarks<sup>1</sup>|hr2 leptons<sup>2</sup>\n +\u2154 | -\u2153\nh I| up <em>unique</em>| down <em>dream</em>| electron <span class=\"symbol\">e</span>\nh II| central <em>charm</em>| sprial <em>strange</em>| muon <span class=\"symbol\">\u03bc</span>\nh III| top <em>truth</em>| bottom <em>beauty</em>| tau <span class=\"symbol\">\u03c4</span>\nh IV| left <em>love</em>| right <em>rhyme</em>| yaon <span class=\"symbol\">\u044f</span>\n",
+                "t]hr2 Generation |hc2 quarks<sup>1</sup>|hr2 leptons<sup>2</sup>\n +⅔ | -⅓\nh I| up <em>unique</em>| down <em>dream</em>| electron <span class=\"symbol\">e</span>\nh II| central <em>charm</em>| sprial <em>strange</em>| muon <span class=\"symbol\">μ</span>\nh III| top <em>truth</em>| bottom <em>beauty</em>| tau <span class=\"symbol\">τ</span>\nh IV| left <em>love</em>| right <em>rhyme</em>| yaon <span class=\"symbol\">я</span>\n",
                 "/t]\n",
-                "d mobile-table]\nEach generation shows the +\u2154 charged quark<sup>1</sup>, its -\u2153 counterpart, and the corresponding lepton<sup>2</sup> family.\n",
-                "l]<strong>I: </strong>up <em>unique</em> / down <em>dream</em> / electron <span class=\"symbol\">e</span>\n<strong>II</strong>: centre <em>charm</em> / sprial <em>strange</em> / muon <span class=\"symbol\">\u03bc</span>\n<strong>III</strong>: top <em>truth</em> / bottom <em>beauty</em> / tau <span class=\"symbol\">\u03c4</span>\n<strong>IV:</strong> left <em>love</em> / right <em>rhyme</em> / yaon <span class=\"symbol\">\u044f</span>\n",
+                "d mobile-table]\nEach generation shows the +⅔ charged quark<sup>1</sup>, its -⅓ counterpart, and the corresponding lepton<sup>2</sup> family.\n",
+                "l]<strong>I: </strong>up <em>unique</em> / down <em>dream</em> / electron <span class=\"symbol\">e</span>\n<strong>II</strong>: centre <em>charm</em> / sprial <em>strange</em> / muon <span class=\"symbol\">μ</span>\n<strong>III</strong>: top <em>truth</em> / bottom <em>beauty</em> / tau <span class=\"symbol\">τ</span>\n<strong>IV:</strong> left <em>love</em> / right <em>rhyme</em> / yaon <span class=\"symbol\">я</span>\n",
                 "/l]\n",
                 "/d]\n<sup>1</sup> Both the prosaic and <em>poetic</em> names of the quarks are included.\n<sup>2</sup> Each lepton generation consists of the basic particle with charge <overline>1</overline>, and a neutrino with charge 0.\nEvery fermion has an antiparticle of the opposite charge."
             ],
-            "flatname": {
-                "score": 0,
-                "name": "particlephysics"
-            },
             "date": "2019-08-24",
             "position": "1.2"
         },
