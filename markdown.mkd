@@ -3,7 +3,7 @@
 <a href=" | {{ | <br>
 https://en.wikipedia.org/wiki/ | (wiki)  | <br>
 https://en.wiktionary.org/wiki/ | (wikt)  | <br>
-"> |  ::  | <br>
+"> | :: | <br>
 </a> | }} | <br>
 </span> | </> | <br>
 [d message] | [[message >> | <br>
@@ -23,6 +23,7 @@ https://en.wiktionary.org/wiki/ | (wikt)  | <br>
 ‐ | -- | s<br>
 — | --- | s<br>
 ì | )i | s<br>
+û | ()u | s<br>
 … | ... | s<br>
 → | => |  s<br>
 <overline>1</overline> | &rone; | <br>

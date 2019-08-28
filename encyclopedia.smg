@@ -5,17 +5,17 @@
     "files": {
       "source": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/data.src",
       "template_file": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/template.html",
-      "wordlist": "",
+      "wordlist": "C:/Users/Ryan/TinellbianLanguages/dictionary/wordlist.json",
       "wholepage": {
         "file": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/wholepage.html",
         "template": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/wholetemplate.html"
       },
       "search": {
-        "index": "",
-        "template": "",
+        "index": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/searching.json",
+        "template": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/searchtemplate.html",
         "page": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/search.html",
-        "template404": "",
-        "page404": ""
+        "template404": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/404template.html",
+        "page404": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/404.html"
       }
     }
   },
@@ -23,7 +23,7 @@
     "page": [
       ""
     ],
-    "markdown": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/encyclopedia.mkd",
+    "markdown": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/markdown.mkd",
     "language": "en: English",
     "position": "1.0",
     "fontsize": 14
@@ -40,6 +40,9 @@
     ],
     [
       "Particle Physics"
+    ],
+    [
+      "Emotion"
     ]
   ]
 }

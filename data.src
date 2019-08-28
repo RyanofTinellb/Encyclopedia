@@ -19,7 +19,7 @@
                 "/d]\n<sup>1</sup> Both the prosaic and <em>poetic</em> names of the quarks are included.\n<sup>2</sup> Each lepton generation consists of the basic particle with charge <overline>1</overline>, and a neutrino with charge 0.\nEvery fermion has an antiparticle of the opposite charge."
             ],
             "date": "2019-08-24",
-            "position": "1.2"
+            "position": "21.57"
         },
         {
             "name": "Tinellb",
@@ -33,6 +33,24 @@
             "date": "2019-06-01",
             "position": "1.2",
             "children": []
+        },
+        {
+            "name": "Emotion",
+            "position": "3.11",
+            "text": [
+                "Emotions arise when a being has sufficiently complex thought, and thus the <a href=\"http://dictionary.tinellb.com/h/heart.html#english\">heart</a> is an emergent phenomenon of the mind.  There are four recognised primary emotions, each of which has a positive and negative aspect.\n",
+                "t]|h negative|h neutral|h positive\nh zigûtic (wood) | dread | fear | caution\nh qoltic (wind) | misery | sorrow | melancholy\nh volzdic (fire) | anger | zeal | passion\nh vohalic (water) | complacence | contentment| joy",
+                "/t]\nA heart in balance is said to be happy.\nThese emotions affect each other as their corresponding substances do:\n",
+                "l]dread blocks melancholy,\nmelancholy evaporates complacence,\ncomplacence quenches passion,\npassion burns dread.",
+                "/l]\n",
+                "l]caution blocks misery,\nmisery evaporates joy,\njoy quenches anger,\nanger burns caution.",
+                "/l]"
+            ],
+            "date": "2019-08-28",
+            "flatname": {
+                "name": "Emotion",
+                "score": 0
+            }
         }
     ]
 }
