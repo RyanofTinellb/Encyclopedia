@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <span class="symbol"> | <symbol> | <br>
+<a href="http://grammar.tinellb.com | {{g | <br>
+<a href="https://en.wikipedia.org/wiki/ | {{wik  | <br>
+<a href="https://en.wiktionary.org/wiki/ | {{(wikt  | <br>
 <a href=" | {{ | <br>
-https://en.wikipedia.org/wiki/ | (wiki)  | <br>
-https://en.wiktionary.org/wiki/ | (wikt)  | <br>
 "> | :: | <br>
 </a> | }} | <br>
 </span> | </> | <br>
@@ -41,3 +42,5 @@ F996ξ | &Solaji; | s<br>
 A376γ | &Zhalad; | s<br>
 D578η | &Breque; | s<br>
 E415χ | &Tsarein; |  s<br>
+&#91; | \[ | <br>
+&#93; | ]/ | <br>

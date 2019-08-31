@@ -51,6 +51,15 @@
                 "name": "Emotion",
                 "score": 0
             }
+        },
+        {
+            "name": "Mathematics",
+            "position": "1.0",
+            "text": [
+                "<a href=\"g/highlulani/\">High Lulani</a> uses balanced <a href=\"http://dictionary.tinellb.com/s/sesquidecimal.html#mathematics\">sesquidecimal</a>. The use of a balanced base can half the length of mantissae, with (round brackets) signifying repeated digits, and &#91;square brackets&#93; signifying <a href=\"g/highlulani/apocrypha/numbers.html#repeatingandreflectingstrings\">mirrored</a> digits.\nFor example:\n",
+                "l]½ = 0.(7)\n⅓ = 0.5\n¼ = 0.&#91;4&#93;\n⅕ = 0.3\n⅙ = 0.2(7)\n7<sup><overline>1</overline></sup>  = 0.(2)\n1<overline>7</overline><sup><overline>1</overline></sup> = 0.&#91;2&#93;\n1<overline>6</overline><sup><overline>1</overline></sup> = 0.2<overline>5</overline>\n1<overline>5</overline><sup><overline>1</overline></sup> = 0.1(7)\n1<overline>4</overline><sup><overline>1</overline></sup> = 0.157<overline>3</overline>4\n1<overline>3</overline><sup><overline>1</overline></sup> = \n1<overline>2</overline><sup><overline>1</overline></sup> = \n1<overline>1</overline><sup><overline>1</overline></sup> = \n10<sup><overline>1</overline></sup> "
+            ],
+            "date": "2019-08-30"
         }
     ]
 }
