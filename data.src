@@ -1,65 +1,109 @@
 {
-    "name": "Tinellbian Encyclopedia",
-    "text": [
-        "This is an encyclopedia of knowledge of Tinellb."
-    ],
-    "date": "2019-06-01",
-    "position": "1.0",
-    "children": [
-        {
-            "name": "Particle Physics",
-            "text": [
-                "Subatomic particles can be divided into material <a href=\"https://en.wikipedia.org/wiki/Fermion\">fermions</a>, and the energy-like <a href=\"https://en.wikipedia.org/wiki/Boson\">bosons</a>.\n",
-                "1]Fermions\nThe fundamental particle making up all fermions is the <a href=\"http://dictionary.tinellb.com/d/darill.html#particlephysics\">darill</a>. These combine to make the four generations of <a href=\"https://en.wikipedia.org/wiki/Quark\">quarks</a> and the corresponding four generations of <a href=\"https://en.wikipedia.org/wiki/Lepton\">leptons</a>.\n",
-                "t]hr2 Generation |hc2 quarks<sup>1</sup>|hr2 leptons<sup>2</sup>\n +⅔ | -⅓\nh I| up <em>unique</em>| down <em>dream</em>| electron <span class=\"symbol\">e</span>\nh II| central <em>charm</em>| sprial <em>strange</em>| muon <span class=\"symbol\">μ</span>\nh III| top <em>truth</em>| bottom <em>beauty</em>| tau <span class=\"symbol\">τ</span>\nh IV| left <em>love</em>| right <em>rhyme</em>| yaon <span class=\"symbol\">я</span>\n",
-                "/t]\n",
-                "d mobile-table]\nEach generation shows the +⅔ charged quark<sup>1</sup>, its -⅓ counterpart, and the corresponding lepton<sup>2</sup> family.\n",
-                "l]<strong>I: </strong>up <em>unique</em> / down <em>dream</em> / electron <span class=\"symbol\">e</span>\n<strong>II</strong>: centre <em>charm</em> / sprial <em>strange</em> / muon <span class=\"symbol\">μ</span>\n<strong>III</strong>: top <em>truth</em> / bottom <em>beauty</em> / tau <span class=\"symbol\">τ</span>\n<strong>IV:</strong> left <em>love</em> / right <em>rhyme</em> / yaon <span class=\"symbol\">я</span>\n",
-                "/l]\n",
-                "/d]\n<sup>1</sup> Both the prosaic and <em>poetic</em> names of the quarks are included.\n<sup>2</sup> Each lepton generation consists of the basic particle with charge <overline>1</overline>, and a neutrino with charge 0.\nEvery fermion has an antiparticle of the opposite charge."
-            ],
-            "date": "2019-08-24",
-            "position": "21.57"
-        },
-        {
-            "name": "Tinellb",
-            "text": [
-                "Within the universe named Tinellb, there is a planet named Ptoko. There arose on this world a race of humanoids, the Ptokan. Over millions of years, their race evolved and became the dominant force on their planet. There had been many conflicts, small and large, throughout their history. One particularly bloody war had had much of the population brought into it: a World War. The survivors of this war were ruled by a single monarch.\nGenerations passed. The people rebuilt their shattered world. The newest ruler, Queen Loren, decided to create an international language to promote peace amongst her subjects. She named this language Lulani after herself.\nDespite their shared language, as more time went by, fractures again showed between nations. Another world war ensued. A great weapon was created, one that tore apart space&#x2011;time, flinging its victims far out into the universe.\nOne such group were the Fezhl&ecirc;. They found themselves on an empty world. The Fezhl&ecirc; tongue evolved independently from Lulani, and was later heavily influenced by Zhaladi dialects.\nThe people that remained on Ptoko slowly grew back towards peace. Their vernacular evolved into Ptokan, and thence into Brequ&egrave;n. By this time, Lulani was used only for science and the arts, not for everyday use.\nBrequ&egrave;n was spoken in the realm of Brequ&eacute;, Tsarin in Tsarein.\n",
-                "d hierarchy]\n",
-                "t]|||||\n|c3 High Lulani |c3\n|c3 Demotic Lulani |c3\nc7\nc2 Early Fezhl&ecirc; ||c3 Old Ptokan |\nc2 Late Fezhl&ecirc; ||c3 Middle Ptokan |\nc2 Koine Fezhl&ecirc; ||c3 Standard Ptokan |\nc7\nc3 |c3 Pre&#x2011;Brequ&egrave;n |\nc3 |c3 Archaic Brequ&egrave;n |\nc3 |c3 Common Brequ&egrave;n |\nc7\n|c3 Proto&#x2011;Zhaladi ||c2 Classical Tsarin\n|c3 Contemporary Zhaladi ||c2 Modern Tsarin\n|c3 Reformed Zhaladi\nc5 |c2 Ancient Solajin\nc5 |c2 Medieval Solajin\nc5 |c2 Traditional Solajin\nc5 |c2 New Solajin",
-                "/t] ",
-                "/d]\nPtoko is located in Universe <span class=\"universe\">M<sup>204</sup>&nu;</span>\nSolaji: <span class=\"universe\">F<sup>996</sup>&xi;</span>\nBrequ&eacute;: <span class=\"universe\">D<sup>578</sup>&eta;</span>\nZhalad: <span class=\"universe\">A<sup>376</sup>&gamma;</span>\nTsarein: <span class=\"universe\">E<sup>415</sup>&chi;</span>\n"
-            ],
-            "date": "2019-06-01",
-            "position": "1.2",
-            "children": []
-        },
-        {
-            "name": "Emotion",
-            "position": "3.11",
-            "text": [
-                "Emotions arise when a being has sufficiently complex thought, and thus the <a href=\"http://dictionary.tinellb.com/h/heart.html#english\">heart</a> is an emergent phenomenon of the mind.  There are four recognised primary emotions, each of which has a positive and negative aspect.\n",
-                "t]|h negative|h neutral|h positive\nh zigûtic (wood) | dread | fear | caution\nh qoltic (wind) | misery | sorrow | melancholy\nh volzdic (fire) | anger | zeal | passion\nh vohalic (water) | complacence | contentment| joy",
-                "/t]\nA heart in balance is said to be happy.\nThese emotions affect each other as their corresponding substances do:\n",
-                "l]dread blocks melancholy,\nmelancholy evaporates complacence,\ncomplacence quenches passion,\npassion burns dread.",
-                "/l]\n",
-                "l]caution blocks misery,\nmisery evaporates joy,\njoy quenches anger,\nanger burns caution.",
-                "/l]"
-            ],
-            "date": "2019-08-28",
-            "flatname": {
-                "name": "Emotion",
-                "score": 0
-            }
-        },
-        {
-            "name": "Mathematics",
-            "position": "1.0",
-            "text": [
-                "<a href=\"g/highlulani/\">High Lulani</a> uses balanced <a href=\"http://dictionary.tinellb.com/s/sesquidecimal.html#mathematics\">sesquidecimal</a>. The use of a balanced base can half the length of mantissae, with (round brackets) signifying repeated digits, and &#91;square brackets&#93; signifying <a href=\"g/highlulani/apocrypha/numbers.html#repeatingandreflectingstrings\">mirrored</a> digits.\nFor example:\n",
-                "l]½ = 0.(7)\n⅓ = 0.5\n¼ = 0.&#91;4&#93;\n⅕ = 0.3\n⅙ = 0.2(7)\n7<sup><overline>1</overline></sup>  = 0.(2)\n1<overline>7</overline><sup><overline>1</overline></sup> = 0.&#91;2&#93;\n1<overline>6</overline><sup><overline>1</overline></sup> = 0.2<overline>5</overline>\n1<overline>5</overline><sup><overline>1</overline></sup> = 0.1(7)\n1<overline>4</overline><sup><overline>1</overline></sup> = 0.157<overline>3</overline>4\n1<overline>3</overline><sup><overline>1</overline></sup> = \n1<overline>2</overline><sup><overline>1</overline></sup> = \n1<overline>1</overline><sup><overline>1</overline></sup> = \n10<sup><overline>1</overline></sup> "
-            ],
-            "date": "2019-08-30"
-        }
-    ]
+  "name": "Tinellbian Encyclopedia",
+  "text": [
+    "This is an encyclopedia of knowledge of Tinellb."
+  ],
+  "date": "2019-06-01",
+  "position": "1.0",
+  "children": [
+    {
+      "name": "Particle Physics",
+      "text": [
+        "Subatomic particles can be divided into material <a href=\"https://en.wikipedia.org/wiki/Fermion\">fermions</a>, and the energy-like <a href=\"https://en.wikipedia.org/wiki/Boson\">bosons</a>.",
+        "<h1>Fermions</h1>The fundamental particle making up all fermions is the <link-en>darill</link-en>. These combine to make the four generations of <a href=\"https://en.wikipedia.org/wiki/Quark\">quarks</a> and the corresponding four generations of <a href=\"https://en.wikipedia.org/wiki/Lepton\">leptons</a>.",
+        "<table>hr2 Generation |hc2 quarks<sup>1</sup>|hr2 leptons<sup>2</sup> +⅔ | -⅓",
+        "h I| up <em>unique</em>| down <em>dream</em>| electron <span class=\"symbol\">e</span>h II| central <em>charm</em>| sprial <em>strange</em>| muon <span class=\"symbol\">μ</span>h III| top <em>truth</em>| bottom <em>beauty</em>| tau <span class=\"symbol\">τ</span>h IV| left <em>love</em>| right <em>rhyme</em>| yaon <span class=\"symbol\">я</span></table>",
+        "<mobile-table>Each generation shows the +⅔ charged quark<sup>1</sup>, its -⅓ counterpart, and the corresponding lepton<sup>2</sup> family.",
+        "<ul><strong>I: </strong>up <em>unique</em> / down <em>dream</em> / electron <span class=\"symbol\">e</span><strong>II</strong>: centre <em>charm</em> / sprial <em>strange</em> / muon <span class=\"symbol\">μ</span><strong>III</strong>: top <em>truth</em> / bottom <em>beauty</em> / tau <span class=\"symbol\">τ</span><strong>IV:</strong> left <em>love</em> / right <em>rhyme</em> / yaon <span class=\"symbol\">я</span></ul></mobile-table>",
+        "<sup>1</sup> Both the prosaic and <em>poetic</em> names of the quarks are included.",
+        "<sup>2</sup> Each lepton generation consists of the basic particle with charge <overline>1</overline>, and a neutrino with charge 0.",
+        "Every fermion has an antiparticle of the opposite charge."
+      ],
+      "date": "2019-08-24",
+      "position": "21.57"
+    },
+    {
+      "name": "Tinellb",
+      "text": [
+        "Within the universe named Tinellb, there is a planet named Ptoko. There arose on this world a race of humanoids, the Ptokan. Over millions of years, their race evolved and became the dominant force on their planet. There had been many conflicts, small and large, throughout their history. One particularly bloody war had had much of the population brought into it: a World War. The survivors of this war were ruled by a single monarch.",
+        "Generations passed. The people rebuilt their shattered world. The newest ruler, Queen Loren, decided to create an international language to promote peace amongst her subjects. She named this language Lulani after herself.",
+        "Despite their shared language, as more time went by, fractures again showed between nations. Another world war ensued. A great weapon was created, one that tore apart space&#x2011;time, flinging its victims far out into the universe.",
+        "One such group were the Fezhl&ecirc;. They found themselves on an empty world. The Fezhl&ecirc; tongue evolved independently from Lulani, and was later heavily influenced by Zhaladi dialects.",
+        "The people that remained on Ptoko slowly grew back towards peace. Their vernacular evolved into Ptokan, and thence into Brequ&egrave;n. By this time, Lulani was used only for science and the arts, not for everyday use.",
+        "Brequ&egrave;n was spoken in the realm of Brequ&eacute;, Tsarin in Tsarein.",
+        "<hierarchy><table>|||||",
+        "|c3 High Lulani |c3",
+        "|c3 Demotic Lulani |c3",
+        "c7",
+        "c2 Early Fezhl&ecirc; ||c3 Old Ptokan |",
+        "c2 Late Fezhl&ecirc; ||c3 Middle Ptokan |",
+        "c2 Koine Fezhl&ecirc; ||c3 Standard Ptokan |",
+        "c7",
+        "c3 |c3 Pre&#x2011;Brequ&egrave;n |",
+        "c3 |c3 Archaic Brequ&egrave;n |",
+        "c3 |c3 Common Brequ&egrave;n |",
+        "c7",
+        "|c3 Proto&#x2011;Zhaladi ||c2 Classical Tsarin",
+        "|c3 Contemporary Zhaladi ||c2 Modern Tsarin",
+        "|c3 Reformed Zhaladi",
+        "c5 |c2 Ancient Solajin",
+        "c5 |c2 Medieval Solajin",
+        "c5 |c2 Traditional Solajin",
+        "c5 |c2 New Solajin</table> </hierarchy>",
+        "Ptoko is located in Universe <span class=\"universe\">M<sup>204</sup>&nu;</span>Solaji: <span class=\"universe\">F<sup>996</sup>&xi;</span>Brequ&eacute;: <span class=\"universe\">D<sup>578</sup>&eta;</span>Zhalad: <span class=\"universe\">A<sup>376</sup>&gamma;</span>Tsarein: <span class=\"universe\">E<sup>415</sup>&chi;</span>"
+      ],
+      "date": "2019-06-01",
+      "position": "1.2",
+      "children": []
+    },
+    {
+      "name": "Emotion",
+      "position": "3.11",
+      "text": [
+        "Emotions arise when a being has sufficiently complex thought, and thus the <link-en>heart</link-en> is an emergent phenomenon of the mind.  There are four recognised primary emotions, each of which has a positive and negative aspect.",
+        "<table>|h negative|h neutral|h positive",
+        "h zigûtic (wood) | dread | fear | caution",
+        "h qoltic (wind) | misery | sorrow | melancholy",
+        "h volzdic (fire) | anger | zeal | passion",
+        "h vohalic (water) | complacence | contentment| joy</table>",
+        "A heart in balance is said to be happy.",
+        "These emotions affect each other as their corresponding substances do:",
+        "<ul>dread blocks melancholy,",
+        "melancholy evaporates complacence,",
+        "complacence quenches passion,",
+        "passion burns dread.</ul>",
+        "<ul>caution blocks misery,",
+        "misery evaporates joy,",
+        "joy quenches anger,",
+        "anger burns caution.</ul>"
+      ],
+      "date": "2019-08-28",
+      "flatname": {
+        "name": "Emotion",
+        "score": 0
+      }
+    },
+    {
+      "name": "Mathematics",
+      "position": "1.0",
+      "text": [
+        "<link-en>sesquidecimal</link-en>. The use of a balanced base can half the length of mantissae, with (round brackets) signifying repeated digits, and &#91;square brackets&#93; signifying <a href=\"g/highlulani/apocrypha/numbers.html#repeatingandreflectingstrings\">mirrored</a> digits.",
+        "For example:",
+        "<ul>½ = 0.(7)",
+        "⅓ = 0.5",
+        "¼ = 0.&#91;4&#93;",
+        "⅕ = 0.3",
+        "⅙ = 0.2(7)",
+        "7<sup><overline>1</overline></sup>  = 0.(2)",
+        "1<overline>7</overline><sup><overline>1</overline></sup> = 0.&#91;2&#93;",
+        "1<overline>6</overline><sup><overline>1</overline></sup> = 0.2<overline>5</overline>1<overline>5</overline><sup><overline>1</overline></sup> = 0.1(7)",
+        "1<overline>4</overline><sup><overline>1</overline></sup> = 0.157<overline>3</overline>4",
+        "1<overline>3</overline><sup><overline>1</overline></sup> = ",
+        "1<overline>2</overline><sup><overline>1</overline></sup> = ",
+        "1<overline>1</overline><sup><overline>1</overline></sup> = ",
+        "10<sup><overline>1</overline></sup> "
+      ],
+      "date": "2019-08-30"
+    }
+  ]
 }

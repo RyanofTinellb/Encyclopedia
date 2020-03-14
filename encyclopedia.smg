@@ -6,6 +6,11 @@
       "source": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/data.src",
       "template_file": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/template.html",
       "wordlist": "C:/Users/Ryan/TinellbianLanguages/dictionary/wordlist.json",
+      "sections": {
+        "copyright": "C:/Users/Ryan/TinellbianLanguages/toplevel/sections/copyright.html",
+        "show javascript": "C:/Users/Ryan/TinellbianLanguages/toplevel/sections/show_javascipt.html",
+        "highlight search term": "C:/Users/Ryan/TinellbianLanguages/toplevel/sections/highlight_search_term.html"
+      },
       "wholepage": {
         "file": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/wholepage.html",
         "template": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/wholetemplate.html"

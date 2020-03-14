@@ -1,46 +1,227 @@
-<!DOCTYPE html>
-<span class="symbol"> | <symbol> | <br>
-<a href="http://grammar.tinellb.com | {{g | <br>
-<a href="https://en.wikipedia.org/wiki/ | {{wik  | <br>
-<a href="https://en.wiktionary.org/wiki/ | {{(wikt  | <br>
-<a href=" | {{ | <br>
-"> | :: | <br>
-</a> | }} | <br>
-</span> | </> | <br>
-[d message] | [[message >> | <br>
-[/d] | ]] | <br>
-' | &quot; | <br>
-" | &dblquot; | <br>
-≈ | ~= | s<br>
-’ | ' | s<br>
-‘ | ` | s<br>
-ʔ | '' | s<br>
-” | " | s<br>
-'" | ' " | s<br>
-“ | '" | s<br>
-" | `` | s<br>
-&dblquot; | "" | <br>
-· | (.) | s<br>
-‐ | -- | s<br>
-— | --- | s<br>
-ì | )i | s<br>
-û | ()u | s<br>
-… | ... | s<br>
-→ | => |  s<br>
-<overline>1</overline> | &rone; | <br>
-<overline>2</overline> | &rwo; | <br>
-<overline>3</overline> | &ree; | <br>
-<overline>4</overline> | &rour; | <br>
-<overline>5</overline> | &rive; | <br>
-<overline>6</overline> | &rix; | <br>
-<overline>7</overline> | &reven; | <br>
-Fezhlê | Fezhle | s<br>
-Brequé | Breque | s<br>
-Brequèn | Brequen | s<br>
-M204ν | &Ptoko; | s<br>
-F996ξ | &Solaji; | s<br>
-A376γ | &Zhalad; | s<br>
-D578η | &Breque; | s<br>
-E415χ | &Tsarein; |  s<br>
-&#91; | \[ | <br>
-&#93; | ]/ | <br>
+[
+  {
+    "markup": "<span class=\"symbol\">",
+    "markdown": "<symbol>",
+    "display_markdown": false
+  },
+  {
+    "markup": "<a href=\"http://grammar.tinellb.com",
+    "markdown": "{{g",
+    "display_markdown": false
+  },
+  {
+    "markup": "<a href=\"https://en.wikipedia.org/wiki/",
+    "markdown": "{{wik ",
+    "display_markdown": false
+  },
+  {
+    "markup": "<a href=\"https://en.wiktionary.org/wiki/",
+    "markdown": "{{(wikt ",
+    "display_markdown": false
+  },
+  {
+    "markup": "<a href=\"",
+    "markdown": "{{",
+    "display_markdown": false
+  },
+  {
+    "markup": "\">",
+    "markdown": "::",
+    "display_markdown": false
+  },
+  {
+    "markup": "</a>",
+    "markdown": "}}",
+    "display_markdown": false
+  },
+  {
+    "markup": "</span>",
+    "markdown": "</>",
+    "display_markdown": false
+  },
+  {
+    "markup": "[d message]",
+    "markdown": "[[message >>",
+    "display_markdown": false
+  },
+  {
+    "markup": "[/d]",
+    "markdown": "]]",
+    "display_markdown": false
+  },
+  {
+    "markup": "'",
+    "markdown": "&quot;",
+    "display_markdown": false
+  },
+  {
+    "markup": "\"",
+    "markdown": "&dblquot;",
+    "display_markdown": false
+  },
+  {
+    "markup": "≈",
+    "markdown": "~=",
+    "display_markdown": true
+  },
+  {
+    "markup": "’",
+    "markdown": "'",
+    "display_markdown": true
+  },
+  {
+    "markup": "‘",
+    "markdown": "`",
+    "display_markdown": true
+  },
+  {
+    "markup": "ʔ",
+    "markdown": "''",
+    "display_markdown": true
+  },
+  {
+    "markup": "”",
+    "markdown": "\"",
+    "display_markdown": true
+  },
+  {
+    "markup": "'\"",
+    "markdown": "' \"",
+    "display_markdown": true
+  },
+  {
+    "markup": "“",
+    "markdown": "'\"",
+    "display_markdown": true
+  },
+  {
+    "markup": "\"",
+    "markdown": "``",
+    "display_markdown": true
+  },
+  {
+    "markup": "&dblquot;",
+    "markdown": "\"\"",
+    "display_markdown": false
+  },
+  {
+    "markup": "·",
+    "markdown": "(.)",
+    "display_markdown": true
+  },
+  {
+    "markup": "‐",
+    "markdown": "--",
+    "display_markdown": true
+  },
+  {
+    "markup": "—",
+    "markdown": "---",
+    "display_markdown": true
+  },
+  {
+    "markup": "ì",
+    "markdown": ")i",
+    "display_markdown": true
+  },
+  {
+    "markup": "û",
+    "markdown": "()u",
+    "display_markdown": true
+  },
+  {
+    "markup": "…",
+    "markdown": "...",
+    "display_markdown": true
+  },
+  {
+    "markup": "→",
+    "markdown": "=>",
+    "display_markdown": false
+  },
+  {
+    "markup": "<overline>1</overline>",
+    "markdown": "&rone;",
+    "display_markdown": false
+  },
+  {
+    "markup": "<overline>2</overline>",
+    "markdown": "&rwo;",
+    "display_markdown": false
+  },
+  {
+    "markup": "<overline>3</overline>",
+    "markdown": "&ree;",
+    "display_markdown": false
+  },
+  {
+    "markup": "<overline>4</overline>",
+    "markdown": "&rour;",
+    "display_markdown": false
+  },
+  {
+    "markup": "<overline>5</overline>",
+    "markdown": "&rive;",
+    "display_markdown": false
+  },
+  {
+    "markup": "<overline>6</overline>",
+    "markdown": "&rix;",
+    "display_markdown": false
+  },
+  {
+    "markup": "<overline>7</overline>",
+    "markdown": "&reven;",
+    "display_markdown": false
+  },
+  {
+    "markup": "Fezhlê",
+    "markdown": "Fezhle",
+    "display_markdown": true
+  },
+  {
+    "markup": "Brequé",
+    "markdown": "Breque",
+    "display_markdown": true
+  },
+  {
+    "markup": "Brequèn",
+    "markdown": "Brequen",
+    "display_markdown": true
+  },
+  {
+    "markup": "M204ν",
+    "markdown": "&Ptoko;",
+    "display_markdown": true
+  },
+  {
+    "markup": "F996ξ",
+    "markdown": "&Solaji;",
+    "display_markdown": true
+  },
+  {
+    "markup": "A376γ",
+    "markdown": "&Zhalad;",
+    "display_markdown": true
+  },
+  {
+    "markup": "D578η",
+    "markdown": "&Breque;",
+    "display_markdown": true
+  },
+  {
+    "markup": "E415χ",
+    "markdown": "&Tsarein;",
+    "display_markdown": false
+  },
+  {
+    "markup": "&#91;",
+    "markdown": "\\[",
+    "display_markdown": false
+  },
+  {
+    "markup": "&#93;",
+    "markdown": "]/",
+    "display_markdown": false
+  }
+]
