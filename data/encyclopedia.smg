@@ -1,0 +1,43 @@
+{
+  "site": {
+    "name": "Tinellbian Encyclopedia",
+    "directory": "C:/Users/Ryan/TinellbianLanguages/encyclopedia"
+  },
+  "markdown": "",
+  "language": "en: English",
+  "links": {
+    "ExternalDictionary": "http://dictionary.tinellb.com"
+  },
+  "styles": {
+    "default": {
+      "end": "\n",
+      "font": "Times New Roman",
+      "size": 18,
+      "block": "default"
+    }
+  },
+  "entries": [
+    []
+  ],
+  "files": {
+    "source": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/data.src",
+    "main_template": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/page.tpl",
+    "wordlist": "C:/Users/Ryan/TinellbianLanguages/dictionary/wordlist.json",
+    "sections": {
+      "copyright": "C:/Users/Ryan/TinellbianLanguages/toplevel/sections/copyright.tpl",
+      "show javascript": "C:/Users/Ryan/TinellbianLanguages/toplevel/sections/show_javascipt.tpl",
+      "highlight search term": "C:/Users/Ryan/TinellbianLanguages/toplevel/sections/highlight_search_term.tpl"
+    },
+    "wholepage": {
+      "file": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/wholepage.html",
+      "template": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/wholepage.tpl"
+    },
+    "search": {
+      "index": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/searching.json",
+      "template": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/search.tpl",
+      "page": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/search.html",
+      "template404": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/404.tpl",
+      "page404": "C:/Users/Ryan/TinellbianLanguages/encyclopedia/404.html"
+    }
+  }
+}
