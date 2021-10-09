@@ -1,7 +1,14 @@
 {
   "name": "Tinellbian Encyclopedia",
   "text": [
-    "This is an encyclopedia of knowledge of Tinellb."
+    "This is an encyclopedia of knowledge of Tinellb.",
+    "<doctype>html</doctype>",
+    "<title><head><html>My Title</html></head>",
+    "<h1><body>My Heading</body>",
+    "This is some text",
+    "<div>This is some <span>special</span> text.",
+    "This is a second line.",
+    "And a third.</div></h1></title>"
   ],
   "date": "2019-06-01",
   "position": "1.0",
@@ -89,11 +96,7 @@
         "joy quenches anger,",
         "anger burns caution.</ul>"
       ],
-      "date": "2019-08-28",
-      "flatname": {
-        "name": "Emotion",
-        "score": 0
-      }
+      "date": "2019-08-28"
     },
     {
       "name": "Mathematics",

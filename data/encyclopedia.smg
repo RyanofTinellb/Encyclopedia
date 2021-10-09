@@ -5,11 +5,18 @@
   },
   "styles": {
     "default": {
-      "end": "\n",
       "font": "Times New Roman",
       "size": 18,
       "block": "default"
-    }
+    },
+    "doctype": {},
+    "html": {},
+    "head": {},
+    "title": {},
+    "body": {},
+    "h1": {},
+    "div": {},
+    "span": {}
   },
   "entries": [
     []
