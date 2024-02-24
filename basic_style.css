@@ -127,10 +127,6 @@ input[type='checkbox'] {
     text-decoration: inherit;
 }
 
-.content th:first-child {
-  text-align: right;
-}
-
 .content td {
   text-align: center;
 }
