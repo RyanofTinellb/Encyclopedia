@@ -1,9 +1,18 @@
 - tags:
     name: default
-    block: default
+    key: A
   props:
     font: Times New Roman
     size: 18
+- tags:
+    name: h1
+    key: Alt-H
+  props:
+    bold: true
+    size: 120
+    justification: centre
+    underline: true
+    bottom: 5
 - tags:
     name: doctype
 - tags:
@@ -15,8 +24,10 @@
 - tags:
     name: body
 - tags:
-    name: h1
-- tags:
     name: div
 - tags:
     name: span
+- tags:
+    name: sup
+  props:
+    offset: superscript

@@ -3,7 +3,9 @@ assets:
   source: C:/Users/Ryan/TinellbianLanguages/encyclopedia/data/data.src
   wordlist: C:/Users/Ryan/TinellbianLanguages/dictionary/data/assets/wordlist.json
 entries:
-- []
+- - Tinellbian Encyclopedia
+  - Entries
+  - Particle Physics
 language: 'en: English'
 links:
   ExternalDictionary: http://dictionary.tinellb.com
@@ -11,8 +13,9 @@ locations:
   search: C:/Users/Ryan/TinellbianLanguages/encyclopedia/search.html
   page404: C:/Users/Ryan/TinellbianLanguages/encyclopedia/404.html
   wholepage: C:/Users/Ryan/TinellbianLanguages/encyclopedia/special/wholepage.html
+  directory: c:/users/ryan/tinellbianlanguages/encyclopedia
 markdown: ''
-styles: c:/users/ryan/tinellbianlanguages/encyclopedia/data/assets/styles.tag
+styles: c:/Users/Ryan/Tinellbianlanguages/encyclopedia/data/assets/styles.tag
 templates:
   main: C:/Users/Ryan/TinellbianLanguages/encyclopedia/data/templates/page.tpl
   search: C:/Users/Ryan/TinellbianLanguages/encyclopedia/data/templates/search.tpl
