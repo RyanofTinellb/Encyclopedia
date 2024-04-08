@@ -4,6 +4,7 @@ directory:
   - - Particle Physics
   - - Tinellb
   - - Emotion
+  - - Testing
   - - Mathematics
 entries:
   children:
@@ -12,47 +13,152 @@ entries:
       position: '1.0'
       text:
       - This is an encyclopedia of knowledge of Tinellb.
-      - <doctype>html</doctype>
-      - <title><head><html>My Title</html></head>
-      - <h1><body>My Heading</body>
-      - This is some text
-      - <div>This is some <span>special</span> text.
-      - This is a second line.
-      - And a third.</div></h1></title>
       children:
         Entries:
           children:
+            Testing:
+              text:
+              - This is some text.
+              - <em>Italics</em> can be at the beginning.
+              - Or at the <em>end.
+              - They can </em>even be at both <em>ends</em>.
+              - Or they <em>can be</em> in the middle.
             Particle Physics:
               date: '2019-08-24'
               position: '21.57'
               text:
-              - Subatomic particles can be divided into material <a href="https://en.wikipedia.org/wiki/Fermion">fermions</a>,
-                and the energy-like <a href="https://en.wikipedia.org/wiki/Boson">bosons</a>.
-              - <h1>Fermions</h1>
-              - The fundamental particle making up all fermions is the <a href="http://dictionary.tinellb.com/d/darill.html#particlephysics">darill</a>.
-                These combine to make the four generations of <a href="https://en.wikipedia.org/wiki/Quark">quarks</a>
-                and the corresponding four generations of <a href="https://en.wikipedia.org/wiki/Lepton">leptons</a>.
-              - <table>hr2 Generation |hc2 quarks<sup>1</sup>|hr2 leptons<sup>2</sup>
-              - ' +⅔ | -⅓'
-              - h I| up <em>unique</em>| down <em>dream</em>| electron <symbol>e</symbol>
-              - h II| central <em>charm</em>| sprial <em>strange</em>| muon <symbol>μ</symbol>
-              - h III| top <em>truth</em>| bottom <em>beauty</em>| tau <symbol>τ</symbol>
-              - h IV| left <em>love</em>| right <em>rhyme</em>| yaon <symbol>я</symbol></table>
-              - <mobile-table>Each generation shows the +⅔ charged quark<sup>1</sup>,
-                its -⅓ counterpart, and the corresponding lepton<sup>2</sup> family.
-              - '<ul><strong>I: </strong>up <em>unique</em> / down <em>dream</em>
-                / electron <symbol>e</symbol>'
-              - '<strong>II</strong>: centre <em>charm</em> / sprial <em>strange</em>
-                / muon <symbol>μ</symbol>'
-              - '<strong>III</strong>: top <em>truth</em> / bottom <em>beauty</em>
-                / tau <symbol>τ</symbol>'
-              - <strong>IV:</strong> left <em>love</em> / right <em>rhyme</em> / yaon
-                <symbol>я</symbol></ul></mobile-table>
-              - <sup>1</sup> Both the prosaic and <em>poetic</em> names of the quarks
-                are included.
-              - <sup>2</sup> Each lepton generation consists of the basic particle
-                with charge <overline>1</overline>, and a neutrino with charge 0.
-              - Every fermion has an antiparticle of the opposite charge.
+              - <h1>Fundamental Fields</h1>
+              - There are four fundamental <em>fields</em> that fill the universe.
+                An excitation of a field is called a <em>particle</em>. The <em>spin</em>
+                of a particle is a measure of its <em>intrinsic angular momentum</em>.
+              - <h2>Higgs</h2>
+              - The Higgs field gives particles their mass in much the same way as
+                the spin field imparts angular momentum.
+              - <h2>Spin Field</h2>
+              - The spin field gives particles their spin. Different values of spin
+                are due to different coupling strengths between the spin field and
+                any other given field.
+              - <h2>Darill</h2>
+              - It would not be altogether inaccurate to consider the <em>darill</em>
+                as <strong>the</strong> fundamental particle. Darill form all non-fundamental
+                particles and are the main topic of this work.
+              - <h2>Gravity</h2>
+              - Gravity is mediated by the graviton.
+              - <h1>Behaviour at Different Scales
+              - </h1><h2>Small Scale
+              - </h2>The dynamics of individual darill are poorly understood. On the
+                smallest scale, they display chaotic behaviour, interacting with gravity
+                and with themselves.
+              - <h2>Medium Scale</h2>
+              - What we call reality is an emergent phenomenon. An analogy can be
+                drawn with water waves on the ocean. A wave is made of particles,
+                but the structure itself comes from bulk movement.  A wave can move
+                across the entire Pacific; its component molecules move only a short
+                distance. Darill act the same way.
+              - 'On this scale, the collective behaviour of darill can be treated
+                as if they formed (<em>quasi-</em>)<em>particles</em> or <em>complices</em>
+                (singular: <em>complex</em>). Any specific darill will only be involved
+                momentarily. However, it is useful to model this complex as containing
+                a certain number of <em>valence darill</em>. They each have a positive
+                (+1, ↑) or negative (-1, ↓) <em>intrinsic charge</em>, which manifests
+                as <em>induced charge</em> under specific circumstances.'
+              - <h3>Interactions
+              - </h3>There are three interactions that only couple with darill when
+                they form complexes. These are the <em>electromagnetic</em>, the <em>strong</em>
+                and the <em>weak</em> forces. They are each mediated by quasiparticles.
+              - 'For the electromagnetic and strong forces, the induced charge is
+                the product of the intrinsic charge and a given <em>force constant</em>.
+                Particles can only move freely if they have values of induced charge
+                equal to an integer multiple of their<em> quanta</em> (singular: <em>quantum</em>).'
+              - <h4>Electromagnetism</h4>
+              - When the electromagnetic force interacts with a complex, it induces
+                an electric charge of ⅙ of the intrinsic charge.
+              - <h4>Strong force
+              - </h4>When the strong force interacts with a complex, it induces a
+                color charge of ⅓ of the intrinsic charge.
+              - <h4>Weak force
+              - </h4>The weak force is involved in rearranging darill. There are a
+                number of types of charge that can be induced under this interaction,
+                some of which can also be induced even in non-valence darill. They
+                are heavily dependent on the circumstances, and are not easily calculated
+                as they are not necessarily proportional to intrinsic charge. The
+                mechanics of the weak force on darill are thereby beyond the scope
+                of this work.
+              - <h3>Particles</h3>
+              - <h4>Fermions and Bosons
+              - </h4>A particle with integer spin (0, 1, 2…) is a boson, while a particle
+                with half-integer spin (1/2, 3/2, 5/2…) is a fermion. Two fermions
+                cannot occupy the same state, but the same is not true of bosons.
+              - <h4>Matter and Antimatter
+              - </h4>Two particles of identical mass with properties of the opposite
+                sign are antiparticles. For instance, a particle with +1 charge will
+                have an antiparticle with -1 charge. Uncharged particles may have
+                antiparticles if they have other properties with opposite sign, or
+                they may be their own antiparticles.
+              - Of a particle-antiparticle pair, one is arbitrarily labelled as matter,
+                the other antimatter. In this document, antimatter particles have
+                the prefix anti-, and appear with an overbar (<overbar>◌</overbar>).
+              - <h4>Generations</h4>
+              - <h4>Doublets</h4>
+              - A pair of darill form a neutrino (<symbol>ν</symbol>). These only
+                interact with gravity and the weak force. Neutrinos are massless,
+                and are their own antiparticle.
+              - <h4>Triplets</h4>
+              - "\t↑ \t↓"
+              - "↑↑ \thalvon \tч \tgrain \tз"
+              - "↓↓ \tantihalvon \tч \tantigrain \tз"
+              - <h5>Halvons</h5>
+              - Three darill of the same charge, (↑↑↑) or (↓↓↓), form a halvon. Particles
+                involving a halvon interact with the electromagnetic force.
+              - Grains
+              - Three darill of different charges, (↑↑↓) or (↓↓↑), form a grain. Particles
+                involving a grain interact with the strong force.
+              - Hextuples
+              - Hextuples consist of two triplets.
+              - "\tч \tз \tч \tз"
+              - "ч \tcharged lepton \tℓ \tphoton \tγ \tlarge quark \tq \tsmall antiquark\
+                \ \tq"
+              - "ч \t\tcharged antilepton \tℓ \tsmall quark \tq \tlarge antiquark\
+                \ \tq"
+              - "з \t\t\tbigrain \tф \tgluon \tg"
+              - "з \t\t\t\tantibigrain \tф"
+              - Charged Leptons
+              - The charged leptons have spin 1/2, electric charge ±1, and color charge
+                0.
+              - "Generation \tName \tSymbol"
+              - "1 \telectron \te"
+              - "2 \tmuon \tμ"
+              - "3 \ttau \tτ"
+              - "4 \tyaon \tя"
+              - Photons
+              - The photon is its own antiparticle. It has no mass and no charge.
+                It is the carrier for the electromagnetic force.
+              - Quarks
+              - Quarks have spin 1/2 and color charge ±1/3. Large quarks have electric
+                charge ±2/3 and small quarks have electric charge ±1/3.
+              - "Generation \tLarge Quarks \tSmall Quarks"
+              - "Name \tSymbol \tName \tSymbol"
+              - "Prosaic \tPoetic \tProsaic \tPoetic"
+              - "1 \tup \tunique \tu \tdown \tdream \td"
+              - "2 \tcentre \tcharm \tc \tside \tstrange \ts"
+              - "3 \ttop \ttruth \tt \tbottom \tbeauty \tb"
+              - "4 \tleft \tlove \tl \tright \trhyme \tr"
+              - Gluons
+              - Gluons have electric charge 0 and overall color charge 0. They carry
+                the strong force.
+              - Bigrains
+              - Bigrains have electric charge 0 and color charge ∓1/3. They are only
+                found within nucleons.
+              - Massive gauge bosons
+              - "\tчч \tчч \tчч"
+              - "зз \tx \ty \tv"
+              - "зз \tw \tz \tw"
+              - "зз \tv \ty \tx"
+              - Large Scale
+              - Only about 15% of darill can be found forming quasiparticles at any
+                one time. The rest do not interact via the electromagnetic or strong
+                forces. Gravity is the dominant force at these scales, as it is the
+                only long-range force that interacts with the darill sea.
             Tinellb:
               date: '2019-06-01'
               position: '1.2'

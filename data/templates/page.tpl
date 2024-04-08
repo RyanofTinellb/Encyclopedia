@@ -1,55 +1,44 @@
-styles: {}
+styles:
+  - tags:
+      name: doctype
+      start: '<!DOCTYPE '
+      end: '>'
+  - tags:
+      name: html
+      block: true
+  - tags:
+      name: head
+      block: true
+  - tags:
+      name: body
+      block: true
+  - tags:
+      name: meta
+      start: '<meta '
+      end: '>'
+  - tags:
+      name: title
+      block: true
+  - tags:
+      name: link
+      start: '<link '
+      end: '>'
+  - tags:
+      name: template
+      template: true
 text:
-- <!DOCTYPE html>
+- <doctype>html</doctype>
 - <html>
-- ''
 - <head>
-- '    <meta name="viewport" content="width=device-width, initial-scale=1.0">'
-- '    <meta charset="utf-8">'
+- '    <meta>name="viewport" content="width=device-width, initial-scale=1.0"</meta>'
+- '    <meta>charset="utf-8"</meta>'
 - '    <title>'
-- '        The Tinellbian Languages Dictionary'
+- '        The Tinellbian Encyclopedia'
 - '    </title>'
-- '    <link rel="stylesheet" type="text/css" href="basic_style.css">'
-- <link rel="stylesheet" type="text/css" href="style.css">
-- ' <link rel="icon" type="image/png" href="favicon.png">'
-- ''
+- '    <link>rel="stylesheet" type="text/css" href="basic_style.css"</link>'
+- <link>rel="stylesheet" type="text/css" href="style.css"</link>
+- ' <link>rel="icon" type="image/png" href="favicon.png"</link>'
 - </head>
-- ''
-- <body>
-- '    <flex>'
-- '        <nav-pane></nav-pane>'
-- '        <content>'
-- '            <main-contents><h2 id="about">About</h2>'
-- ''
-- ''
-- <introduction>
-- <p>This dictionary aims to describe all the vocabulary items of the twenty Tinellbian
-  languages, consisting of High Lulani and its descendants. In addition, miscellaneous
-  English neologisms have been added, including proper nouns.</p>
-- </introduction>
-- ''
-- <javascript>
-- ''
-- <introduction>
-- ''
-- <h2 id="searching">Searching</h2>
-- ''
-- <p>The search box at the bottom of each page allows one to proceed directly to any
-  dictionary entry. Contrariwise, the search box in the navigation pane runs a general
-  search of the site.</p>
-- </introduction>
-- ''
-- </javascript>
-- </main-contents>
-- '            <copyright>'
-- '                {copyright}'
-- '            </copyright>'
-- '        </content>'
-- '    </flex>'
-- '    <script type="text/javascript">'
-- '        document.getElementById(''search'').style.display = ''list-item'';'
-- '        document.getElementsByClassName(''level-1'')[0].style.paddingLeft = "0em";'
-- '    </script>'
+- <body><template>contents</template>
 - </body>
-- ''
 - </html>
