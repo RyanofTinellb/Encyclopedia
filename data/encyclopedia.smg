@@ -4,6 +4,8 @@ assets:
   wordlist: C:\Users\Ryan\TinellbianLanguages\dictionary\data\assets\wordlist.json
 entries:
 - - Tinellbian Encyclopedia
+  - Entries
+  - Testing
 language: 'en: English'
 links:
   ExternalDictionary: http://dictionary.tinellb.com
@@ -23,3 +25,4 @@ templates:
     highlight search term: C:\Users\Ryan\TinellbianLanguages\toplevel\data\templates\highlight_search_term.tpl
     show javascript: C:\Users\Ryan\TinellbianLanguages\toplevel\data\templates\show_javascipt.tpl
   wholepage: C:\Users\Ryan\TinellbianLanguages\encyclopedia\data\templates\wholepage.tpl
+port: 44102

@@ -18,11 +18,7 @@ entries:
           children:
             Testing:
               text:
-              - This is some text.
-              - <em>Italics</em> can be at the beginning.
-              - Or at the <em>end.
-              - They can </em>even be at both <em>ends</em>.
-              - Or they <em>can be</em> in the middle.
+              - How <a>abo|ut</a> this?
             Particle Physics:
               date: '2019-08-24'
               position: '21.57'
