@@ -34,4 +34,4 @@ styles:
       start: <div class="flex">
       end: </div>
 text:
-- <body><flex><template>contents</template></flex></body>
+- <body><flex><data>contents</data></flex></body>
