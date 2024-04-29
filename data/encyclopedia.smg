@@ -5,7 +5,7 @@ assets:
 entries:
 - - Tinellbian Encyclopedia
   - Entries
-  - Testing
+  - Physics
 language: 'en: English'
 links:
   ExternalDictionary: http://dictionary.tinellb.com
@@ -21,9 +21,10 @@ templates:
   search: C:\Users\Ryan\TinellbianLanguages\encyclopedia\data\templates\search.tpl
   page404: C:\Users\Ryan\TinellbianLanguages\encyclopedia\data\templates\404.tpl
   sections:
-    copyright: c:\Users\Ryan\TinellbianLanguages\toplevel\data\templates\copyright.tpl
+    copyright: c:\Users\Ryan\TinellbianLanguages\dictionary\data\templates\copyright.tpl
     highlight search term: C:\Users\Ryan\TinellbianLanguages\toplevel\data\templates\highlight_search_term.tpl
     show javascript: C:\Users\Ryan\TinellbianLanguages\toplevel\data\templates\show_javascipt.tpl
+    navigation pane: C:\Users\Ryan\TinellbianLanguages\encyclopedia\data\templates\navpane.tpl
   wholepage: C:\Users\Ryan\TinellbianLanguages\encyclopedia\data\templates\wholepage.tpl
 port: 44102
 languages: C:\Users\Ryan\TinellbianLanguages\toplevel\data\assets\languages.yml

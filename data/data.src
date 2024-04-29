@@ -3,8 +3,8 @@ directory:
 - - Entries
   - - Particle Physics
   - - Tinellb
-  - - Emotion
   - - Testing
+  - - Emotion
   - - Mathematics
 entries:
   children:
@@ -18,34 +18,44 @@ entries:
           children:
             Testing:
               text:
-              - How <a>abo|ut</a> this?
+              - <h5>massic
+              - </h5><table><thead>| <symbol>чч</symbol> | <symbol>ч<overbar>ч</overbar></symbol>
+                | <overbar><symbol>чч</symbol></overbar></thead>
+              - <tbody> <symbol>зз</symbol> | <symbol><small-caps>x</small-caps><sup>+</sup></symbol>
+                | <symbol><small-caps>y</small-caps><sup>+</sup></symbol> | <symbol><small-caps>v</small-caps><sup>-</sup></symbol>
+              - ' <symbol>з<overbar>з</overbar></symbol> | <symbol><small-caps>w</small-caps><sup>+</sup></symbol>
+                | <symbol><small-caps>z</small-caps><sup>0</sup></symbol> | <symbol><small-caps>w</small-caps><sup>-</sup></symbol>'
+              - ' <symbol><overbar>зз</overbar></symbol> | <symbol><small-caps>v</small-caps><sup>+</sup></symbol>
+                | <symbol><small-caps>y</small-caps><sup>-</sup></symbol> | <symbol><small-caps>x</small-caps><sup>-</sup></symbol></tbody></table>'
+              date: '2024-04-29'
             Particle Physics:
-              date: '2019-08-24'
+              date: '2024-04-29'
               position: '21.57'
               text:
-              - <h1>Fundamental Fields</h1>
+              - <h2>Fundamental Fields</h2>
               - There are four fundamental <em>fields</em> that fill the universe.
                 An excitation of a field is called a <em>particle</em>. The <em>spin</em>
                 of a particle is a measure of its <em>intrinsic angular momentum</em>.
-              - <h2>Higgs</h2>
+              - <h3>Higgs</h3>
               - The Higgs field gives particles their mass in much the same way as
                 the spin field imparts angular momentum.
-              - <h2>Spin Field</h2>
-              - The spin field gives particles their spin. Different values of spin
-                are due to different coupling strengths between the spin field and
-                any other given field.
-              - <h2>Darill</h2>
-              - It would not be altogether inaccurate to consider the <em>darill</em>
-                as <strong>the</strong> fundamental particle. Darill form all non-fundamental
-                particles and are the main topic of this work.
-              - <h2>Gravity</h2>
+              - <h3>Spin Field</h3>
+              - The spin <strong>field</strong> gives particles their spin. Different
+                values of spin are due to different coupling strengths between the
+                spin field and any other given field.
+              - <h3>Darill</h3>
+              - It would not be <tapa>altogether</tapa> inaccurate to consider the
+                <em>darill</em> as <strong>the</strong> fundamental particle. Darill
+                form all non-fundamental particles and are the main topic of this
+                work.
+              - <h3>Gravity</h3>
               - Gravity is mediated by the graviton.
-              - <h1>Behaviour at Different Scales
-              - </h1><h2>Small Scale
-              - </h2>The dynamics of individual darill are poorly understood. On the
-                smallest scale, they display chaotic behaviour, interacting with gravity
-                and with themselves.
-              - <h2>Medium Scale</h2>
+              - <h2>Behaviour at Different Scales</h2>
+              - <h3>Small Scale</h3>
+              - The dynamics of individual darill are poorly understood. On the smallest
+                scale, they display chaotic behaviour, interacting with gravity and
+                with themselves.
+              - <h3>Medium Scale</h3>
               - What we call reality is an emergent phenomenon. An analogy can be
                 drawn with water waves on the ocean. A wave is made of particles,
                 but the structure itself comes from bulk movement.  A wave can move
@@ -58,35 +68,35 @@ entries:
                 a certain number of <em>valence darill</em>. They each have a positive
                 (+1, ↑) or negative (-1, ↓) <em>intrinsic charge</em>, which manifests
                 as <em>induced charge</em> under specific circumstances.'
-              - <h3>Interactions
-              - </h3>There are three interactions that only couple with darill when
-                they form complexes. These are the <em>electromagnetic</em>, the <em>strong</em>
+              - <h4>Interactions</h4>
+              - There are three interactions that only couple with darill when they
+                form complexes. These are the <em>electromagnetic</em>, the <em>strong</em>
                 and the <em>weak</em> forces. They are each mediated by quasiparticles.
               - 'For the electromagnetic and strong forces, the induced charge is
                 the product of the intrinsic charge and a given <em>force constant</em>.
                 Particles can only move freely if they have values of induced charge
                 equal to an integer multiple of their<em> quanta</em> (singular: <em>quantum</em>).'
-              - <h4>Electromagnetism</h4>
+              - <h5>Electromagnetism</h5>
               - When the electromagnetic force interacts with a complex, it induces
                 an electric charge of ⅙ of the intrinsic charge.
-              - <h4>Strong force
-              - </h4>When the strong force interacts with a complex, it induces a
+              - <h5>Strong force
+              - </h5>When the strong force interacts with a complex, it induces a
                 color charge of ⅓ of the intrinsic charge.
-              - <h4>Weak force
-              - </h4>The weak force is involved in rearranging darill. There are a
+              - <h5>Weak force
+              - </h5>The weak force is involved in rearranging darill. There are a
                 number of types of charge that can be induced under this interaction,
                 some of which can also be induced even in non-valence darill. They
                 are heavily dependent on the circumstances, and are not easily calculated
                 as they are not necessarily proportional to intrinsic charge. The
                 mechanics of the weak force on darill are thereby beyond the scope
                 of this work.
-              - <h3>Particles</h3>
-              - <h4>Fermions and Bosons
-              - </h4>A particle with integer spin (0, 1, 2…) is a boson, while a particle
+              - <h4>Particles</h4>
+              - <h5>Fermions and Bosons
+              - </h5>A particle with integer spin (0, 1, 2…) is a boson, while a particle
                 with half-integer spin (1/2, 3/2, 5/2…) is a fermion. Two fermions
                 cannot occupy the same state, but the same is not true of bosons.
-              - <h4>Matter and Antimatter
-              - </h4>Two particles of identical mass with properties of the opposite
+              - <h5>Matter and Antimatter
+              - </h5>Two particles of identical mass with properties of the opposite
                 sign are antiparticles. For instance, a particle with +1 charge will
                 have an antiparticle with -1 charge. Uncharged particles may have
                 antiparticles if they have other properties with opposite sign, or
@@ -94,69 +104,82 @@ entries:
               - Of a particle-antiparticle pair, one is arbitrarily labelled as matter,
                 the other antimatter. In this document, antimatter particles have
                 the prefix anti-, and appear with an overbar (<overbar>◌</overbar>).
-              - <h4>Generations</h4>
-              - <h4>Doublets</h4>
+              - <h5>Generations</h5>
+              - <h5>Doublets</h5>
               - A pair of darill form a neutrino (<symbol>ν</symbol>). These only
                 interact with gravity and the weak force. Neutrinos are massless,
                 and are their own antiparticle.
-              - <h4>Triplets</h4>
-              - "\t↑ \t↓"
-              - "↑↑ \thalvon \tч \tgrain \tз"
-              - "↓↓ \tantihalvon \tч \tantigrain \tз"
-              - <h5>Halvons</h5>
+              - <h5>Triplets</h5>
+              - <table><caption>The particles formed of three darill. These consist
+                of a base neutrino and an additional darill.</caption>
+              - <thead>|hc2 ↑ |hc2 ↓</thead>
+              - <tbody>h ↑↑ | halvon | <symbol>ч</symbol> | grain | <symbol>з</symbol>
+              - h ↓↓ | antihalvon | <overbar><symbol>ч</symbol></overbar> | antigrain
+                | <overbar><symbol>з</symbol></overbar></tbody></table>
+              - <h6>Halvons</h6>
               - Three darill of the same charge, (↑↑↑) or (↓↓↓), form a halvon. Particles
                 involving a halvon interact with the electromagnetic force.
-              - Grains
+              - <h6>Grains</h6>
               - Three darill of different charges, (↑↑↓) or (↓↓↑), form a grain. Particles
                 involving a grain interact with the strong force.
-              - Hextuples
+              - <h7>Hextuples</h7>
               - Hextuples consist of two triplets.
-              - "\tч \tз \tч \tз"
-              - "ч \tcharged lepton \tℓ \tphoton \tγ \tlarge quark \tq \tsmall antiquark\
-                \ \tq"
-              - "ч \t\tcharged antilepton \tℓ \tsmall quark \tq \tlarge antiquark\
-                \ \tq"
-              - "з \t\t\tbigrain \tф \tgluon \tg"
-              - "з \t\t\t\tantibigrain \tф"
-              - Charged Leptons
+              - <table><thead>|c2 <symbol>ч</symbol> |c2 <symbol>з</symbol> |c2 <symbol>ч</symbol>
+                |c2 <symbol>з</symbol></thead>
+              - <tbody> <em><symbol>ч</symbol></em> | charged lepton | <em><symbol>ℓ</symbol></em>
+                | photon | <symbol>γ</symbol> | large quark | <symbol><small-caps>q</small-caps></symbol>
+                | small antiquark | <em><overbar><symbol>q</symbol></overbar></em>
+              - ' <overbar><symbol>ч</symbol></overbar> |c2 | charged antilepton |
+                <overbar><symbol>ℓ</symbol></overbar> | small quark | <symbol>q</symbol>
+                | large antiquark | <overbar><symbol><small-caps>q</small-caps></symbol></overbar>'
+              - ' <symbol>з</symbol> |c4 | bigrain | <symbol>ф</symbol> | gluon |
+                <symbol>g</symbol>'
+              - ' <overbar><symbol>з</symbol></overbar> |c6 | antibigrain | <overbar><symbol>ф</symbol></overbar></tbody></table>'
+              - <h7>Charged Leptons</h7>
               - The charged leptons have spin 1/2, electric charge ±1, and color charge
                 0.
-              - "Generation \tName \tSymbol"
-              - "1 \telectron \te"
-              - "2 \tmuon \tμ"
-              - "3 \ttau \tτ"
-              - "4 \tyaon \tя"
-              - Photons
+              - <table><thead>h Generation |h Name |h Symbol</thead>
+              - <tbody> 1 | electron | <symbol>e</symbol>
+              - ' 2 | muon | <symbol>μ</symbol>'
+              - ' 3 | tau | <symbol>τ</symbol>'
+              - ' 4 | yaon | <symbol>я</symbol></tbody></table>'
+              - <h7>Photons</h7>
               - The photon is its own antiparticle. It has no mass and no charge.
                 It is the carrier for the electromagnetic force.
-              - Quarks
+              - <h7>Quarks</h7>
               - Quarks have spin 1/2 and color charge ±1/3. Large quarks have electric
                 charge ±2/3 and small quarks have electric charge ±1/3.
-              - "Generation \tLarge Quarks \tSmall Quarks"
-              - "Name \tSymbol \tName \tSymbol"
-              - "Prosaic \tPoetic \tProsaic \tPoetic"
-              - "1 \tup \tunique \tu \tdown \tdream \td"
-              - "2 \tcentre \tcharm \tc \tside \tstrange \ts"
-              - "3 \ttop \ttruth \tt \tbottom \tbeauty \tb"
-              - "4 \tleft \tlove \tl \tright \trhyme \tr"
-              - Gluons
+              - <table><caption>The quarks. Each quark has both a prosaic and a poetic
+                name, which are used interchangeably.</caption><thead>
+              - hr3 Generation |hc3 Large Quarks |hc3 Small Quarks
+              - hc2 Name |hr2 Symbol |hc2 Name |hr2 Symbol
+              - h Prosaic |h Poetic |h Prosaic |h Poetic</thead>
+              - <tbody> 1 | up | unique | <symbol>u</symbol> | down | dream | <symbol>d</symbol>
+              - ' 2 | centre | charm | <symbol>c</symbol> | spiral | strange | <symbol>s</symbol>'
+              - ' 3 | top | truth | <symbol>t</symbol> | bottom | beauty | <symbol>b</symbol>'
+              - ' 4 | left | love | <symbol>l</symbol> | right | rhyme | <symbol>r</symbol></tbody></table>'
+              - <h7>Gluons</h7>
               - Gluons have electric charge 0 and overall color charge 0. They carry
                 the strong force.
-              - Bigrains
+              - <h7>Bigrains</h7>
               - Bigrains have electric charge 0 and color charge ∓1/3. They are only
                 found within nucleons.
-              - Massive gauge bosons
-              - "\tчч \tчч \tчч"
-              - "зз \tx \ty \tv"
-              - "зз \tw \tz \tw"
-              - "зз \tv \ty \tx"
-              - Large Scale
+              - <h5>Massive gauge bosons</h5>
+              - <table><thead>| <symbol>чч</symbol> | <symbol>ч<overbar>ч</overbar></symbol>
+                | <overbar><symbol>чч</symbol></overbar></thead>
+              - <tbody> <symbol>зз</symbol> | <symbol><small-caps>x</small-caps><sup>+</sup></symbol>
+                | <symbol><small-caps>y</small-caps><sup>+</sup></symbol> | <symbol><small-caps>v</small-caps><sup>-</sup></symbol>
+              - ' <symbol>з<overbar>з</overbar></symbol> | <symbol><small-caps>w</small-caps><sup>+</sup></symbol>
+                | <symbol><small-caps>z</small-caps><sup>0</sup></symbol> | <symbol><small-caps>w</small-caps><sup>-</sup></symbol>'
+              - ' <symbol><overbar>зз</overbar></symbol> | <symbol><small-caps>v</small-caps><sup>+</sup></symbol>
+                | <symbol><small-caps>y</small-caps><sup>-</sup></symbol> | <symbol><small-caps>x</small-caps><sup>-</sup></symbol></tbody></table>'
+              - <h3>Large Scale</h3>
               - Only about 15% of darill can be found forming quasiparticles at any
                 one time. The rest do not interact via the electromagnetic or strong
                 forces. Gravity is the dominant force at these scales, as it is the
                 only long-range force that interacts with the darill sea.
             Tinellb:
-              date: '2019-06-01'
+              date: '2024-04-29'
               position: '1.2'
               text:
               - 'Within the universe named Tinellb, there is a planet named Ptoko.
@@ -182,7 +205,7 @@ entries:
                 this time, Lulani was used only for science and the arts, not for
                 everyday use.
               - Brequèn was spoken in the realm of Brequé, Tsarin in Tsarein.
-              - <hierarchy><table>|||||
+              - <hierarchy>|||||
               - '|c3 High Lulani |c3'
               - '|c3 Demotic Lulani |c3'
               - c7
@@ -200,7 +223,7 @@ entries:
               - c5 |c2 Ancient Solajin
               - c5 |c2 Medieval Solajin
               - c5 |c2 Traditional Solajin
-              - c5 |c2 New Solajin</table></hierarchy>
+              - c5 |c2 New Solajin</hierarchy>
               - Ptoko is located in Universe <universe>M<sup>204</sup>ν</universe>
               - 'Solaji: <universe>F<sup>996</sup>ξ</universe>'
               - 'Brequé: <universe>D<sup>578</sup>η</universe>'
@@ -208,18 +231,18 @@ entries:
               - 'Tsarein: <universe>E<sup>415</sup>χ</universe>'
               children: []
             Emotion:
-              date: '2019-08-28'
+              date: '2024-04-29'
               position: '3.11'
               text:
               - Emotions arise when a being has sufficiently complex thought, and
-                thus the <a href="http://dictionary.tinellb.com/h/heart.html#english">heart</a>
-                is an emergent phenomenon of the mind.  There are four recognised
-                primary emotions, each of which has a positive and negative aspect.
-              - <table>|h negative|h neutral|h positive
-              - h zigûtic (wood) | dread | fear | caution
+                thus the <a>heart</a> is an emergent phenomenon of the mind.  There
+                are four recognised primary emotions, each of which has a positive
+                and negative aspect.
+              - <table><thead>|h negative|h neutral|h positive</thead>
+              - <tbody>h zigûtic (wood) | dread | fear | caution
               - h qoltic (wind) | misery | sorrow | melancholy
               - h volzdic (fire) | anger | zeal | passion
-              - h vohalic (water) | complacence | contentment| joy</table>
+              - h vohalic (water) | complacence | contentment| joy</tbody></table>
               - A heart in balance is said to be happy.
               - 'These emotions affect each other as their corresponding substances
                 do:'

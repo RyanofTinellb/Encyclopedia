@@ -1,37 +1,82 @@
 styles:
-  doctype:
+  '!doctype':
     tags:
-      start: '<!DOCTYPE '
-      end: '>'
+      type: complete
   html:
     tags:
-      block: true
+      type: block
+      language: true
   head:
     tags:
-      block: true
-  body:
-    tags:
-      block: true
-      separator: p
+      type: block
   meta:
     tags:
-      start: '<meta '
-      end: '>'
+      type: complete
   title:
     tags:
-      block: true
+      type: line
+  h1:
+    tags:
+      type: heading
+  entry-data:
+    tags:
+      type: data
+  data:
+    tags:
+      type: data
   link:
     tags:
-      start: '<link '
-      end: '>'
-  template:
+      type: complete
+  internal-link:
     tags:
-      template: true
+      type: link
+  inline-script:
+    tags:
+      type: line
+      open: <script>
+      close: </script>
+  script:
+    tags:
+      type: complete
+      close: '></script>'
+  body:
+    tags:
+      type: block
+      start: '<p>'
+      end: '</p>'
   flex:
     tags:
-      block: true
-      separator: p
-      start: <div class="flex">
-      end: </div>
+      type: div
+  template:
+    tags:
+      type: template
+  content:
+    tags:
+      type: div
+  javascript:
+    tags:
+      type: div
+  input:
+    tags:
+      type: complete
 text:
-- <body><flex><data>contents</data></flex></body>
+  - <!doctype>html</!doctype>
+  - <html@en><head><meta>name="viewport" content="width=device-width/initial-scale=1.0"</meta>
+  - <meta>charset="utf-8"</meta>
+  - <title><entry-data>name</entry-data> - Tinellbian Encyclopedia</title>
+  - <link>rel="stylesheet" type="text/css" href="<internal-link>data/stylesheets/basic_style.css</internal-link>"</link>
+  - <link>rel="stylesheet" type="text/css" href="<internal-link>data/stylesheets/style.css</internal-link>"</link>
+  - <link>rel="icon" type="image/png" href="<internal-link>data/assets/favicon.png</internal-link>"</link>
+  - <inline-script>let href = window.location.href;
+  - if (href.indexOf("?") != -1 && href.indexOf("?highlight=") == -1) {
+  - let term = href.replace(/(.*?\?)(.*?)(#.*|$)//"$2");
+  - window.location.href = `<internal-link>search</internal-link>?${term}&andOr=and`;
+  - '}</inline-script>'
+  - <script>src="<internal-link>data/scripts/search.js</internal-link>"</script></head>
+  - <body><flex><template>navigation pane</template>
+  - <content><h1><data>name</data></h1>
+  - <data>contents</data>
+  - <template>copyright</template></content></flex>
+  - <inline-script>
+  - for (elt of document.getElementsByClassName('javascript')) {
+  - elt.style.display = "block";}</inline-script></body></html@en>
