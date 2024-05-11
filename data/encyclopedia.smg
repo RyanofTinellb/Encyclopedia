@@ -5,10 +5,8 @@ assets:
 entries:
 - - Tinellbian Encyclopedia
   - Entries
-  - Physics
+  - Particle Physics
 language: 'en: English'
-links:
-  ExternalDictionary: http://dictionary.tinellb.com
 locations:
   search: C:\Users\Ryan\TinellbianLanguages\encyclopedia\search.html
   page404: C:\Users\Ryan\TinellbianLanguages\encyclopedia\404.html
@@ -28,3 +26,4 @@ templates:
   wholepage: C:\Users\Ryan\TinellbianLanguages\encyclopedia\data\templates\wholepage.tpl
 port: 44102
 languages: C:\Users\Ryan\TinellbianLanguages\toplevel\data\assets\languages.yml
+links: {}

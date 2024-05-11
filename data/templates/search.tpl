@@ -36,7 +36,7 @@ text:
 - </ul>
 - '   </links-root></ul></label>'
 - '        </nav-pane>'
-- '        <content>'
+- '        <main>'
 - '            <h1>Search Tinellbian Grammar</h1>'
 - '            <form>'
 - '                <input type="text" class="term" id="term" name="term" placeholder="Search..."><br>'
@@ -51,7 +51,7 @@ text:
 - '                    elt.style.display = "block";'
 - '                }'
 - '            </script>'
-- '        </content>'
+- '        </main>'
 - '    </flex>'
 - </body>
 - ''

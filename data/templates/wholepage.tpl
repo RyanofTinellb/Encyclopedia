@@ -38,14 +38,14 @@ text:
 - </ul>
 - '   </links-root></ul></label>'
 - '        </nav-pane>'
-- '        <content>'
+- '        <main>'
 - '            {main-content}'
 - '            <copyright>'
 - '                <copyright><no-breaks>&copy;2019 <a href="http://www.tinellb.com/about.html">Ryan
   Eakins</a>.</no-breaks>'
 - '<no-breaks>Last updated: Friday, August 30th, 2019.</no-breaks></copyright>'
 - '            </copyright>'
-- '        </content>'
+- '        </main>'
 - '    </flex>'
 - '    <script type="text/javascript">'
 - '        document.getElementById(''search'').style.display = ''list-item'';'

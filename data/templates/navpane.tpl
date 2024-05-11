@@ -1,52 +1,39 @@
 styles:
   navpane:
-    tags:
-      type: div
+    type: div
   input:
-    tags:
-      type: complete
+    type: complete
   label:
-    tags:
-      type: line
+    type: line
   ul:
-    tags:
-      type: block
-      start: <li>
-      end: </li>
+    type: block
+    start: <li>
+    end: </li>
   link:
-    tags:
-      type: link
+    type: link
   javascript:
-    tags:
-      type: div
+    type: div
   search-form:
-    tags:
-      type: block
-      open: <form id="search">
-      close: </form>
-      start: <li class="search">
-      end: </li>
+    type: block
+    open: <form id="search">
+    close: </form>
+    start: <li class="search">
+    end: </li>
   submit-button:
-    tags:
-      type: inline
-      open: <button type="button">
-      close: </button>
+    type: inline
+    open: <button type="button">
+    close: </button>
   links:
-    tags:
-      type: div
+    type: div
   a:
-    tags:
-      open: '<a href="'
-      pipe: '">'
+    type: anchor
   toc:
-    tags:
-      type: data
+    type: data
   random:
-    tags:
-      type: div
+    type: div
 text:
-  - <navpane><label><input>type="checkbox" class="menu"</input>
-  - <ul><a><link>index</link>|<strong>Encyclopedia</strong></a>
-  - <javascript><search-form><input>type="text" name="term"</input>
-  - <button>Search</button></search-form></javascript></ul>
-  - <links><ul><toc>initials</toc></ul></links></label></navpane>
+- <navpane><label><input>type="checkbox" class="menu"</input>
+- <ul><a><link>index</link>|<strong>Encyclopedia</strong></a>
+- <javascript><search-form><input>type="text" name="term"</input>
+- <button>Search</button></search-form></javascript></ul>
+- <links><ul><toc>initials</toc></ul></links></label></navpane>

@@ -1,21 +1,15 @@
 default:
-  tags: {}
   props:
     font: Times New Roman
     size: 18
 a:
-  tags:
-    key: A
   props:
     underline: true
     colour: '#0022ff'
+  key: A
 caption:
-  tags:
-    type: line
+  type: line
 h2:
-  tags:
-    key: KeyPress-1
-    type: heading
   props:
     bold: true
     size: 120
@@ -23,93 +17,79 @@ h2:
     underline: true
     top: 15
     bottom: 5
+  key: KeyPress-1
+  type: heading
 strong:
-  tags:
-    key: b
   props:
     bold: true
+  key: b
 h3:
-  tags:
-    key: KeyPress-2
-    type: heading
   props:
     bold: true
     size: 115
     justification: centre
+  key: KeyPress-2
+  type: heading
 h4:
-  tags:
-    key: KeyPress-3
-    type: heading
   props:
     bold: true
     justification: centre
     size: 110
+  key: KeyPress-3
+  type: heading
 h5:
-  tags:
-    key: KeyPress-4
-    type: heading
   props:
     bold: true
     justification: centre
     size: 105
+  key: KeyPress-4
+  type: heading
 h6:
-  tags:
-    key: KeyPress-5
-    type: heading
   props:
     bold: true
     justification: centre
     italics: true
     underline: true
     size: 100
+  key: KeyPress-5
+  type: heading
 h7:
-  tags:
-    type: heading
   props:
     left: 150
     bold: true
     italics: true
+  type: heading
 hierarchy:
-  tags:
-    type: table
-    open: '<table class="hierarchy">'
-    close: </table>
+  type: table
+  open: <table class="hierarchy">
+  close: </table>
 small-caps:
-  tags:
-    type: span
+  type: span
 sup:
-  tags: {}
   props:
     offset: superscript
 overbar:
-  tags:
-    key: Alt-O
-    type: span
   props:
     strikeout: true
+  key: Alt-O
+  type: span
 em:
-  tags:
-    key: i
   props:
     italics: true
+  key: i
 table:
-  tags:
-    type: table
+  type: table
 thead:
-  tags:
-    type: block
+  type: block
 tbody:
-  tags:
-    type: block
+  type: block
 symbol:
-  tags:
-    key: Alt-S
-    type: span
   props:
     size: 120
     italics: true
+  key: Alt-S
+  type: span
 ul:
-  tags:
-    start: <li>
-    end: </li>
-    type: block
+  start: <li>
+  end: </li>
+  type: block

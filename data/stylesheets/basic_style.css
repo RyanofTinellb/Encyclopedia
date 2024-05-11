@@ -90,24 +90,24 @@ input[type='checkbox'] {
   display: none;
 }
 
-.content {
+main {
   display: flex;
   flex-direction: column;
   margin-left: 5%;
   width: 60%;
 }
 
-.content p {
+main p {
   text-align: justify;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.content p.example {
+main p.example {
   margin-top: 1em;
 }
 
-.content table {
+main table {
   border-collapse: collapse;
   width: fit-content;
   margin-left: auto;
@@ -116,40 +116,40 @@ input[type='checkbox'] {
   margin-bottom: 2em;
 }
 
-.content {
+main {
   counter-reset: figure heading2;
 }
 
-.content h1 {
+main h1 {
   text-align: center;
   font-size: xx-large;
 }
 
-.content h2 {
+main h2 {
   text-align: center;
   counter-reset: heading3;
 }
 
-.content h2::before {
+main h2::before {
   counter-increment: heading2;
   content: counter(heading2) ". "
 }
 
-.content h3 {
+main h3 {
   text-align: center;
   counter-reset: heading4;
 }
 
-.content h3::before {
+main h3::before {
   counter-increment: heading3;
   content: counter(heading2) "." counter(heading3)
 }
 
-.content h4 {
+main h4 {
   text-align: center;
 }
 
-.content h4::before {
+main h4::before {
   counter-increment: heading4;
   content: counter(heading2) "." counter(heading3) "." counter(heading4);
 }
@@ -166,7 +166,7 @@ h6 {
   font-size: medium;
 }
 
-.content caption {
+main caption {
   caption-side: bottom;
   padding-top: 0.5rem;
   font-size: smaller;
@@ -175,117 +175,117 @@ h6 {
   margin-right: auto;
 }
 
-.content caption::before {
+main caption::before {
   counter-increment: figure;
   content: "Fig " counter(figure) ": ";
 }
 
-.content td,
-.content th {
+main td,
+main th {
   border: 1px solid darkgrey;
   padding: 0.2rem 1rem;
   white-space: nowrap;
 }
 
-.content th a {
+main th a {
   color: inherit;
   text-decoration: inherit;
 }
 
-.content td {
+main td {
   text-align: center;
 }
 
-.content .message p {
+main .message p {
   margin-top: 1em;
   margin-bottom: 1em;
   font-size: smaller;
   color: red;
 }
 
-.content div.mobile-table {
+main div.mobile-table {
   display: none;
 }
 
-.content .wordlist {
+main .wordlist {
   border-left: 1px solid green;
   border-bottom: 1px solid green;
 }
 
-.content .universe {
+main .universe {
   display: inline;
   font-family: serif;
 }
 
-.content .results .title-results {
+main .results .title-results {
   font-weight: bold;
   padding-left: 5%;
   padding-top: 1em;
 }
 
-.content label.folder {
+main label.folder {
   text-align: left;
 }
 
-.content input.folder {
+main input.folder {
   position: relative;
   top: 3em;
   left: 3%;
 }
 
-.content input.folder:checked+div.folding p {
+main input.folder:checked+div.folding p {
   display: inherit;
 }
 
-.content div.folding p:not(:first-child):not(:last-child) {
+main div.folding p:not(:first-child):not(:last-child) {
   display: none;
 }
 
-.content div.folding div.literal {
+main div.folding div.literal {
   display: none;
 }
 
-.content input.folder:checked+div.folding div.literal p,
-.content input.folder:checked+div.folding div.literal {
+main input.folder:checked+div.folding div.literal p,
+main input.folder:checked+div.folding div.literal {
   display: inherit;
 }
 
-.content .literal p::before {
+main .literal p::before {
   content: "lit.:\a0";
   font-style: italic;
 }
 
-.content span.tooltip::after {
+main span.tooltip::after {
   content: "?";
   font-size: smaller;
   vertical-align: super;
 }
 
-.content span.tooltip-text {
+main span.tooltip-text {
   display: none;
 }
 
-.content span.tooltip-text::before {
+main span.tooltip-text::before {
   content: "(";
   padding-left: 0.5em;
 }
 
-.content span.tooltip-text::after {
+main span.tooltip-text::after {
   content: ")"
 }
 
-.content span.tooltip:active .tooltip-text,
-.content div.folding span.tooltip:hover .tooltip-text {
+main span.tooltip:active .tooltip-text,
+main div.folding span.tooltip:hover .tooltip-text {
   display: inline;
   cursor: none;
 }
 
-.content span.tooltip .tooltip-text:hover {
+main span.tooltip .tooltip-text:hover {
   display: inline;
   cursor: none;
 }
 
-.content .nav-footer {
+main .nav-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -293,7 +293,7 @@ h6 {
   margin-bottom: 1em;
 }
 
-.content .copyright p {
+main .copyright p {
   font-size: smaller;
   font-family: serif;
   text-align: right;
@@ -310,13 +310,13 @@ h6 {
     flex-direction: column;
   }
 
-  .content {
+  main {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
   }
 
-  .content p {
+  main p {
     text-align: left;
   }
 
@@ -341,11 +341,11 @@ h6 {
     display: inherit;
   }
 
-  .content input.folder:checked+div.folding .tooltip-text {
+  main input.folder:checked+div.folding .tooltip-text {
     display: inline;
   }
 
-  .content span.tooltip:hover .tooltip-text {
+  main span.tooltip:hover .tooltip-text {
     display: inline;
   }
 }
@@ -355,16 +355,16 @@ h6 {
     display: none;
   }
 
-  .content div.mobile-table {
+  main div.mobile-table {
     display: block;
   }
 
-  .content div.mobile-table table {
+  main div.mobile-table table {
     display: block;
     margin-left: 15%;
   }
 
-  .content div.mobile-table ul {
+  main div.mobile-table ul {
     padding-left: 0;
     margin-left: 10%;
   }
@@ -377,15 +377,15 @@ h6 {
     display: initial;
   }
 
-  .content input.folder:checked+div.folding .tooltip-text {
+  main input.folder:checked+div.folding .tooltip-text {
     display: none;
   }
 
-  .content span.tooltip:hover .tooltip-text {
+  main span.tooltip:hover .tooltip-text {
     display: none;
   }
 
-  .content span.tooltip::after {
+  main span.tooltip::after {
     content: none;
   }
 }
