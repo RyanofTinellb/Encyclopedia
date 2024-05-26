@@ -1,5 +1,6 @@
 body {
-    font-family: sans-serif;
+    font-family: serif;
+    font-variant-numeric: stacked-fractions;
 }
 
 .nav-pane {
@@ -21,21 +22,102 @@ body {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
 }
 
-main p {
-    line-height: 2;
+h1 {
+    text-align: center;
+}
+
+h6 {
+    font-style: italic;
+    font-size: small;
+}
+
+body {
+    counter-reset: h3 h4 h5 h6;
+}
+
+h2 {
+    counter-set: h3 0;
+}
+
+h3::before {
+    content: counter(h3) ". ";
+    counter-increment: h3;
+    counter-set: h4 0;
+}
+
+h4::before {
+    content: counter(h3) "." counter(h4) " ";
+    counter-increment: h4;
+    counter-set: h5 0;
+}
+
+h5::before {
+    content: counter(h3) "." counter(h4) "." counter(h5) " ";
+    counter-increment: h5;
+    counter-set: h6 0;
+}
+
+h6::before {
+    content: counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " ";
+    counter-increment: h6;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 a {
+    text-decoration: none;
+}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+.symbol {
+    font-style: italic;
+}
+
+.small-caps {
+    font-variant-caps: small-caps;
+}
+
+.boson {
+    font-style: normal;
+}
+
+.antimatter {
+    text-decoration: overline;
+}
+
+.content p {
+    line-height: 1.5;
+    margin: 1em;
     text-indent: 1em;
 }
 
-main p.example, main p.example_no_lines {
+.content p.example,
+.content p.example_no_lines {
     margin-left: 10%;
     line-height: 1.5;
 }
 
-main ul, main ol {
+.content ul,
+.content ol {
     margin-left: 10%;
 }
 
@@ -43,16 +125,24 @@ main ol {
     list-style: lower-roman;
 }
 
-main .hierarchy td {
+.content table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.content table td,
+.content table th {
+    padding: 2px 1em;
+}
+
+.content .hierarchy table td {
     border: none;
     height: 1em;
 }
 
-.overbar {
-    text-decoration: overline;
-}
-
-main div.wordlist {
+.content div.wordlist {
     margin-top: 1em;
     margin-left: 5%;
     margin-bottom: 3em;
@@ -60,7 +150,8 @@ main div.wordlist {
     padding-bottom: 1em;
 }
 
-main div.wordlist p.example, main div.wordlist p.example_no_lines {
+.content div.wordlist p.example,
+.content div.wordlist p.example_no_lines {
     margin-left: 10%;
 }
 
@@ -69,89 +160,88 @@ main div.folding {
     margin-bottom: 1em;
 }
 
-main div.columns, main div.left-columns {
+.content div.columns,
+.content div.left-columns {
     display: flex;
     flex-flow: row wrap;
 }
 
-main div.columns table th, main div.columns table td,
-main div.left-columns table th, main div.left-columns table td {
+.content div.columns table th,
+.content div.columns table td,
+.content div.left-columns table th,
+.content div.left-columns table td {
     border: none;
     padding: 0.5em 0.5em;
 }
 
-main div.left-columns table th, main div.left-columns table td {
+.content div.left-columns table th,
+.content div.left-columns table td {
     text-align: left;
 }
 
-main div.columns table th:first-child,
-main div.left-columns table th:first-child {
-    text-align: center;
-}
-
-main .paragraph {
+.content .paragraph {
     padding-top: 1em;
     font-family: georgia, serif;
 }
 
-input#Transliteration:checked ~ .paragraph p:nth-child(1) {
+input#Transliteration:checked~.paragraph p:nth-child(1) {
     display: inline;
     margin-left: 0;
 }
 
-input#Transliteration:checked ~ .paragraph div.folding {
+input#Transliteration:checked~.paragraph div.folding {
     display: inline;
 }
 
-input#Transliteration:checked ~ .paragraph p:nth-child(1) strong {
+input#Transliteration:checked~.paragraph p:nth-child(1) strong {
     font-weight: normal;
 }
 
-input#Transliteration:checked ~ .paragraph p:not(:nth-child(1)) {
+input#Transliteration:checked~.paragraph p:not(:nth-child(1)) {
     display: none;
 }
 
-input#English:checked ~ .paragraph p:last-child {
+input#English:checked~.paragraph p:last-child {
     display: inline;
     margin-left: 0;
 }
 
-input#English:checked ~ .paragraph div.folding {
+input#English:checked~.paragraph div.folding {
     display: inline;
 }
 
-input#English:checked ~ .paragraph p:not(:last-child) {
+input#English:checked~.paragraph p:not(:last-child) {
     display: none;
 }
 
-input#Tinellbian:checked ~ .paragraph {
+input#Tinellbian:checked~.paragraph {
     direction: rtl;
     unicode-bidi: bidi-override;
 }
 
-input#Tinellbian:checked ~ .paragraph p:nth-child(2) {
+input#Tinellbian:checked~.paragraph p:nth-child(2) {
     display: inline;
     margin-left: 0;
 }
 
-input#Tinellbian:checked ~ .paragraph div.folding {
+input#Tinellbian:checked~.paragraph div.folding {
     display: inline;
 }
 
-input#Tinellbian:checked ~ .paragraph p:not(:nth-child(2)) {
+input#Tinellbian:checked~.paragraph p:not(:nth-child(2)) {
     display: none;
 }
 
-input#All:checked ~ .paragraph {
+input#All:checked~.paragraph {
     border-bottom: 1px solid blue;
     padding: 0;
 }
 
-input#All:checked ~ .paragraph p {
+input#All:checked~.paragraph p {
     margin-top: 0;
 }
 
-input:checked:not(#All) ~ .paragraph input {
+input:checked:not(#All)~.paragraph input {
     display: none;
 }
 
@@ -170,7 +260,8 @@ input:checked:not(#All) ~ .paragraph input {
         margin-right: 0;
     }
 
-    main div.wordlist p.example, main div.wordlist p.example_no_lines {
+    .content div.wordlist p.example,
+    .content div.wordlist p.example_no_lines {
         margin-left: 5%;
     }
 
@@ -178,7 +269,12 @@ input:checked:not(#All) ~ .paragraph input {
         margin-left: 10%;
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         margin-right: 0;
     }
 }
