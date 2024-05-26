@@ -1,391 +1,460 @@
+@font-face {
+    font-family: tinellb;
+    src: url('../assets/tinellb.ttf');
+}
+
 a:link {
-  color: #5555FF;
-  /* light blue */
+    color: #5555FF;
+    /* light blue */
 }
 
 a:visited {
-  color: #95A;
-  /* light violet */
-}
-
-.symbol {
-  font-family: "Cambria Math", serif;
-  font-style: italic;
-  font-size: larger;
-}
-
-.mobile {
-  display: none;
-}
-
-ipa {
-  font-family: 'lucida sans unicode', 'segoe ui', monospace, sans-serif;
-}
-
-ipa strong {
-  font-weight: 900;
-  color: red;
-}
-
-.small-caps {
-  font-variant: small-caps;
-}
-
-.overline {
-  text-decoration: overline;
-}
-
-@font-face {
-  font-family: tinellb;
-  src: url('tinellb.ttf');
-}
-
-high-lulani {
-  font-family: tinellbian, tinellb;
-  font-size: larger;
-  direction: rtl;
-  unicode-bidi: bidi-override;
-}
-
-high-lulani::after {
-  content: "\202c\00e8";
-  font-size: 0;
-}
-
-high-lulani:hover {
-  font-size: xx-large;
-  font-weight: normal;
-  padding: 0em 0.5em;
-  cursor: none;
-}
-
-table high-lulani:hover {
-  font-size: larger;
-  font-weight: inherit;
-  padding: inherit;
-  cursor: inherit;
-}
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.nav-pane {
-  text-align: left;
-  width: 25%;
-}
-
-.nav-pane input.menu {
-  display: none;
+    color: #95A;
+    /* light violet */
 }
 
 .javascript,
-.hidden {
-  display: none;
+.hidden,
+.mobile {
+    display: none;
 }
 
-input[type='checkbox'] {
-  display: none;
+.multiline .tinellbian {
+    display: block;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  margin-left: 5%;
-  width: 60%;
+.nextline {
+    display: block;
+}
+
+.symbol {
+    font-family: serif;
+    font-style: italic;
+    font-size: larger;
+}
+
+.ipa {
+    font-family: 'lucida sans unicode', 'segoe ui', monospace, sans-serif;
+}
+
+strong {
+    font-size: 0.95rem;
+}
+
+.ipa strong {
+    font-weight: 900;
+    color: red;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.highlight {
+    border: 1px solid red;
+    padding: 4px 5px;
+    border-radius: 15px;
+    line-height: 2;
+}
+
+.tinellbian {
+    font-family: tinellbian, tinellb;
+    font-size: larger;
+}
+
+.tinellbian:lang(x-tlb-hl) {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.tinellbian:lang(x-tlb-hl)::after {
+    content: "\202c\00e8";
+    font-size: 0;
+}
+
+.tinellbian:hover {
+    font-size: xx-large;
+    padding: 0em 0.5em;
+    cursor: none;
+}
+
+abbr.glossary {
+    font-variant: small-caps;
+    font-style: normal;
+    text-decoration: none;
+}
+
+abbr.glossary::after {
+    content: "?";
+    vertical-align: super;
+    font-size: smaller;
+}
+
+h1 a:visited,
+h1 a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 95%;
+}
+
+nav.main {
+    /* text-align: center; */
+    width: 25%;
+    margin-top: 2rem;
+}
+
+nav.main summary {
+    list-style-type: "☰";
+    text-align: center;
+}
+
+/* nav .javascript {    text-align: left;} */
+nav.main details[open] summary {
+    list-style-type: '✖';
+}
+
+nav.main details ul ul {
+    margin-left: 5%;
+    text-align: left;
+}
+
+nav.main details ul {
+    text-align: center;
+}
+
+nav.main .nav-links {
+    margin-left: 30%;
+}
+
+.main-page {
+    width: 70%;
 }
 
 main p {
-  text-align: justify;
-  margin-top: 0;
-  margin-bottom: 0;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 main p.example {
-  margin-top: 1em;
+    margin-top: 1em;
 }
 
 main table {
-  border-collapse: collapse;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-main {
-  counter-reset: figure heading2;
-}
-
-main h1 {
-  text-align: center;
-  font-size: xx-large;
-}
-
-main h2 {
-  text-align: center;
-  counter-reset: heading3;
-}
-
-main h2::before {
-  counter-increment: heading2;
-  content: counter(heading2) ". "
-}
-
-main h3 {
-  text-align: center;
-  counter-reset: heading4;
-}
-
-main h3::before {
-  counter-increment: heading3;
-  content: counter(heading2) "." counter(heading3)
-}
-
-main h4 {
-  text-align: center;
-}
-
-main h4::before {
-  counter-increment: heading4;
-  content: counter(heading2) "." counter(heading3) "." counter(heading4);
-}
-
-h5 {
-  margin-left: 20%;
-  font-size: medium;
-  
-}
-
-h6 {
-  margin-left: 25%;
-  font-style: italic;
-  font-size: medium;
-}
-
-main caption {
-  caption-side: bottom;
-  padding-top: 0.5rem;
-  font-size: smaller;
-  font-style: italic;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-main caption::before {
-  counter-increment: figure;
-  content: "Fig " counter(figure) ": ";
+    border-collapse: collapse;
 }
 
 main td,
 main th {
-  border: 1px solid darkgrey;
-  padding: 0.2rem 1rem;
-  white-space: nowrap;
+    border: 1px solid darkgrey;
+    white-space: nowrap;
+}
+
+main th {
+    padding: 0 1em;
 }
 
 main th a {
-  color: inherit;
-  text-decoration: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+main th:first-child {
+    text-align: right;
 }
 
 main td {
-  text-align: center;
+    text-align: center;
 }
 
 main .message p {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  font-size: smaller;
-  color: red;
-}
-
-main div.mobile-table {
-  display: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: smaller;
+    color: red;
 }
 
 main .wordlist {
-  border-left: 1px solid green;
-  border-bottom: 1px solid green;
+    border-left: 1px solid green;
+    border-bottom: 1px solid green;
+}
+
+main .wordlist .block {
+    margin-top: 1rem;
+}
+
+main .wordlist .block:first-child {
+    margin-top: 0;
 }
 
 main .universe {
-  display: inline;
-  font-family: serif;
+    display: inline;
+    font-family: serif;
 }
 
 main .results .title-results {
-  font-weight: bold;
-  padding-left: 5%;
-  padding-top: 1em;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 1em;
 }
 
-main label.folder {
-  text-align: left;
+nav.mini {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-main input.folder {
-  position: relative;
-  top: 3em;
-  left: 3%;
+footer {
+    margin-top: 2rem;
+    margin-left: 30%;
+    margin-right: 10%
 }
 
-main input.folder:checked+div.folding p {
-  display: inherit;
+footer .copyright {
+    font-size: smaller;
+    font-family: serif;
+    text-align: right;
+    width: 85%;
+    line-height: 1.5;
 }
 
-main div.folding p:not(:first-child):not(:last-child) {
-  display: none;
-}
-
-main div.folding div.literal {
-  display: none;
-}
-
-main input.folder:checked+div.folding div.literal p,
-main input.folder:checked+div.folding div.literal {
-  display: inherit;
-}
-
-main .literal p::before {
-  content: "lit.:\a0";
-  font-style: italic;
-}
-
-main span.tooltip::after {
-  content: "?";
-  font-size: smaller;
-  vertical-align: super;
-}
-
-main span.tooltip-text {
-  display: none;
-}
-
-main span.tooltip-text::before {
-  content: "(";
-  padding-left: 0.5em;
-}
-
-main span.tooltip-text::after {
-  content: ")"
-}
-
-main span.tooltip:active .tooltip-text,
-main div.folding span.tooltip:hover .tooltip-text {
-  display: inline;
-  cursor: none;
-}
-
-main span.tooltip .tooltip-text:hover {
-  display: inline;
-  cursor: none;
-}
-
-main .nav-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-main .copyright p {
-  font-size: smaller;
-  font-family: serif;
-  text-align: right;
-  margin-top: 1em;
+nav.mini p {
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .no-breaks {
-  white-space: nowrap;
+    white-space: nowrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4444EE;
+}
+
+nav .random {
+    text-align: center;
+}
+
+nav .random:hover,
+nav li:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav.main p {
+    font-family: sans-serif;
+    margin: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+nav ul {
+    list-style-type: none;
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+    line-height: 1.5;
+}
+
+nav li.normal,
+nav li.normal a {
+    /* Top-level folder of current page */
+    font-weight: bold;
+    letter-spacing: 0;
+    text-decoration: underline;
+}
+
+nav li.link a {
+    text-decoration: none;
+}
+
+nav button {
+    display: block;
+    margin: auto;
+}
+
+nav form#search {
+    margin-top: 1em;
+}
+
+main summary.folding {
+    font-family: sans-serif;
+    margin-top: 0.2rem;
+}
+
+main details.folding+p {
+    padding-left: 1em;
+    margin: 0;
+}
+
+main ul,
+main ol {
+    margin-left: 20%;
+    margin-bottom: 0;
+}
+
+main table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+main table td {
+    padding: 2px 6px;
+}
+
+main table th {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+main .also p {
+    margin-left: 5%;
+}
+
+main .wordlist {
+    margin-left: 17%;
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+main .wordlist p {
+    margin-left: 3%;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+main .gloss {
+    font-style: italic;
+}
+
+footer {
+    margin-top: 1rem;
+    font-size: smaller;
+    font-family: serif;
+    text-align: right;
+    width: 70%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0.5rem;
+}
+
+main .results ol,
+main .results ul {
+    margin-left: 0;
+}
+
+main p a,
+main .results a {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {
+    .flex {
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
 
-  .flex {
-    flex-direction: column;
-  }
+    nav.main {
+        width: 100%;
+    }
 
-  main {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+    .main-page {
+        width: 100%;
+    }
 
-  main p {
-    text-align: left;
-  }
+    .desktop {
+        display: none;
+    }
 
-  .nav-pane {
-    width: 100%;
-  }
+    .mobile {
+        display: initial;
+    }
 
-  .nav-pane label::before {
-    content: "Menu";
-    font-weight: bold;
-  }
+    main {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
-  .nav-pane input.menu {
-    display: inherit;
-  }
+    main div.desktop table {
+        display: none;
+    }
 
-  input.menu+ul {
-    display: none;
-  }
+    main div.mobile table {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-  input.menu:checked+ul {
-    display: inherit;
-  }
+    main div.mobile-table table {
+        display: block;
+        margin-left: 15%;
+    }
 
-  main input.folder:checked+div.folding .tooltip-text {
-    display: inline;
-  }
+    main div.mobile-table ul {
+        padding-left: 0;
+        margin-left: 10%;
+    }
 
-  main span.tooltip:hover .tooltip-text {
-    display: inline;
-  }
-}
+    main abbr.glossary::after {
+        content: "";
+        vertical-align: super;
+        font-size: smaller;
+    }
 
-@media screen and (max-width: 600px) {
-  table {
-    display: none;
-  }
+    main div.mobile ul {
+        /* Dictionary and Grammar tables, i.e.: list of auxiliaries */
+        margin-top: 0em;
+    }
 
-  main div.mobile-table {
-    display: block;
-  }
+    footer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
-  main div.mobile-table table {
-    display: block;
-    margin-left: 15%;
-  }
+    footer .copyright {
+        width: 100%;
+    }
 
-  main div.mobile-table ul {
-    padding-left: 0;
-    margin-left: 10%;
-  }
+    nav.mini p {
+        text-indent: 0;
+    }
 
-  .desktop {
-    display: none;
-  }
+    .mobile p {
+        margin-left: 10%;
+    }
 
-  .mobile {
-    display: initial;
-  }
+    .mobile ul {
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
-  main input.folder:checked+div.folding .tooltip-text {
-    display: none;
-  }
+    .mobile ul li {
+        line-height: 1.5;
+    }
 
-  main span.tooltip:hover .tooltip-text {
-    display: none;
-  }
+    input#wordsearch {
+        width: 80%;
+    }
 
-  main span.tooltip::after {
-    content: none;
-  }
+    footer {
+        text-align: right;
+        width: 95%;
+    }
 }

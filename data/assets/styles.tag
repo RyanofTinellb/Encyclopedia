@@ -9,6 +9,16 @@ a:
   key: A
 caption:
   type: line
+em:
+  props:
+    italics: true
+  key: i
+external:
+  type: anchor
+  param: $lookup:external$|$node$
+  props:
+    underline: true
+    colour: '#3366ff'
 h2:
   props:
     bold: true
@@ -19,10 +29,6 @@ h2:
     bottom: 5
   key: KeyPress-1
   type: heading
-strong:
-  props:
-    bold: true
-  key: b
 h3:
   props:
     bold: true
@@ -63,33 +69,35 @@ hierarchy:
   type: table
   open: <table class="hierarchy">
   close: </table>
-small-caps:
-  type: span
-sup:
-  props:
-    offset: superscript
 overbar:
   props:
     strikeout: true
   key: Alt-O
   type: span
-em:
+small-caps:
+  type: span
+strong:
   props:
-    italics: true
-  key: i
-table:
-  type: table
-thead:
-  type: block
-tbody:
-  type: block
+    bold: true
+  key: b
+sup:
+  props:
+    offset: superscript
 symbol:
   props:
     size: 120
     italics: true
   key: Alt-S
   type: span
+table:
+  type: table
+tbody:
+  type: block
+thead:
+  type: block
 ul:
   start: <li>
   end: </li>
   type: block
+universe:
+  type: span
