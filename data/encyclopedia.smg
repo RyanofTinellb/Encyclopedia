@@ -3,9 +3,6 @@ assets:
   source: C:\Users\Ryan\TinellbianLanguages\encyclopedia\data\data.src
 entries:
 - - Tinellbian Encyclopedia
-  - Entries
-  - Metaphysics
-  - Emotion
 files: C:\Users\Ryan\TinellbianLanguages\!smeagol\files.yml
 language: 'en: English'
 languages: C:\Users\Ryan\TinellbianLanguages\toplevel\data\assets\languages.yml
