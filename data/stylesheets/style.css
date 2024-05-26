@@ -121,7 +121,7 @@ h6 {}
     margin-left: 10%;
 }
 
-.content ol {
+main ol {
     list-style: lower-roman;
 }
 
@@ -155,7 +155,7 @@ h6 {}
     margin-left: 10%;
 }
 
-.content div.folding {
+main div.folding {
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -246,17 +246,17 @@ input:checked:not(#All)~.paragraph input {
 }
 
 @media screen and (max-width: 800px) {
-    div.content {
+    divmain {
         width: 100%;
         margin-left: 0;
     }
 
-    div.content p {
+    divmain p {
         margin-left: 5%;
         margin-right: 5%;
     }
 
-    div.content .folding p {
+    divmain .folding p {
         margin-right: 0;
     }
 
@@ -265,7 +265,7 @@ input:checked:not(#All)~.paragraph input {
         margin-left: 5%;
     }
 
-    .content div.wordlist {
+    main div.wordlist {
         margin-left: 10%;
     }
 

@@ -1,31 +1,38 @@
-if (window.location.href.indexOf("?") != -1) {
-    search();
-}
+  search(window.location.href.indexOf("?") == -1);
 
-function search() {
+function search(fromFourOhFour) {
     document.getElementById("results").innerHTML = "Searching...";
-    var url = "searching.json";
-    var xmlhttp = new XMLHttpRequest();
-    var andButton = document.getElementById("and")
+    let url = "/data/assets/searching.json";
+    let xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             let text = JSON.parse(this.responseText);
-            let terms = getTerms();
+            let terms = (fromFourOhFour ? getTermfrom404() : getTerms());
             if (!terms.length) {
                 arr = [];
             } else if (terms.length == 1) {
                 arr = oneTermSearch(text, terms);
             } else {
-                arr = multiTermSearch(text, terms, andButton.checked);
+                arr = multiTermSearch(text, terms, true);
             }
-            display(arr, text, "results", terms, andButton.checked);
+            display(arr, text, "results", terms, true);
         }
     };
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
 
-// returns array of terms
+function getTermfrom404() {
+  /* searches for the term after the final slash of the url, without the .html ending */
+  var url = window.location.href;
+  var terms = url.split("/");
+  var term = terms[terms.length - 1]
+  try {
+    term = term.split(".html")[0];
+  } catch (err) {}
+  return term.split('%20');
+}
+
 function getTerms() {
     var andOr;
     var url;
@@ -158,7 +165,7 @@ function markdown(terms) {
 }
 
 function titleSearch(arr, terms, andButton) {
-    let names = arr.names.map((elt, i) => ({
+    let names = arr.pages.map((elt, i) => ({
         name: elt,
         url: arr.urls[i],
         count: 0,
@@ -169,11 +176,10 @@ function titleSearch(arr, terms, andButton) {
         });
     });
     numTerms = terms.length;
-    // filter = andButton ? name => name.count === terms.length : name =>
     filter = name => (andButton ? name.count === terms.length : name.count);
     names = names.filter(filter);
     return `<div class="title-results"><ul>${names.map(
-        name => `<a href="${name.url}">${name.name}</a></li>`
+        name => `<a href="/${name.url}">${name.name}</a></li>`
     ).join(';<br> ')}</ul></div>`;
 }
 
@@ -185,18 +191,18 @@ function display(pages, data, id, terms, andButton) {
     !arr.length ? terms.join(' ') + " not found" :
          `<ol>${pages.map(page => {
             let pagenum = page.page;
-            let link = data.urls[pagenum] + "?highlight=" + terms.join("+");
-            let name = data.names[pagenum];
+            let link = data.urls[pagenum] + "?highlight=" + terms.join("+");;
+            let name = data.pages[pagenum];
             let lines = page.lines.map(
-                linenum => highlight(regexes, data.sentences[linenum]));
-            return `<li><a href="${link}">${name}</a>: ${
+                linenum => highlight(regexes, data.lines[linenum]));
+            return `<li><a href="/${link}">${name}</a>: ${
                 lines.join(' &hellip; ')}</li>`;
     }).join('')}</ol>`}`;
 }
 
 function highlight(terms, line) {
     terms.forEach(term => {
-        line = line.replace(term, '<strong>$1</strong>');
+        line = line.replace(term, '<b>$1</b>');
     });
     return line;
 }
