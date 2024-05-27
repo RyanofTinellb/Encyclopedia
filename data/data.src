@@ -74,7 +74,7 @@ entries:
             Physics:
               children:
                 Particle Physics:
-                  date: '2024-05-19'
+                  date: '2024-05-27'
                   position: '21.57'
                   text:
                   - <h2>Fundamental Fields</h2>
@@ -104,7 +104,7 @@ entries:
                   - </h5>The weak force is involved in rearranging darill. There are a number of types of charge that can be induced under this interaction, some of which can also be induced even in non-valence darill. They are heavily dependent on the circumstances, and are not easily calculated as they are not necessarily proportional to intrinsic charge. The mechanics of the weak force on darill are thereby beyond the scope of this work.
                   - <h4>Particles</h4>
                   - <h5>Fermions and Bosons
-                  - </h5>A particle with integer spin (0, 1, 2…) is a boson, while a particle with half-integer spin (1/2, 3/2, 5/2…) is a fermion. Two fermions cannot occupy the same state, but the same is not true of bosons.
+                  - </h5>A particle with integer spin (0, 1, 2…) is a boson, while a particle with half-integer spin (½, 3/2, 5/2…) is a fermion. Two fermions cannot occupy the same state, but the same is not true of bosons.
                   - <h5>Matter and Antimatter
                   - </h5>Two particles of identical mass with properties of the opposite sign are antiparticles. For instance, a particle with +1 charge will have an antiparticle with -1 charge. Uncharged particles may have antiparticles if they have other properties with opposite sign, or they may be their own antiparticles.
                   - Of a particle-antiparticle pair, one is arbitrarily labelled as matter, the other antimatter. In this document, antimatter particles have the prefix anti-, and appear with an overbar (<overbar>◌</overbar>).
@@ -112,23 +112,30 @@ entries:
                   - <h5>Doublets</h5>
                   - A pair of darill form a neutrino (<symbol>ν</symbol>). These only interact with gravity and the weak force. Neutrinos are massless, and are their own antiparticle.
                   - <h5>Triplets</h5>
-                  - <table><caption>The particles formed of three darill. These consist of a base neutrino and an additional darill.</caption>
-                  - <thead>|hc2 ↑ |hc2 ↓</thead>
+                  - <figure><table><thead>|hc2 ↑ |hc2 ↓</thead>
                   - <tbody>h ↑↑ | halvon | <symbol>ч</symbol> | grain | <symbol>з</symbol>
-                  - h ↓↓ | antihalvon | <overbar><symbol>ч</symbol></overbar> | antigrain | <overbar><symbol>з</symbol></overbar></tbody></table>
+                  - h ↓↓ | antihalvon | <overbar><symbol>ч</symbol></overbar> | antigrain | <symbol><overbar>з
+                  - </overbar></symbol></tbody></table><figcaption>The particles formed of three darill. These consist of a base neutrino and an additional darill.</figcaption></figure>
                   - <h6>Halvons</h6>
                   - Three darill of the same charge, (↑↑↑) or (↓↓↓), form a halvon. Particles involving a halvon interact with the electromagnetic force.
                   - <h6>Grains</h6>
                   - Three darill of different charges, (↑↑↓) or (↓↓↑), form a grain. Particles involving a grain interact with the strong force.
                   - <h7>Hextuples</h7>
                   - Hextuples consist of two triplets.
-                  - <table><thead>|c2 <symbol>ч</symbol> |c2 <symbol>з</symbol> |c2 <symbol>ч</symbol> |c2 <symbol>з</symbol></thead>
-                  - <tbody> <em><symbol>ч</symbol></em> | charged lepton | <em><symbol>ℓ</symbol></em> | photon | <symbol>γ</symbol> | large quark | <symbol><small-caps>q</small-caps></symbol> | small antiquark | <overbar><em><symbol>q</symbol></em></overbar>
-                  - ' <overbar><symbol>ч</symbol></overbar> |c2 | charged antilepton | <overbar><symbol>ℓ</symbol></overbar> | small quark | <symbol>q</symbol> | large antiquark | <overbar><symbol><small-caps>q</small-caps></symbol></overbar>'
+                  - <figure><desktop><table><thead>|c2 <symbol>ч</symbol> |c2 <symbol>з</symbol> |c2 <symbol>ч</symbol> |c2 <symbol>з</symbol></thead>
+                  - <tbody> <em><symbol>ч</symbol></em> | charged lepton | <em><symbol>ℓ</symbol></em> | photon | <symbol>γ</symbol> | large quark | <small-caps><symbol>q</symbol></small-caps> | small antiquark | <em><symbol><overbar>q</overbar></symbol></em>
+                  - ' <symbol><overbar>ч</overbar></symbol> |c2 | charged antilepton | <symbol><overbar>ℓ</overbar></symbol> | small quark | <symbol>q</symbol> | large antiquark | <small-caps><symbol><overbar>q</overbar></symbol></small-caps>'
                   - ' <symbol>з</symbol> |c4 | bigrain | <symbol>ф</symbol> | gluon | <symbol>g</symbol>'
-                  - ' <overbar><symbol>з</symbol></overbar> |c6 | antibigrain | <overbar><symbol>ф</symbol></overbar></tbody></table>'
+                  - ' <symbol><overbar>з</overbar></symbol> |c6 | antibigrain | <symbol><overbar>ф'
+                  - </overbar></symbol></tbody></table><figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½</figcaption>
+                  - </desktop></figure><mobile><figure><table><thead>| <symbol>ч</symbol> | <symbol>з</symbol> | <symbol>ч</symbol> | <symbol>з</symbol></thead>
+                  - <tbody> <em><symbol>ч</symbol></em> | <em><symbol>ℓ</symbol></em> | <symbol>γ</symbol> | <small-caps><symbol>q</symbol></small-caps> | <em><symbol><overbar>q</overbar></symbol></em>
+                  - ' <symbol><overbar>ч</overbar></symbol> |c1 | <symbol><overbar>ℓ</overbar></symbol> | <symbol>q</symbol> | <small-caps><symbol><overbar>q</overbar></symbol></small-caps>'
+                  - ' <symbol>з</symbol> |c2 | <symbol>ф</symbol> | <symbol>g</symbol>'
+                  - ' <symbol><overbar>з</overbar></symbol> |c3 | <symbol><overbar>ф'
+                  - </overbar></symbol></tbody></table><figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½</figcaption></figure></mobile>
                   - <h7>Charged Leptons</h7>
-                  - The charged leptons have spin 1/2, electric charge ±1, and color charge 0.
+                  - The charged leptons have spin ½, electric charge ±1, and color charge 0.
                   - <table><thead>h Generation |h Name |h Symbol</thead>
                   - <tbody> 1 | electron | <symbol>e</symbol>
                   - ' 2 | muon | <symbol>μ</symbol>'
@@ -137,24 +144,24 @@ entries:
                   - <h7>Photons</h7>
                   - The photon is its own antiparticle. It has no mass and no charge. It is the carrier for the electromagnetic force.
                   - <h7>Quarks</h7>
-                  - Quarks have spin 1/2 and color charge ±1/3. Large quarks have electric charge ±2/3 and small quarks have electric charge ±1/3.
-                  - <table><caption>The quarks. Each quark has both a prosaic and a poetic name, which are used interchangeably.</caption><thead>
-                  - hr3 Generation |hc3 Large Quarks |hc3 Small Quarks
+                  - Quarks have spin ½ and color charge ±⅓. Large quarks have electric charge ±⅔ and small quarks have electric charge ±⅓.
+                  - <figure><table><thead>hr3 Generation |hc3 Large Quarks |hc3 Small Quarks
                   - hc2 Name |hr2 Symbol |hc2 Name |hr2 Symbol
                   - h Prosaic |h Poetic |h Prosaic |h Poetic</thead>
                   - <tbody> 1 | up | unique | <symbol>u</symbol> | down | dream | <symbol>d</symbol>
                   - ' 2 | centre | charm | <symbol>c</symbol> | spiral | strange | <symbol>s</symbol>'
                   - ' 3 | top | truth | <symbol>t</symbol> | bottom | beauty | <symbol>b</symbol>'
                   - ' 4 | left | love | <symbol>l</symbol> | right | rhyme | <symbol>r</symbol></tbody></table>'
+                  - <figcaption><table>The quarks. Each quark has both a prosaic and a poetic name, which are used interchangeably.</table></figcaption></figure>
                   - <h7>Gluons</h7>
                   - Gluons have electric charge 0 and overall color charge 0. They carry the strong force.
                   - <h7>Bigrains</h7>
-                  - Bigrains have electric charge 0 and color charge ∓1/3. They are only found within nucleons.
+                  - Bigrains have electric charge 0 and color charge ∓⅓. They are only found within nucleons.
                   - <h5>Massive gauge bosons</h5>
-                  - <table><thead>| <symbol>чч</symbol> | <symbol>ч<overbar>ч</overbar></symbol> | <overbar><symbol>чч</symbol></overbar></thead>
+                  - <table><thead>| <symbol>чч</symbol> | <symbol>ч<overbar>ч</overbar></symbol> | <symbol><overbar>чч</overbar></symbol></thead>
                   - <tbody> <symbol>зз</symbol> | <symbol><small-caps>x</small-caps><sup>+</sup></symbol> | <symbol><small-caps>y</small-caps><sup>+</sup></symbol> | <symbol><small-caps>v</small-caps><sup>-</sup></symbol>
                   - ' <symbol>з<overbar>з</overbar></symbol> | <symbol><small-caps>w</small-caps><sup>+</sup></symbol> | <symbol><small-caps>z</small-caps><sup>0</sup></symbol> | <symbol><small-caps>w</small-caps><sup>-</sup></symbol>'
-                  - ' <overbar><symbol>зз</symbol></overbar> | <symbol><small-caps>v</small-caps><sup>+</sup></symbol> | <symbol><small-caps>y</small-caps><sup>-</sup></symbol> | <symbol><small-caps>x</small-caps><sup>-</sup></symbol></tbody></table>'
+                  - ' <symbol><overbar>зз</overbar></symbol> | <symbol><small-caps>v</small-caps><sup>+</sup></symbol> | <symbol><small-caps>y</small-caps><sup>-</sup></symbol> | <symbol><small-caps>x</small-caps><sup>-</sup></symbol></tbody></table>'
                   - <h3>Large Scale</h3>
                   - Only about 15% of darill can be found forming quasiparticles at any one time. The rest do not interact via the electromagnetic or strong forces. Gravity is the dominant force at these scales, as it is the only long-range force that interacts with the darill sea.
               date: null

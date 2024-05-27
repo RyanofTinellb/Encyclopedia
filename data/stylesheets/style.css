@@ -1,23 +1,46 @@
 body {
     font-family: serif;
     font-variant-numeric: stacked-fractions;
+    counter-reset: h3 h4 h5 h6 table;
 }
 
-.nav-pane {
+a,
+a:link,
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+.mobile {
+    display: none;
+}
+
+.overbar {
+    text-decoration: overline;
+}
+
+nav.main {
     line-height: 1.75;
 }
 
-.nav-pane ul {
-    list-style: none;
-    padding-left: 1.2em;
+nav.main details ul {
+    text-align: center;
 }
 
-.nav-pane li.normal {
+nav.main details ul ul {
+    text-align: left;
+}
+
+nav.main ul {
+    list-style: none;
+}
+
+nav.main li.normal {
     font-weight: bold;
     text-decoration: underline;
 }
 
-.nav-pane a {
+nav.main a {
     color: black;
     text-decoration: none;
 }
@@ -29,10 +52,7 @@ h4,
 h5,
 h6 {
     text-align: center;
-}
-
-h1 {
-    text-align: center;
+    margin-top: 2rem;
 }
 
 h6 {
@@ -40,9 +60,7 @@ h6 {
     font-size: small;
 }
 
-body {
-    counter-reset: h3 h4 h5 h6;
-}
+
 
 h2 {
     counter-set: h3 0;
@@ -80,14 +98,6 @@ h2 a {
     text-decoration: none;
 }
 
-h3 {}
-
-h4 {}
-
-h5 {}
-
-h6 {}
-
 .symbol {
     font-style: italic;
 }
@@ -104,20 +114,30 @@ h6 {}
     text-decoration: overline;
 }
 
-.content p {
+figure {
+    margin-bottom: 2em;
+}
+
+figcaption {
+    font-size: smaller;
+    text-align: center;
+
+}
+
+figcaption::before {
+    content: "Fig " counter(table) ".";
+    counter-increment: table;
+    font-style: italic;
+}
+
+main p {
     line-height: 1.5;
     margin: 1em;
     text-indent: 1em;
 }
 
-.content p.example,
-.content p.example_no_lines {
-    margin-left: 10%;
-    line-height: 1.5;
-}
-
-.content ul,
-.content ol {
+main ul,
+main ol {
     margin-left: 10%;
 }
 
@@ -125,156 +145,27 @@ main ol {
     list-style: lower-roman;
 }
 
-.content table {
-    margin-left: auto;
-    margin-right: auto;
+main table {
     margin-top: 2em;
-    margin-bottom: 2em;
 }
 
-.content table td,
-.content table th {
+main table td,
+main table th {
     padding: 2px 1em;
 }
 
-.content .hierarchy table td {
+main table.hierarchy td {
     border: none;
     height: 1em;
 }
 
-.content div.wordlist {
-    margin-top: 1em;
-    margin-left: 5%;
-    margin-bottom: 3em;
-    padding-top: 0;
-    padding-bottom: 1em;
-}
-
-.content div.wordlist p.example,
-.content div.wordlist p.example_no_lines {
-    margin-left: 10%;
-}
-
-main div.folding {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-.content div.columns,
-.content div.left-columns {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.content div.columns table th,
-.content div.columns table td,
-.content div.left-columns table th,
-.content div.left-columns table td {
-    border: none;
-    padding: 0.5em 0.5em;
-}
-
-.content div.left-columns table th,
-.content div.left-columns table td {
-    text-align: left;
-}
-
-.content .paragraph {
-    padding-top: 1em;
-    font-family: georgia, serif;
-}
-
-input#Transliteration:checked~.paragraph p:nth-child(1) {
-    display: inline;
-    margin-left: 0;
-}
-
-input#Transliteration:checked~.paragraph div.folding {
-    display: inline;
-}
-
-input#Transliteration:checked~.paragraph p:nth-child(1) strong {
-    font-weight: normal;
-}
-
-input#Transliteration:checked~.paragraph p:not(:nth-child(1)) {
-    display: none;
-}
-
-input#English:checked~.paragraph p:last-child {
-    display: inline;
-    margin-left: 0;
-}
-
-input#English:checked~.paragraph div.folding {
-    display: inline;
-}
-
-input#English:checked~.paragraph p:not(:last-child) {
-    display: none;
-}
-
-input#Tinellbian:checked~.paragraph {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-}
-
-input#Tinellbian:checked~.paragraph p:nth-child(2) {
-    display: inline;
-    margin-left: 0;
-}
-
-input#Tinellbian:checked~.paragraph div.folding {
-    display: inline;
-}
-
-input#Tinellbian:checked~.paragraph p:not(:nth-child(2)) {
-    display: none;
-}
-
-input#All:checked~.paragraph {
-    border-bottom: 1px solid blue;
-    padding: 0;
-}
-
-input#All:checked~.paragraph p {
-    margin-top: 0;
-}
-
-input:checked:not(#All)~.paragraph input {
-    display: none;
-}
-
 @media screen and (max-width: 800px) {
-    divmain {
-        width: 100%;
-        margin-left: 0;
+    .desktop {
+        display: none;
     }
 
-    divmain p {
-        margin-left: 5%;
-        margin-right: 5%;
+    .mobile {
+        display: initial;
     }
 
-    divmain .folding p {
-        margin-right: 0;
-    }
-
-    .content div.wordlist p.example,
-    .content div.wordlist p.example_no_lines {
-        margin-left: 5%;
-    }
-
-    main div.wordlist {
-        margin-left: 10%;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        margin-right: 0;
-    }
 }

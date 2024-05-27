@@ -1,14 +1,19 @@
 default:
   props:
     font: Times New Roman
+    ime: autocorrect
     size: 18
 a:
   props:
     underline: true
     colour: '#0022ff'
   key: A
-caption:
-  type: line
+desktop:
+  type: div
+  key: Alt-D
+  rank: 150
+  props:
+    background: '#dd33dd'
 em:
   props:
     italics: true
@@ -19,6 +24,13 @@ external:
   props:
     underline: true
     colour: '#3366ff'
+figure:
+  type: block
+figcaption:
+  type: line
+  props:
+    size: 90
+    left: 15
 h2:
   props:
     bold: true
@@ -69,6 +81,12 @@ hierarchy:
   type: table
   open: <table class="hierarchy">
   close: </table>
+mobile:
+  type: div
+  key: Alt-M
+  rank: 150
+  props:
+    background: '#dddd33'
 overbar:
   props:
     strikeout: true
