@@ -118,27 +118,27 @@ entries:
                   - <h5>Doublets</h5>
                   - A pair of darill form a neutrino (<symbol>ν</symbol>). These only interact with gravity and the weak force. Neutrinos are massless, and are their own antiparticle.
                   - <h5>Triplets</h5>
-                  - <figure><table><thead>|hc2 ↑ |hc2 ↓</thead>
+                  - <figure><table><thead>h |hc2 ↑ |hc2 ↓</thead>
                   - <tbody>h ↑↑ | halvon | <symbol>ч</symbol> | grain | <symbol>з</symbol>
-                  - h ↓↓ | antihalvon | <symbol><overbar>ч</overbar></symbol> | antigrain | <symbol><overbar>з
-                  - </overbar></symbol></tbody></table><figcaption>The particles formed of three darill. These consist of a base neutrino and an additional darill.</figcaption></figure>
+                  - h ↓↓ | antihalvon | <overbar><symbol>ч</symbol></overbar> | antigrain | <overbar><symbol>з
+                  - </symbol></overbar></tbody></table><figcaption>The particles formed of three darill. These consist of a base neutrino and an additional darill.</figcaption></figure>
                   - <h6>Halvons</h6>
                   - Three darill of the same charge, (↑↑↑) or (↓↓↓), form a halvon. Particles involving a halvon interact with the electromagnetic force.
                   - <h6>Grains</h6>
                   - Three darill of different charges, (↑↑↓) or (↓↓↑), form a grain. Particles involving a grain interact with the strong force.
                   - <h7>Hextuples</h7>
                   - Hextuples consist of two triplets.
-                  - <desktop><figure><table><thead>|c2 <symbol>ч</symbol> |c2 <symbol>з</symbol> |c2 <symbol>ч</symbol> |c2 <symbol>з</symbol></thead>
-                  - <tbody> <symbol><em>ч</em></symbol> | charged antilepton | <symbol><em><overbar>ℓ</overbar></em></symbol> | photon | <symbol>γ</symbol> | large quark | <symbol><small-caps>q</small-caps></symbol> | small antiquark | <symbol><em><overbar>q</overbar></em></symbol>
-                  - ' <symbol><overbar>ч</overbar></symbol> |c2 | charged lepton | <symbol>ℓ</symbol> | small quark | <symbol>q</symbol> | large antiquark | <symbol><small-caps><overbar>q</overbar></small-caps></symbol>'
+                  - <desktop><figure><table><thead>h |c2 <symbol>ч</symbol> |c2 <symbol>з</symbol> |c2 <symbol>ч</symbol> |c2 <symbol>з</symbol></thead>
+                  - <tbody> <symbol><em>ч</em></symbol> | charged antilepton | <overbar><symbol><em>ℓ</em></symbol></overbar> | photon | <symbol>γ</symbol> | large quark | <symbol><small-caps>q</small-caps></symbol> | small antiquark | <overbar><symbol><em>q</em></symbol></overbar>
+                  - ' <overbar><symbol>ч</symbol></overbar> |c2 | charged lepton | <symbol>ℓ</symbol> | small quark | <symbol>q</symbol> | large antiquark | <overbar><symbol><small-caps>q</small-caps></symbol></overbar>'
                   - ' <symbol>з</symbol> |c4 | bigrain | <symbol>ф</symbol> | gluon | <symbol>g</symbol>'
-                  - ' <symbol><overbar>з</overbar></symbol> |c6 | antibigrain | <symbol><overbar>ф'
-                  - </overbar></symbol></tbody></table><figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½</figcaption></figure></desktop>
-                  - <mobile><figure><table><thead>| <symbol>ч</symbol> | <symbol>з</symbol> | <symbol>ч</symbol> | <symbol>з</symbol></thead>
-                  - <tbody> <symbol><em>ч</em></symbol> | <symbol><em><overbar>ℓ</overbar></em></symbol> | <symbol>γ</symbol> | <symbol><small-caps>q</small-caps></symbol> | <symbol><em><overbar>q</overbar></em></symbol>
-                  - ' <symbol><overbar>ч</overbar></symbol> |c1 | <symbol>ℓ</symbol> | <symbol>q</symbol> | <symbol><small-caps><overbar>q</overbar></small-caps></symbol>'
+                  - ' <overbar><symbol>з</symbol></overbar> |c6 | antibigrain | <overbar><symbol>ф'
+                  - </symbol></overbar></tbody></table><figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½</figcaption></figure></desktop>
+                  - <mobile><figure><table><thead>h | <symbol>ч</symbol> | <symbol>з</symbol> | <symbol>ч</symbol> | <symbol>з</symbol></thead>
+                  - <tbody> <symbol><em>ч</em></symbol> | <overbar><symbol><em>ℓ</em></symbol></overbar> | <symbol>γ</symbol> | <symbol><small-caps>q</small-caps></symbol> | <overbar><symbol><em>q</em></symbol></overbar>
+                  - ' <overbar><symbol>ч</symbol></overbar> |c1 | <symbol>ℓ</symbol> | <symbol>q</symbol> | <overbar><symbol><small-caps>q</small-caps></symbol></overbar>'
                   - ' <symbol>з</symbol> |c2 | <symbol>ф</symbol> | <symbol>g</symbol>'
-                  - ' <symbol><overbar>з</overbar></symbol> |c3 | <symbol><overbar>ф</overbar></symbol></tbody></table>'
+                  - ' <overbar><symbol>з</symbol></overbar> |c3 | <overbar><symbol>ф</symbol></overbar></tbody></table>'
                   - <figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½.
                   - '<br>|</br>Key — <symbol>ℓ</symbol>: charged lepton, <symbol>γ</symbol>: photon, <symbol>q</symbol>: small quark, <symbol><small-caps>q</small-caps></symbol>: large quark, <symbol>ф</symbol>: bigrain, <symbol>g</symbol>: gluon.</figcaption></figure></mobile>'
                   - <h7>Charged Leptons</h7>
@@ -148,7 +148,7 @@ entries:
                   - h 2 | muon | <symbol>μ</symbol>
                   - h 3 | tau | <symbol>τ</symbol>
                   - h 4 | yaon | <symbol>я</symbol></tbody></table>
-                  - <figcaption>The different energy states of the charged (anti-)lepton. The antielectron (<symbol><overbar>e</overbar></symbol>) is also called the <em>positron</em>.</figcaption></figure>
+                  - <figcaption>The different energy states of the charged (anti-)lepton. The antielectron (<overbar><symbol>e</symbol></overbar>) is also called the <em>positron</em>.</figcaption></figure>
                   - <h7>Photons</h7>
                   - The photon is its own antiparticle. It has no mass and no charge. It is the carrier for the electromagnetic force.
                   - <h7>Quarks</h7>
@@ -178,10 +178,10 @@ entries:
                   - <h7>Bigrains</h7>
                   - Bigrains have electric charge 0 and color charge ∓⅓. As they have non-integer color charge, they cannot be found moving freely, and are thus only found within nucleons.
                   - <h5>Massive gauge bosons</h5>
-                  - <figure><table><thead>| <symbol>чч</symbol> | <symbol>ч<overbar>ч</overbar></symbol> | <symbol><overbar>чч</overbar></symbol></thead>
+                  - <figure><table><thead>h | <symbol>чч</symbol> | <symbol>ч<overbar>ч</overbar></symbol> | <overbar><symbol>чч</symbol></overbar></thead>
                   - <tbody> <symbol>зз</symbol> | <boson>x</boson><sup>+4/3</sup> | <boson>y</boson><sup>+⅓</sup> | <boson>v</boson><sup>-⅔</sup>
                   - ' <symbol>з<overbar>з</overbar></symbol> | <boson>w</boson><sup>+1</sup> | <boson>z</boson><sup>0</sup> | <boson>w</boson><sup>-1</sup>'
-                  - ' <symbol><overbar>зз</overbar></symbol> | <boson>v</boson><sup>+⅔</sup> | <boson>y</boson><sup>-⅓</sup> | <boson>x</boson><sup>-4/3</sup></tbody></table>'
+                  - ' <overbar><symbol>зз</symbol></overbar> | <boson>v</boson><sup>+⅔</sup> | <boson>y</boson><sup>-⅓</sup> | <boson>x</boson><sup>-4/3</sup></tbody></table>'
                   - <figcaption>The massive gauge bosons, each formed by the combination of two halvons and two grains.</figcaption></figure>
                   - These are very unstable particles. Over such a short lifetime, the grain pair can spontaneously become a pair of free darill.
                   - These bosons mediate the weak force, which allows for shuffling of darill. The bosons on the middle row are lighter than the others, and mediate flavour-changing interactions. The heaviest bosons are virtually never found under standard conditions, but at a high enough energy scale, mediate interactions in which quarks can become leptons and vice versa.

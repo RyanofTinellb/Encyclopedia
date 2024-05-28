@@ -158,6 +158,15 @@ main table.hierarchy td {
     height: 1em;
 }
 
+main table td:empty {
+    background-color: #ddd;
+    border: none;
+}
+
+main table tr:last-child td:empty {
+    border-bottom: 1px solid darkgray;
+}
+
 main .toc {
     border-left: 1px solid purple;
     border-bottom: 1px solid purple;
