@@ -8,6 +8,9 @@ a:
     underline: true
     colour: '#02f'
   key: A
+anchor:
+  type: anchor
+  key: Alt-n
 boson:
   type: span
 br:
@@ -87,18 +90,14 @@ hierarchy:
   type: table
   open: <table class="hierarchy">
   close: </table>
-key:
-  type: block
-  open: <ul class="key">
-  close: </ul>
-  start: <li>
-  end: </li>
 mobile:
   type: div
   key: Alt-M
   rank: 150
   props:
     background: '#dd3'
+no-breaks:
+  type: span
 overbar:
   props:
     strikeout: true

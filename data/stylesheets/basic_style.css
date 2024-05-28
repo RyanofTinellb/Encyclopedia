@@ -72,6 +72,10 @@ strong {
     cursor: none;
 }
 
+.no-breaks {
+    white-space: nowrap;
+}
+
 abbr.glossary {
     font-variant: small-caps;
     font-style: normal;
@@ -380,9 +384,9 @@ main .results a {
     }
 
     main {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     main div.desktop table {

@@ -106,6 +106,9 @@ h2 a {
 .boson {
     font-style: normal;
     font-variant-caps: small-caps;
+}
+
+table .boson {
     font-size: larger;
 }
 
@@ -116,7 +119,8 @@ h2 a {
 figcaption {
     font-size: smaller;
     text-align: center;
-
+    margin-left: -5%;
+    margin-right: -5%;
 }
 
 figcaption::before {
@@ -154,6 +158,22 @@ main table.hierarchy td {
     height: 1em;
 }
 
-
-@media screen and (max-width: 800px) {
+main .toc {
+    border-left: 1px solid purple;
+    border-bottom: 1px solid purple;
+    padding-left: 5%;
+    padding-bottom: 2rem;
 }
+
+main .toc p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main .toc::before {
+    content: "Chapters:";
+    line-height: 3;
+}
+
+
+@media screen and (max-width: 800px) {}
