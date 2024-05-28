@@ -23,10 +23,18 @@ desktop:
   rank: 150
   props:
     background: '#d3d'
+dictionary-link:
+  type: anchor
+  param: https://dictionary.tinellb.com/lex/$text$.html#english|$upper(text)$
+  key: Alt-d
+  props:
+    colour: '#3d3'
+    underline: true
+    ime: transliteration
 em:
   props:
     italics: true
-  key: i
+  key: m
 external:
   type: anchor
   param: $lookup:external$|$node$
@@ -40,6 +48,10 @@ figcaption:
   props:
     left: 15
     background: '#fd9'
+generic-anchor:
+  open: '<a '
+  pipe: '>'
+  close: '</a>'
 h2:
   props:
     bold: true
@@ -48,6 +60,7 @@ h2:
     underline: true
     top: 15
     bottom: 5
+    off-key: Return
   key: KeyPress-1
   type: heading
 h3:
@@ -55,12 +68,14 @@ h3:
     bold: true
     size: 115
     justification: centre
+    off-key: Return
   key: KeyPress-2
   type: heading
 h4:
   props:
     bold: true
     justification: centre
+    off-key: Return
     size: 110
   key: KeyPress-3
   type: heading
@@ -68,6 +83,7 @@ h5:
   props:
     bold: true
     justification: centre
+    off-key: Return
     size: 105
   key: KeyPress-4
   type: heading
@@ -75,6 +91,7 @@ h6:
   props:
     bold: true
     justification: centre
+    off-key: Return
     italics: true
     underline: true
     size: 100
@@ -85,11 +102,24 @@ h7:
     left: 150
     bold: true
     italics: true
+    off-key: Return
   type: heading
 hierarchy:
   type: table
   open: <table class="hierarchy">
   close: </table>
+i:
+  key: i
+  props:
+    italics: true
+img:
+  type: line
+  open: <img class="centre"
+  param: alt="$text$" title="$text$" src="$lookup:external$"
+  close: '>'
+  props:
+    left: 20
+    background: '#9f9'
 mobile:
   type: div
   key: Alt-M

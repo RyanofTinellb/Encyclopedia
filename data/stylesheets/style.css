@@ -11,6 +11,12 @@ a:visited {
     text-decoration: underline;
 }
 
+img.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .overbar {
     text-decoration: overline;
 }
@@ -158,13 +164,21 @@ main table.hierarchy td {
     height: 1em;
 }
 
+main table.hierarchy td:empty {
+    background-color: revert;
+}
+
+main table.hierarchy tr:last-child td:empty {
+    border-bottom: revert;
+}
+
 main table td:empty {
     background-color: #ddd;
     border: none;
 }
 
 main table tr:last-child td:empty {
-    border-bottom: 1px solid darkgray;
+    border-bottom: revert;
 }
 
 main .toc {
