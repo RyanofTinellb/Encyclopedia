@@ -6,14 +6,20 @@ default:
 a:
   props:
     underline: true
-    colour: '#0022ff'
+    colour: '#02f'
   key: A
+boson:
+  type: span
+br:
+  open: ''
+  close: <br>
+  pipe: ''
 desktop:
   type: div
   key: Alt-D
   rank: 150
   props:
-    background: '#dd33dd'
+    background: '#d3d'
 em:
   props:
     italics: true
@@ -23,14 +29,14 @@ external:
   param: $lookup:external$|$node$
   props:
     underline: true
-    colour: '#3366ff'
+    colour: '#36f'
 figure:
   type: block
 figcaption:
   type: line
   props:
-    size: 90
     left: 15
+    background: '#fd9'
 h2:
   props:
     bold: true
@@ -81,12 +87,18 @@ hierarchy:
   type: table
   open: <table class="hierarchy">
   close: </table>
+key:
+  type: block
+  open: <ul class="key">
+  close: </ul>
+  start: <li>
+  end: </li>
 mobile:
   type: div
   key: Alt-M
   rank: 150
   props:
-    background: '#dddd33'
+    background: '#dd3'
 overbar:
   props:
     strikeout: true
@@ -94,6 +106,7 @@ overbar:
   type: span
 small-caps:
   type: span
+  key: Alt-k
 strong:
   props:
     bold: true
@@ -105,7 +118,9 @@ symbol:
   props:
     size: 120
     italics: true
-  key: Alt-S
+    off-key: space
+    colour: '#33d'
+  key: Alt-s
   type: span
 table:
   type: table

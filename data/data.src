@@ -74,17 +74,23 @@ entries:
             Physics:
               children:
                 Particle Physics:
-                  date: '2024-05-27'
+                  date: '2024-05-28'
                   position: '21.57'
                   text:
                   - <h2>Fundamental Fields</h2>
                   - There are four fundamental <em>fields</em> that fill the universe. An excitation of a field is called a <em>particle</em>. The <em>spin</em> of a particle is a measure of its <em>intrinsic angular momentum</em>.
+                  - <figure><table><thead>h field |h symbol |h spin</thead>
+                  - <tbody> Higgs | <boson>h</boson> | 0
+                  - ' darill | <symbol>д</symbol> | ½'
+                  - ' spin | <boson>ƨ</boson> | 1'
+                  - ' gravity | <boson>g</boson> | 2</tbody></table>'
+                  - <figcaption>The four elementary fields. Three of these have integer spin, the darill is the only field with half-integer spin.</figcaption></figure>
                   - <h3>Higgs</h3>
                   - The Higgs field gives particles their mass in much the same way as the spin field imparts angular momentum.
-                  - <h3>Spin Field</h3>
-                  - The spin <strong>field</strong> gives particles their spin. Different values of spin are due to different coupling strengths between the spin field and any other given field.
                   - <h3>Darill</h3>
                   - It would not be altogether inaccurate to consider the <em>darill</em> as <strong>the</strong> fundamental particle. Darill form all non-fundamental particles and are the main topic of this work.
+                  - <h3>Spin Field</h3>
+                  - The spin field gives particles their spin. Different values of spin are due to different coupling strengths between the spin field and any other given field.
                   - <h3>Gravity</h3>
                   - Gravity is mediated by the graviton.
                   - <h2>Behaviour at Different Scales</h2>
@@ -114,7 +120,7 @@ entries:
                   - <h5>Triplets</h5>
                   - <figure><table><thead>|hc2 ↑ |hc2 ↓</thead>
                   - <tbody>h ↑↑ | halvon | <symbol>ч</symbol> | grain | <symbol>з</symbol>
-                  - h ↓↓ | antihalvon | <overbar><symbol>ч</symbol></overbar> | antigrain | <symbol><overbar>з
+                  - h ↓↓ | antihalvon | <symbol><overbar>ч</overbar></symbol> | antigrain | <symbol><overbar>з
                   - </overbar></symbol></tbody></table><figcaption>The particles formed of three darill. These consist of a base neutrino and an additional darill.</figcaption></figure>
                   - <h6>Halvons</h6>
                   - Three darill of the same charge, (↑↑↑) or (↓↓↓), form a halvon. Particles involving a halvon interact with the electromagnetic force.
@@ -122,46 +128,59 @@ entries:
                   - Three darill of different charges, (↑↑↓) or (↓↓↑), form a grain. Particles involving a grain interact with the strong force.
                   - <h7>Hextuples</h7>
                   - Hextuples consist of two triplets.
-                  - <figure><desktop><table><thead>|c2 <symbol>ч</symbol> |c2 <symbol>з</symbol> |c2 <symbol>ч</symbol> |c2 <symbol>з</symbol></thead>
-                  - <tbody> <em><symbol>ч</symbol></em> | charged lepton | <em><symbol>ℓ</symbol></em> | photon | <symbol>γ</symbol> | large quark | <small-caps><symbol>q</symbol></small-caps> | small antiquark | <em><symbol><overbar>q</overbar></symbol></em>
-                  - ' <symbol><overbar>ч</overbar></symbol> |c2 | charged antilepton | <symbol><overbar>ℓ</overbar></symbol> | small quark | <symbol>q</symbol> | large antiquark | <small-caps><symbol><overbar>q</overbar></symbol></small-caps>'
+                  - <desktop><figure><table><thead>|c2 <symbol>ч</symbol> |c2 <symbol>з</symbol> |c2 <symbol>ч</symbol> |c2 <symbol>з</symbol></thead>
+                  - <tbody> <em><symbol>ч</symbol></em> | charged antilepton | <em><symbol><overbar>ℓ</overbar></symbol></em> | photon | <symbol>γ</symbol> | large quark | <small-caps><symbol>q</symbol></small-caps> | small antiquark | <em><symbol><overbar>q</overbar></symbol></em>
+                  - ' <symbol><overbar>ч</overbar></symbol> |c2 | charged lepton | <symbol>ℓ</symbol> | small quark | <symbol>q</symbol> | large antiquark | <small-caps><symbol><overbar>q</overbar></symbol></small-caps>'
                   - ' <symbol>з</symbol> |c4 | bigrain | <symbol>ф</symbol> | gluon | <symbol>g</symbol>'
                   - ' <symbol><overbar>з</overbar></symbol> |c6 | antibigrain | <symbol><overbar>ф'
-                  - </overbar></symbol></tbody></table><figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½</figcaption>
-                  - </desktop></figure><mobile><figure><table><thead>| <symbol>ч</symbol> | <symbol>з</symbol> | <symbol>ч</symbol> | <symbol>з</symbol></thead>
-                  - <tbody> <em><symbol>ч</symbol></em> | <em><symbol>ℓ</symbol></em> | <symbol>γ</symbol> | <small-caps><symbol>q</symbol></small-caps> | <em><symbol><overbar>q</overbar></symbol></em>
-                  - ' <symbol><overbar>ч</overbar></symbol> |c1 | <symbol><overbar>ℓ</overbar></symbol> | <symbol>q</symbol> | <small-caps><symbol><overbar>q</overbar></symbol></small-caps>'
+                  - </overbar></symbol></tbody></table><figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½</figcaption></figure></desktop>
+                  - <mobile><figure><table><thead>| <symbol>ч</symbol> | <symbol>з</symbol> | <symbol>ч</symbol> | <symbol>з</symbol></thead>
+                  - <tbody> <em><symbol>ч</symbol></em> | <em><symbol><overbar>ℓ</overbar></symbol></em> | <symbol>γ</symbol> | <small-caps><symbol>q</symbol></small-caps> | <em><symbol><overbar>q</overbar></symbol></em>
+                  - ' <symbol><overbar>ч</overbar></symbol> |c1 | <symbol>ℓ</symbol> | <symbol>q</symbol> | <small-caps><symbol><overbar>q</overbar></symbol></small-caps>'
                   - ' <symbol>з</symbol> |c2 | <symbol>ф</symbol> | <symbol>g</symbol>'
-                  - ' <symbol><overbar>з</overbar></symbol> |c3 | <symbol><overbar>ф'
-                  - </overbar></symbol></tbody></table><figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½</figcaption></figure></mobile>
+                  - ' <symbol><overbar>з</overbar></symbol> |c3 | <symbol><overbar>ф</overbar></symbol></tbody></table>'
+                  - <figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½.
+                  - '<br>|</br>Key — <symbol>ℓ</symbol>: charged lepton, <symbol>γ</symbol>: photon, <symbol>q</symbol>: small quark, <small-caps><symbol>q</symbol></small-caps>: large quark, <symbol>ф</symbol>: bigrain, <symbol>g</symbol>: gluon.</figcaption></figure></mobile>'
                   - <h7>Charged Leptons</h7>
                   - The charged leptons have spin ½, electric charge ±1, and color charge 0.
-                  - <table><thead>h Generation |h Name |h Symbol</thead>
-                  - <tbody> 1 | electron | <symbol>e</symbol>
-                  - ' 2 | muon | <symbol>μ</symbol>'
-                  - ' 3 | tau | <symbol>τ</symbol>'
-                  - ' 4 | yaon | <symbol>я</symbol></tbody></table>'
+                  - <figure><table><thead>h Generation |h Name |h Symbol</thead>
+                  - h<tbody> 1 | electron | <symbol>e</symbol>
+                  - h 2 | muon | <symbol>μ</symbol>
+                  - h 3 | tau | <symbol>τ</symbol>
+                  - h 4 | yaon | <symbol>я</symbol></tbody></table>
+                  - <figcaption>The different energy states of the charged (anti-)lepton. The antielectron (<symbol><overbar>e</overbar></symbol>) is also called the <em>positron</em>.</figcaption></figure>
                   - <h7>Photons</h7>
                   - The photon is its own antiparticle. It has no mass and no charge. It is the carrier for the electromagnetic force.
                   - <h7>Quarks</h7>
                   - Quarks have spin ½ and color charge ±⅓. Large quarks have electric charge ±⅔ and small quarks have electric charge ±⅓.
-                  - <figure><table><thead>hr3 Generation |hc3 Large Quarks |hc3 Small Quarks
+                  - <desktop><figure><table><thead>hr3 Generation |hc3 Large Quarks |hc3 Small Quarks
                   - hc2 Name |hr2 Symbol |hc2 Name |hr2 Symbol
                   - h Prosaic |h Poetic |h Prosaic |h Poetic</thead>
-                  - <tbody> 1 | up | unique | <symbol>u</symbol> | down | dream | <symbol>d</symbol>
-                  - ' 2 | centre | charm | <symbol>c</symbol> | spiral | strange | <symbol>s</symbol>'
-                  - ' 3 | top | truth | <symbol>t</symbol> | bottom | beauty | <symbol>b</symbol>'
-                  - ' 4 | left | love | <symbol>l</symbol> | right | rhyme | <symbol>r</symbol></tbody></table>'
-                  - <figcaption><table>The quarks. Each quark has both a prosaic and a poetic name, which are used interchangeably.</table></figcaption></figure>
+                  - h<tbody> 1 | up | unique | <symbol>u</symbol> | down | dream | <symbol>d</symbol>
+                  - h 2 | centre | charm | <symbol>c</symbol> | spiral | strange | <symbol>s</symbol>
+                  - h 3 | top | truth | <symbol>t</symbol> | bottom | beauty | <symbol>b</symbol>
+                  - h 4 | left | love | <symbol>l</symbol> | right | rhyme | <symbol>r</symbol></tbody></table>
+                  - <figcaption>The quarks. Each quark has both a prosaic and a poetic name, which are used interchangeably.</figcaption></figure></desktop>
+                  - <mobile><figure><table><thead>hr2 Generation |hc2 Name |hr2 Symbol
+                  - h Prosaic |h Poetic</thead>
+                  - <tbody>hr2 1 | up | unique | <symbol>u</symbol>
+                  - ' down | dream | <symbol>d</symbol>'
+                  - hr2 2 | centre | charm | <symbol>c</symbol>
+                  - ' spiral | strange | <symbol>s</symbol>'
+                  - hr2 3 | top | truth | <symbol>t</symbol>
+                  - ' bottom | beauty | <symbol>b</symbol>'
+                  - hr2 4 | left | love | <symbol>l</symbol>
+                  - ' right | rhyme | <symbol>r</symbol></tbody></table>'
+                  - <figcaption>The quarks. Each quark has both a prosaic and a poetic name, which are used interchangeably.</figcaption></figure></mobile>
                   - <h7>Gluons</h7>
                   - Gluons have electric charge 0 and overall color charge 0. They carry the strong force.
                   - <h7>Bigrains</h7>
                   - Bigrains have electric charge 0 and color charge ∓⅓. They are only found within nucleons.
                   - <h5>Massive gauge bosons</h5>
                   - <table><thead>| <symbol>чч</symbol> | <symbol>ч<overbar>ч</overbar></symbol> | <symbol><overbar>чч</overbar></symbol></thead>
-                  - <tbody> <symbol>зз</symbol> | <symbol><small-caps>x</small-caps><sup>+</sup></symbol> | <symbol><small-caps>y</small-caps><sup>+</sup></symbol> | <symbol><small-caps>v</small-caps><sup>-</sup></symbol>
-                  - ' <symbol>з<overbar>з</overbar></symbol> | <symbol><small-caps>w</small-caps><sup>+</sup></symbol> | <symbol><small-caps>z</small-caps><sup>0</sup></symbol> | <symbol><small-caps>w</small-caps><sup>-</sup></symbol>'
-                  - ' <symbol><overbar>зз</overbar></symbol> | <symbol><small-caps>v</small-caps><sup>+</sup></symbol> | <symbol><small-caps>y</small-caps><sup>-</sup></symbol> | <symbol><small-caps>x</small-caps><sup>-</sup></symbol></tbody></table>'
+                  - <tbody> <symbol>зз</symbol> | <boson>x</boson><sup>+</sup> | <boson>y</boson><sup>+</sup> | <boson>v</boson><sup>-</sup>
+                  - ' <symbol>з<overbar>з</overbar></symbol> | <boson>w</boson><sup>+</sup> | <boson>z</boson><sup>0</sup> | <boson>w</boson><sup>-</sup>'
+                  - ' <symbol><overbar>зз</overbar></symbol> | <boson>v</boson><sup>+</sup> | <boson>y</boson><sup>-</sup> | <boson>x</boson><sup>-</sup></tbody></table>'
                   - <h3>Large Scale</h3>
                   - Only about 15% of darill can be found forming quasiparticles at any one time. The rest do not interact via the electromagnetic or strong forces. Gravity is the dominant force at these scales, as it is the only long-range force that interacts with the darill sea.
               date: null

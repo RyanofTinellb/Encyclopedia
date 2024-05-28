@@ -11,10 +11,6 @@ a:visited {
     text-decoration: underline;
 }
 
-.mobile {
-    display: none;
-}
-
 .overbar {
     text-decoration: overline;
 }
@@ -100,6 +96,7 @@ h2 a {
 
 .symbol {
     font-style: italic;
+    font-size: larger;
 }
 
 .small-caps {
@@ -108,14 +105,12 @@ h2 a {
 
 .boson {
     font-style: normal;
+    font-variant-caps: small-caps;
+    font-size: larger;
 }
 
 .antimatter {
     text-decoration: overline;
-}
-
-figure {
-    margin-bottom: 2em;
 }
 
 figcaption {
@@ -159,13 +154,6 @@ main table.hierarchy td {
     height: 1em;
 }
 
+
 @media screen and (max-width: 800px) {
-    .desktop {
-        display: none;
-    }
-
-    .mobile {
-        display: initial;
-    }
-
 }

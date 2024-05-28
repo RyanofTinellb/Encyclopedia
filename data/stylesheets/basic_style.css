@@ -27,12 +27,6 @@ a:visited {
     display: block;
 }
 
-.symbol {
-    font-family: serif;
-    font-style: italic;
-    font-size: larger;
-}
-
 .ipa {
     font-family: 'lucida sans unicode', 'segoe ui', monospace, sans-serif;
 }
@@ -396,7 +390,6 @@ main .results a {
     }
 
     main div.mobile table {
-        display: initial;
         margin-left: auto;
         margin-right: auto;
     }
