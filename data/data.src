@@ -187,31 +187,32 @@ entries:
                   - These bosons mediate the weak force, which allows for shuffling of darill. The bosons on the middle row are lighter than the others, and mediate flavour-changing interactions. The heaviest bosons are virtually never found under standard conditions, but at a high enough energy scale, mediate interactions in which quarks can become leptons and vice versa.
                   - <h3>Large Scale</h3>
                   - Only about 15% of darill can be found forming quasiparticles at any one time. The rest do not interact via the electromagnetic or strong forces, and so are called “dark” matter. Gravity is the dominant force at these scales, as it is the only long-range force that interacts with the darill sea.
-              date: '2024-05-28'
-              text:
-              - The Universe, <i>i.e.:</i> all that exists, is likely infinite in extent. Tinellb is the name given to a particular <dictionary-link>bubble</dictionary-link> within the <external>bulk</external>, which takes the form of a 10‑dimensional ellipsoid.
-              - <h2>Dimensions</h2>
-              - <figure><table><thead>h dimension |h number</thead>
-              - <tbody> reality | 1
-              - ' time | 2'
-              - ' space | 3'
-              - ' gingla | 4</tbody></table>'
-              - <figcaption>How many of each dimension exist in Tinellb</figcaption></figure>
-              - <h3>Reality</h3>
-              - There is one relative dimension, which measures the separation between parallel worlds. Movement along this dimension can only occur via wormhole. There are approximately 1 million realities. Within this work, they are labelled with an alphanumeric code consisting of an uppercase Latin character, a three‑ or four‑digit number, and a lowercase Greek letter. For example, the planet <dictionary-link>$solaji</dictionary-link> is found in reality <universe>F<sup>996</sup>ξ</universe>.
-              - As there are such a small number of <em>actual</em> realities, compared to the number of <em>possible</em> realities, there is basically zero chance of finding two planets that are complete or partial copies of each other. If one being were to meet another being similar to themself, there would be no particular connection between them beyond their similarity.
-              - <h3>Time</h3>
-              - There are two temporal dimensions, subjective time and objective time. Movement through either is usually involuntary, continuous and unidirectional. One will always grow older within one’s frame of reference.
-              - Movement through subjective time can not be altered. One will always grow older within one’s frame of reference. However, movement through objective time can be altered according to the rules of <external>special relativity</external> or be navigated by use of wormholes.
-              - <h3>Space</h3>
-              - 'There are three spatial dimensions, which are continuous and indistinguishable from each other. They allow free movement in any direction. They are macroscopic, and topologically flat on large scales. '
-              - <h3>Gingla</h3>
-              - There are four ginglaic dimensions. They are continuous, similarly to space. However, they are microscopic, and bundled together similar to a <external>Calabi–Yau manifold</external>.
-              - <figure><img>This is an image of a two-dimensional hypersurface of the quintic Calabi–Yau three-fold</img>
-              - <figcaption>The bundled ginglaic dimensions, represented here by a Calabi‑Yau manifold. <i>Image attributed to user Jbourjai on <anchor>https://en.wikipedia.org/wiki/File:Calabi_yau.jpg|Wikimedia</anchor>.</i></figcaption></figure>
-              - Movement through gingla is chaotic. Most movement is involuntary, however voluntary movement is possible for some individuals.
-              - <h2>Wormholes</h2>
-              - Wormholes allow for movement through time, space, reality and gingla.
+                Spacetime:
+                  date: '2024-05-28'
+                  text:
+                  - The Universe, <i>i.e.:</i> all that exists, is likely infinite in extent. Tinellb is the name given to a particular <dictionary-link>bubble</dictionary-link> within the <external>bulk</external>, which takes the form of a 10‑dimensional ellipsoid.
+                  - <h2>Dimensions</h2>
+                  - <figure><table><thead>h dimension |h number</thead>
+                  - <tbody> reality | 1
+                  - ' time | 2'
+                  - ' space | 3'
+                  - ' gingla | 4</tbody></table>'
+                  - <figcaption>How many of each dimension exist in Tinellb</figcaption></figure>
+                  - <h3>Reality</h3>
+                  - There is one relative dimension, which measures the separation between parallel worlds. Movement along this dimension can only occur via wormhole. There are approximately 1 million realities. Within this work, they are labelled with an alphanumeric code consisting of an uppercase Latin character, a three‑ or four‑digit number, and a lowercase Greek letter. For example, the planet <dictionary-link>$solaji</dictionary-link> is found in reality <universe>F<sup>996</sup>ξ</universe>.
+                  - As there are such a small number of <em>actual</em> realities, compared to the number of <em>possible</em> realities, there is basically zero chance of finding two planets that are complete or partial copies of each other. If one being were to meet another being similar to themself, there would be no particular connection between them beyond their similarity.
+                  - <h3>Time</h3>
+                  - There are two temporal dimensions, subjective time and objective time. Movement through either is usually involuntary, continuous and unidirectional. One will always grow older within one’s frame of reference.
+                  - Movement through subjective time can not be altered. One will always grow older within one’s frame of reference. However, movement through objective time can be altered according to the rules of <external>special relativity</external> or be navigated by use of wormholes.
+                  - <h3>Space</h3>
+                  - 'There are three spatial dimensions, which are continuous and indistinguishable from each other. They allow free movement in any direction. They are macroscopic, and topologically flat on large scales. '
+                  - <h3>Gingla</h3>
+                  - There are four ginglaic dimensions. They are continuous, similarly to space. However, they are microscopic, and bundled together similar to a <external>Calabi–Yau manifold</external>.
+                  - <figure><img>This is an image of a two-dimensional hypersurface of the quintic Calabi–Yau three-fold</img>
+                  - <figcaption>The bundled ginglaic dimensions, represented here by a Calabi‑Yau manifold. <i>Image attributed to user Jbourjai on <anchor>https://en.wikipedia.org/wiki/File:Calabi_yau.jpg|Wikimedia</anchor>.</i></figcaption></figure>
+                  - Movement through gingla is chaotic. Most movement is involuntary, however voluntary movement is possible for some individuals.
+                  - <h2>Wormholes</h2>
+                  - Wormholes allow for movement through time, space, reality and gingla.
           date: null
           text: []
       date: '2024-05-19'
