@@ -4,7 +4,7 @@ assets:
 entries:
 - - Tinellbian Encyclopedia
   - Entries
-  - Tura
+  - Metaphysics
 files: C:\Users\Ryan\TinellbianLanguages\!smeagol\files.yml
 imes:
   autocorrect: C:\Users\Ryan\TinellbianLanguages\encyclopedia\data\assets\autocorrect.ime
@@ -12,6 +12,7 @@ language: 'en: English'
 languages: C:\Users\Ryan\TinellbianLanguages\toplevel\data\assets\languages.yml
 links:
   external: C:\Users\Ryan\TinellbianLanguages\toplevel\data\assets\external.glk
+  internal: C:\Users\Ryan\TinellbianLanguages\encyclopedia\data\assets\internal-links.glk
 locations:
   directory: c:\users\ryan\tinellbianlanguages\encyclopedia
   page404: C:\Users\Ryan\TinellbianLanguages\encyclopedia\404.html

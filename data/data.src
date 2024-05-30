@@ -2,6 +2,7 @@ directory:
 - Tinellbian Encyclopedia
 - - Entries
   - - Physics
+    - - Spacetime
     - - Particle Physics
   - - Metaphysics
     - - Emotion
@@ -50,11 +51,11 @@ entries:
             Metaphysics:
               children:
                 Emotion:
-                  date: '2024-05-26'
+                  date: '2024-05-30'
                   position: '3.11'
                   text:
                   - Emotions arise when a being has sufficiently complex thought, and thus the <external>heart</external> is an emergent phenomenon of the mind.  There are four recognised primary emotions, each of which has a positive and negative aspect.
-                  - <table><thead>|h negative|h neutral|h positive</thead>
+                  - <table><thead>h |h negative|h neutral|h positive</thead>
                   - <tbody>h zigûtic (wood) | dread | fear | caution
                   - h qoltic (wind) | misery | sorrow | melancholy
                   - h volzdic (fire) | anger | zeal | passion
@@ -69,16 +70,33 @@ entries:
                   - misery evaporates joy,
                   - joy quenches anger,
                   - anger burns caution.</ul>
-              date: null
-              text: []
+              date: '2024-05-30'
+              text:
+              - <h2>Planes of Existence</h2>
+              - At a fundamental level, existence is nothing more than the movement of darill acting under their own rules. As seen in the <internal-link>medium scale</internal-link> section of the <internal-link>particle physics</internal-link> chapter, though, it can still be useful to abstract this movement, and develop models to explain it.
+              - <planes-diagram><figure>Spiritual / soul
+              - ↑
+              - Emotional / heart
+              - ↑
+              - Mental / mind
+              - ↑
+              - Physical / body
+              - ↑
+              - Fifth Plane / self
+              - ⇡
+              - Darill</figure></planes-diagram>
+              - <figcaption>The five planes of existence that emanate from the darill, and their associated bodies</figcaption>
+              - 'In this model, each plane is emergent from the one below: a sufficiently complex structure on one level gives rise to phenomena on a higher level that are greater than the sum of their parts. For a lifeform, a body is associated with each plane.'
+              - <h3>Fifth Plane</h3>
+              - The fifth plane, also known as the “energy plane”, or the “fifth plane, which binds”, is the realm in which darill form quasi‑particles. A body on this level is called a Self.
             Physics:
               children:
                 Particle Physics:
-                  date: '2024-05-28'
+                  date: '2024-05-30'
                   position: '21.57'
                   text:
                   - <h2>Fundamental Fields</h2>
-                  - There are four fundamental <em>fields</em> that fill the universe. An excitation of a field is called a <em>particle</em>. The <em>spin</em> of a particle is a measure of its <em>intrinsic angular momentum</em>.
+                  - There are four fundamental fields that fill the universe. An excitation of a field is called a particle. The spin of a particle is a measure of its intrinsic angular momentum.
                   - <figure><table><thead>h field |h symbol |h spin</thead>
                   - <tbody> Higgs | <boson>h</boson> | 0
                   - ' darill | <symbol>д</symbol> | ½'
@@ -88,7 +106,7 @@ entries:
                   - <h3>Higgs</h3>
                   - The Higgs field gives particles their mass in much the same way as the spin field imparts angular momentum.
                   - <h3>Darill</h3>
-                  - It would not be altogether inaccurate to consider the <em>darill</em> as <strong>the</strong> fundamental particle. Darill form all non-fundamental particles and are the main topic of this work.
+                  - It would not be altogether inaccurate to consider the darill as <em>the</em> fundamental particle. Darill form all non-fundamental particles and are the main topic of this work.
                   - <h3>Spin Field</h3>
                   - The spin field gives particles their spin. Different values of spin are due to different coupling strengths between the spin field and any other given field.
                   - <h3>Gravity</h3>
@@ -98,21 +116,21 @@ entries:
                   - The dynamics of individual darill are poorly understood. On the smallest scale, they display chaotic behaviour, interacting with gravity and with themselves.
                   - <h3>Medium Scale</h3>
                   - What we call reality is an emergent phenomenon. An analogy can be drawn with water waves on the ocean. A wave is made of particles, but the structure itself comes from bulk movement.  A wave can move across the entire Pacific; its component molecules move only a short distance. Darill act the same way.
-                  - 'On this scale, the collective behaviour of darill can be treated as if they formed (<em>quasi-</em>)<em>particles</em> or <em>complices</em> (singular: <em>complex</em>). Any specific darill will only be involved momentarily. However, it is useful to model this complex as containing a certain number of <em>valence darill</em>. They each have a positive <no-breaks>(+1, ↑)</no-breaks> or negative <no-breaks>(-1, ↓)</no-breaks> <em>intrinsic charge</em>, which manifests as <em>induced charge</em> under specific circumstances.'
+                  - 'On this scale, the collective behaviour of darill can be treated as if they formed (quasi-)particles or complices (singular: complex). Any specific darill will only be involved momentarily. However, it is useful to model this complex as containing a certain number of valence darill. They each have a positive <no-breaks>(+1, ↑)</no-breaks> or negative <no-breaks>(-1, ↓)</no-breaks> intrinsic charge, which manifests as induced charge under specific circumstances.'
                   - <h4>Interactions</h4>
-                  - There are three interactions that only couple with darill when they form complexes. These are the <em>electromagnetic</em>, the <em>strong</em> and the <em>weak</em> forces. They are each mediated by quasiparticles.
-                  - 'For the electromagnetic and strong forces, the induced charge is the product of the intrinsic charge and a given <em>force constant</em>. Particles can only move freely if they have values of induced charge equal to an integer multiple of their<em> quanta</em> (singular: <em>quantum</em>).'
+                  - There are three interactions that only couple with darill when they form complexes. These are the electromagnetic, the strong and the weak forces. They are each mediated by quasiparticles.
+                  - 'For the electromagnetic and strong forces, the induced charge is the product of the intrinsic charge and a given force constant. Particles can only move freely if they have values of induced charge equal to an integer multiple of their quanta (singular: quantum).'
                   - <h5>Electromagnetism</h5>
                   - When the electromagnetic force interacts with a complex, it induces an electric charge of ⅙ of the intrinsic charge.
-                  - <h5>Strong force
-                  - </h5>When the strong force interacts with a complex, it induces a color charge of ⅓ of the intrinsic charge.
-                  - <h5>Weak force
-                  - </h5>The weak force is involved in rearranging darill. There are a number of types of charge that can be induced under this interaction, some of which can also be induced even in non-valence darill. They are heavily dependent on the circumstances, and are not easily calculated as they are not necessarily proportional to intrinsic charge. The mechanics of the weak force on darill are thereby beyond the scope of this work.
+                  - <h5>Strong force</h5>
+                  - When the strong force interacts with a complex, it induces a color charge of ⅓ of the intrinsic charge.
+                  - <h5>Weak force</h5>
+                  - The weak force is involved in rearranging darill. There are a number of types of charge that can be induced under this interaction, some of which can also be induced even in non-valence darill. They are heavily dependent on the circumstances, and are not easily calculated as they are not necessarily proportional to intrinsic charge. The mechanics of the weak force on darill are thereby beyond the scope of this work.
                   - <h4>Particles</h4>
-                  - <h5>Fermions and Bosons
-                  - </h5>A particle with integer spin (0, 1, 2…) is a boson, while a particle with half-integer spin (½, 3/2, 5/2…) is a fermion. Two fermions cannot occupy the same state, but the same is not true of bosons.
-                  - <h5>Matter and Antimatter
-                  - </h5>Two particles of identical mass with properties of the opposite sign are antiparticles. For instance, a particle with +1 charge will have an antiparticle with -1 charge. Uncharged particles may have antiparticles if they have other properties with opposite sign, or they may be their own antiparticles.
+                  - <h5>Fermions and Bosons</h5>
+                  - A particle with integer spin (0, 1, 2…) is a boson, while a particle with half-integer spin (½, 3/2, 5/2…) is a fermion. Two fermions cannot occupy the same state, but the same is not true of bosons.
+                  - <h5>Matter and Antimatter</h5>
+                  - Two particles of identical mass with properties of the opposite sign are antiparticles. For instance, a particle with +1 charge will have an antiparticle with -1 charge. Uncharged particles may have antiparticles if they have other properties with opposite sign, or they may be their own antiparticles.
                   - Of a particle-antiparticle pair, one is arbitrarily labelled as matter, the other antimatter. In this document, antimatter particles have the prefix anti-, and appear with an overbar (<overbar>◌</overbar>).
                   - <h5>Generations</h5>
                   - <h5>Doublets</h5>
@@ -129,18 +147,18 @@ entries:
                   - <h7>Hextuples</h7>
                   - Hextuples consist of two triplets.
                   - <desktop><figure><table><thead>h |c2 <symbol>ч</symbol> |c2 <symbol>з</symbol> |c2 <symbol>ч</symbol> |c2 <symbol>з</symbol></thead>
-                  - <tbody> <symbol><em>ч</em></symbol> | charged antilepton | <overbar><symbol><em>ℓ</em></symbol></overbar> | photon | <symbol>γ</symbol> | large quark | <symbol><small-caps>q</small-caps></symbol> | small antiquark | <overbar><symbol><em>q</em></symbol></overbar>
-                  - ' <overbar><symbol>ч</symbol></overbar> |c2 | charged lepton | <symbol>ℓ</symbol> | small quark | <symbol>q</symbol> | large antiquark | <overbar><symbol><small-caps>q</small-caps></symbol></overbar>'
+                  - <tbody> <symbol>ч</symbol> | charged antilepton | <symbol><overbar>ℓ</overbar></symbol> | photon | <symbol>γ</symbol> | large quark | <symbol><small-caps>q</small-caps></symbol> | small antiquark | <symbol><overbar>q</overbar></symbol>
+                  - ' <symbol><overbar>ч</overbar></symbol> |c2 | charged lepton | <symbol>ℓ</symbol> | small quark | <symbol>q</symbol> | large antiquark | <symbol><small-caps><overbar>q</overbar></small-caps></symbol>'
                   - ' <symbol>з</symbol> |c4 | bigrain | <symbol>ф</symbol> | gluon | <symbol>g</symbol>'
-                  - ' <overbar><symbol>з</symbol></overbar> |c6 | antibigrain | <overbar><symbol>ф'
-                  - </symbol></overbar></tbody></table><figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½</figcaption></figure></desktop>
+                  - ' <symbol><overbar>з</overbar></symbol> |c6 | antibigrain | <symbol><overbar>ф'
+                  - </overbar></symbol></tbody></table><figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½</figcaption></figure></desktop>
                   - <mobile><figure><table><thead>h | <symbol>ч</symbol> | <symbol>з</symbol> | <symbol>ч</symbol> | <symbol>з</symbol></thead>
-                  - <tbody> <symbol><em>ч</em></symbol> | <overbar><symbol><em>ℓ</em></symbol></overbar> | <symbol>γ</symbol> | <symbol><small-caps>q</small-caps></symbol> | <overbar><symbol><em>q</em></symbol></overbar>
-                  - ' <overbar><symbol>ч</symbol></overbar> |c1 | <symbol>ℓ</symbol> | <symbol>q</symbol> | <overbar><symbol><small-caps>q</small-caps></symbol></overbar>'
+                  - <tbody> <symbol>ч</symbol> | <symbol><overbar>ℓ</overbar></symbol> | <symbol>γ</symbol> | <symbol><small-caps>q</small-caps></symbol> | <symbol><overbar>q</overbar></symbol>
+                  - ' <symbol><overbar>ч</overbar></symbol> |c1 | <symbol>ℓ</symbol> | <symbol>q</symbol> | <symbol><small-caps><overbar>q</overbar></small-caps></symbol>'
                   - ' <symbol>з</symbol> |c2 | <symbol>ф</symbol> | <symbol>g</symbol>'
-                  - ' <overbar><symbol>з</symbol></overbar> |c3 | <overbar><symbol>ф</symbol></overbar></tbody></table>'
+                  - ' <symbol><overbar>з</overbar></symbol> |c3 | <symbol><overbar>ф</overbar></symbol></tbody></table>'
                   - <figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½.
-                  - '<br>|</br>Key — <symbol>ℓ</symbol>: charged lepton, <symbol>γ</symbol>: photon, <symbol>q</symbol>: small quark, <symbol><small-caps>q</small-caps></symbol>: large quark, <symbol>ф</symbol>: bigrain, <symbol>g</symbol>: gluon.</figcaption></figure></mobile>'
+                  - '<br>|</br>Key — <symbol>ℓ</symbol>: charged lepton, <symbol>γ</symbol>: photon, <symbol>q</symbol>: small quark, <small-caps><symbol>q</symbol></small-caps>: large quark, <symbol>ф</symbol>: bigrain, <symbol>g</symbol>: gluon.</figcaption></figure></mobile>'
                   - <h7>Charged Leptons</h7>
                   - The charged leptons have spin ½, electric charge ±1, and color charge 0.
                   - <figure><table><thead>h Generation |h Name |h Symbol</thead>
@@ -148,7 +166,7 @@ entries:
                   - h 2 | muon | <symbol>μ</symbol>
                   - h 3 | tau | <symbol>τ</symbol>
                   - h 4 | yaon | <symbol>я</symbol></tbody></table>
-                  - <figcaption>The different energy states of the charged (anti-)lepton. The antielectron (<overbar><symbol>e</symbol></overbar>) is also called the <em>positron</em>.</figcaption></figure>
+                  - <figcaption>The different energy states of the charged (anti-)lepton. The antielectron (<symbol><overbar>e</overbar></symbol>) is also called the positron.</figcaption></figure>
                   - <h7>Photons</h7>
                   - The photon is its own antiparticle. It has no mass and no charge. It is the carrier for the electromagnetic force.
                   - <h7>Quarks</h7>
@@ -178,17 +196,17 @@ entries:
                   - <h7>Bigrains</h7>
                   - Bigrains have electric charge 0 and color charge ∓⅓. As they have non-integer color charge, they cannot be found moving freely, and are thus only found within nucleons.
                   - <h5>Massive gauge bosons</h5>
-                  - <figure><table><thead>h | <symbol>чч</symbol> | <symbol>ч<overbar>ч</overbar></symbol> | <overbar><symbol>чч</symbol></overbar></thead>
+                  - <figure><table><thead>h | <symbol>чч</symbol> | <symbol>ч<overbar>ч</overbar></symbol> | <symbol><overbar>чч</overbar></symbol></thead>
                   - <tbody> <symbol>зз</symbol> | <boson>x</boson><sup>+4/3</sup> | <boson>y</boson><sup>+⅓</sup> | <boson>v</boson><sup>-⅔</sup>
                   - ' <symbol>з<overbar>з</overbar></symbol> | <boson>w</boson><sup>+1</sup> | <boson>z</boson><sup>0</sup> | <boson>w</boson><sup>-1</sup>'
-                  - ' <overbar><symbol>зз</symbol></overbar> | <boson>v</boson><sup>+⅔</sup> | <boson>y</boson><sup>-⅓</sup> | <boson>x</boson><sup>-4/3</sup></tbody></table>'
+                  - ' <symbol><overbar>зз</overbar></symbol> | <boson>v</boson><sup>+⅔</sup> | <boson>y</boson><sup>-⅓</sup> | <boson>x</boson><sup>-4/3</sup></tbody></table>'
                   - <figcaption>The massive gauge bosons, each formed by the combination of two halvons and two grains.</figcaption></figure>
                   - These are very unstable particles. Over such a short lifetime, the grain pair can spontaneously become a pair of free darill.
                   - These bosons mediate the weak force, which allows for shuffling of darill. The bosons on the middle row are lighter than the others, and mediate flavour-changing interactions. The heaviest bosons are virtually never found under standard conditions, but at a high enough energy scale, mediate interactions in which quarks can become leptons and vice versa.
                   - <h3>Large Scale</h3>
                   - Only about 15% of darill can be found forming quasiparticles at any one time. The rest do not interact via the electromagnetic or strong forces, and so are called “dark” matter. Gravity is the dominant force at these scales, as it is the only long-range force that interacts with the darill sea.
                 Spacetime:
-                  date: '2024-05-28'
+                  date: '2024-05-30'
                   text:
                   - The Universe, <i>i.e.:</i> all that exists, is likely infinite in extent. Tinellb is the name given to a particular <dictionary-link>bubble</dictionary-link> within the <external>bulk</external>, which takes the form of a 10‑dimensional ellipsoid.
                   - <h2>Dimensions</h2>
@@ -205,7 +223,7 @@ entries:
                   - There are two temporal dimensions, subjective time and objective time. Movement through either is usually involuntary, continuous and unidirectional. One will always grow older within one’s frame of reference.
                   - Movement through subjective time can not be altered. One will always grow older within one’s frame of reference. However, movement through objective time can be altered according to the rules of <external>special relativity</external> or be navigated by use of wormholes.
                   - <h3>Space</h3>
-                  - 'There are three spatial dimensions, which are continuous and indistinguishable from each other. They allow free movement in any direction. They are macroscopic, and topologically flat on large scales. '
+                  - There are three spatial dimensions, which are continuous and indistinguishable from each other. They allow free movement in any direction. They are macroscopic, and topologically flat on large scales. At greatest extent, Tinellb is approximately 20 million lightyears across.
                   - <h3>Gingla</h3>
                   - There are four ginglaic dimensions. They are continuous, similarly to space. However, they are microscopic, and bundled together similar to a <external>Calabi–Yau manifold</external>.
                   - <figure><img>This is an image of a two-dimensional hypersurface of the quintic Calabi–Yau three-fold</img>
@@ -213,9 +231,14 @@ entries:
                   - Movement through gingla is chaotic. Most movement is involuntary, however voluntary movement is possible for some individuals.
                   - <h2>Wormholes</h2>
                   - Wormholes allow for movement through time, space, reality and gingla.
+              date: '2024-05-30'
+              text:
+              - <h2>Foundation Concepts</h2>
+              - <h3>Wormholes</h3>
+              - Wormholes connect two points in spacetime. They are the only method of jumping to other times or realities. They can also be used to circumvent the limits imposed by the speed of light.
           date: null
           text: []
-      date: '2024-05-19'
+      date: '2024-05-29'
       position: '1.0'
       text:
       - This is an encyclopedia of knowledge of Tinellb.

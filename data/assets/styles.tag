@@ -58,18 +58,20 @@ h2:
     size: 120
     justification: centre
     underline: true
-    top: 15
-    bottom: 5
+    top: 25
+    bottom: 25
     off-key: Return
-  key: KeyPress-1
+  key: KeyPress-2
   type: heading
 h3:
   props:
     bold: true
     size: 115
+    top: 15
+    bottom: 25
     justification: centre
     off-key: Return
-  key: KeyPress-2
+  key: KeyPress-3
   type: heading
 h4:
   props:
@@ -77,7 +79,7 @@ h4:
     justification: centre
     off-key: Return
     size: 110
-  key: KeyPress-3
+  key: KeyPress-4
   type: heading
 h5:
   props:
@@ -85,7 +87,7 @@ h5:
     justification: centre
     off-key: Return
     size: 105
-  key: KeyPress-4
+  key: KeyPress-5
   type: heading
 h6:
   props:
@@ -95,7 +97,7 @@ h6:
     italics: true
     underline: true
     size: 100
-  key: KeyPress-5
+  key: KeyPress-6
   type: heading
 h7:
   props:
@@ -104,6 +106,7 @@ h7:
     italics: true
     off-key: Return
   type: heading
+  key: KeyPress-7
 hierarchy:
   type: table
   open: <table class="hierarchy">
@@ -120,6 +123,12 @@ img:
   props:
     left: 20
     background: '#9f9'
+internal-link:
+  type: anchor
+  param: $link:lookup:internal$|$node$
+  props:
+    underline: true
+    colour: '#36d'
 mobile:
   type: div
   key: Alt-M
@@ -133,6 +142,12 @@ overbar:
     strikeout: true
   key: Alt-O
   type: span
+planes-diagram:
+  type: line
+  start: <li>
+  end: </li>
+  open: <div class="planes-diagram"><ol class="planes-diagram">
+  close: </ol></div>
 small-caps:
   type: span
   key: Alt-k
