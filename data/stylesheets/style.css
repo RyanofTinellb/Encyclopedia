@@ -211,26 +211,31 @@ main ol.planes-diagram {
     padding-left: 0;
 }
 
-main ol.planes-diagram li{
+main ol.planes-diagram li {
     margin-left: 0;
-    width: 10em;
+    width: 15em;
 }
 
 main ol.planes-diagram li:nth-child(1) {
     background-color: #daf;
 }
+
 main ol.planes-diagram li:nth-child(3) {
     background-color: #99f;
 }
+
 main ol.planes-diagram li:nth-child(5) {
     background-color: #9f9;
 }
+
 main ol.planes-diagram li:nth-child(7) {
     background-color: #ff6;
 }
+
 main ol.planes-diagram li:nth-child(9) {
     background-color: #fc6;
 }
+
 main ol.planes-diagram li:nth-child(11) {
     background-color: #f96;
 }
@@ -239,6 +244,24 @@ main ol.planes-diagram li:nth-last-child(2) {
     transform: scale(1, 2);
     line-height: 2.5;
 }
+
+main ol.planes-diagram li span.planes-arrows {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
+}
+
+main ol.planes-diagram li span.planes-label {
+    font-size: small;
+}
+
+main ol.planes-diagram li span.planes-label:first-child {
+    margin-top: -5px;
+}
+main ol.planes-diagram li span.planes-label:last-child {
+    margin-top: 5px;
+}
+
 
 
 @media screen and (max-width: 800px) {}

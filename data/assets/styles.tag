@@ -148,6 +148,15 @@ planes-diagram:
   end: </li>
   open: <div class="planes-diagram"><ol class="planes-diagram">
   close: </ol></div>
+planes-label:
+  type: span
+  props:
+    background: '#c69'
+planes-arrows:
+  type: span
+  props:
+    size: 90
+    underline: true
 small-caps:
   type: span
   key: Alt-k
