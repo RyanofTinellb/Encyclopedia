@@ -5,7 +5,6 @@ directory:
     - - Spacetime
     - - Particle Physics
   - - Metaphysics
-    - - Emotion
   - - History
 entries:
   children:
@@ -49,28 +48,8 @@ entries:
               - 'Zhalad: <universe>A<sup>376</sup>γ</universe>'
               - 'Tsarein: <universe>E<sup>415</sup>χ</universe>'
             Metaphysics:
-              children:
-                Emotion:
-                  date: '2024-05-30'
-                  position: '3.11'
-                  text:
-                  - Emotions arise when a being has sufficiently complex thought, and thus the <external>heart</external> is an emergent phenomenon of the mind.  There are four recognised primary emotions, each of which has a positive and negative aspect.
-                  - <table><thead>h |h negative|h neutral|h positive</thead>
-                  - <tbody>h zigûtic (wood) | dread | fear | caution
-                  - h qoltic (wind) | misery | sorrow | melancholy
-                  - h volzdic (fire) | anger | zeal | passion
-                  - h vohalic (water) | complacence | contentment| joy</tbody></table>
-                  - A heart in balance is said to be happy.
-                  - 'These emotions affect each other as their corresponding substances do:'
-                  - <ul>dread blocks melancholy,
-                  - melancholy evaporates complacence,
-                  - complacence quenches passion,
-                  - passion burns dread.</ul>
-                  - <ul>caution blocks misery,
-                  - misery evaporates joy,
-                  - joy quenches anger,
-                  - anger burns caution.</ul>
-              date: '2024-06-01'
+              children: {}
+              date: '2024-07-16'
               text:
               - <h2>Planes of Existence</h2>
               - At a fundamental level, existence is nothing more than the movement of darill acting under their own rules. As seen in the <internal-link>medium scale</internal-link> section of the <internal-link>particle physics</internal-link> chapter, though, it can still be useful to abstract this movement, and develop models to explain it.
@@ -86,9 +65,38 @@ entries:
               - ⇡
               - Darill</planes-diagram></figure>
               - <figcaption>The five bodies and their associated planes of existence. </figcaption>
-              - 'In this model, each body is emergent from the one below: a sufficiently complex structure on one level gives rise to phenomena on a higher level that are greater than the sum of their parts. For a lifeform, a body is associated with each plane.'
-              - <h3>Fifth Plane</h3>
-              - The fifth plane, also known as the “energy plane”, or the “fifth plane, which binds”, is the realm in which darill form quasi‑particles. A body on this level is called a Self.
+              - 'In this model, each body is emergent from the one below: a sufficiently complex structure on one level gives rise to phenomena on a higher level that are greater than the sum of their parts. The overt bodies consist of the physical body and the self. All other bodies are subtle.'
+              - <h3>Self</h3>
+              - The fifth plane, also known as the “energy plane”, or the “fifth plane, which binds”, is the realm in which darill form quasi‑particles. A body on this level is called a Self, and allows for movement of energy and matter into and out of the lifeform.
+              - <h3>Body</h3>
+              - The physical body uses its senses to perceive information about the world around it.
+              - <figure><table><thead>h medium |h sense</thead>
+              - <tbody> chemical | taste / smell
+              - ' radiation | sight'
+              - ' vibration | hearing'
+              - ' contact | touch</tbody></table>'
+              - <figcaption>The four main senses.</figcaption></figure>
+              - <h3>Mind</h3>
+              - Thought occurs in the mind.
+              - <figure><tbody><table> etiquette
+              - ' intuition'
+              - ' rationality'
+              - ' instinct</table></tbody>'
+              - <figcaption>The four main modes of thought.</figcaption></figure>
+              - <h3>Heart</h3>
+              - The heart is that which feels emotions. A heart in balance is said to be <i>happy</i>.
+              - <figure><table><thead>h negative |h neutral |h positive</thead>
+              - <tbody>c2 sadness | melancholy
+              - ' anger |c2 passion'
+              - ' complacence | contentment | joy'
+              - c3 fear
+              - </tbody></table><figcaption>The four main emotions. Some emotions use different terms for their positive or negative aspects.</figcaption></figure>
+              - <h3>Soul</h3>
+              - The soul is the part of a person that loves, and is also the source of morality.
+              - <table> compassion
+              - ' affection'
+              - ' fondness'
+              - ' attraction</table>'
             Physics:
               children:
                 Particle Physics:
