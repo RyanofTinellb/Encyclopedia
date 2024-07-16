@@ -21,22 +21,6 @@ img.centre {
     text-decoration: overline;
 }
 
-nav.main {
-    line-height: 1.75;
-}
-
-nav.main details ul {
-    text-align: center;
-}
-
-nav.main details ul ul {
-    text-align: left;
-}
-
-nav.main ul {
-    list-style: none;
-}
-
 nav.main li.normal {
     font-weight: bold;
     text-decoration: underline;
