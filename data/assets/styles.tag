@@ -137,7 +137,7 @@ mobile:
     background: '#dd3'
 no-breaks:
   type: span
-overbar:
+overline:
   props:
     strikeout: true
   key: Alt-O

@@ -17,10 +17,6 @@ img.centre {
     margin-right: auto;
 }
 
-.overbar {
-    text-decoration: overline;
-}
-
 nav.main li.normal {
     font-weight: bold;
     text-decoration: underline;
