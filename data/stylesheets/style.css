@@ -13,8 +13,8 @@ a:visited {
 
 img.centre {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
 
 nav.main li.normal {
@@ -34,15 +34,13 @@ h4,
 h5,
 h6 {
     text-align: center;
-    margin-top: 2rem;
+    margin-block-start: 2rem;
 }
 
 h6 {
     font-style: italic;
     font-size: small;
 }
-
-
 
 h2 {
     counter-set: h3 0;
@@ -105,8 +103,8 @@ table .boson {
 figcaption {
     font-size: smaller;
     text-align: center;
-    margin-left: -5%;
-    margin-right: -5%;
+    margin-inline-start: -5%;
+    margin-inline-end: -5%;
 }
 
 figcaption::before {
@@ -123,7 +121,7 @@ main p {
 
 main ul,
 main ol {
-    margin-left: 10%;
+    margin-inline-start: 10%;
 }
 
 main ol {
@@ -131,7 +129,7 @@ main ol {
 }
 
 main table {
-    margin-top: 2em;
+    margin-block-start: 2em;
 }
 
 main table td,
@@ -164,13 +162,13 @@ main table tr:last-child td:empty {
 main .toc {
     border-left: 1px solid purple;
     border-bottom: 1px solid purple;
-    padding-left: 5%;
-    padding-bottom: 2rem;
+    padding-inline-start: 5%;
+    padding-block-end: 2rem;
 }
 
 main .toc p {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 main .toc::before {
@@ -178,21 +176,31 @@ main .toc::before {
     line-height: 3;
 }
 
+main .toc {
+	counter-reset: number;
+}
+
+main .toc p::before {
+	counter-increment: number;
+	content: counter(number, upper-roman) '.';
+    font-size: initial;
+    font-variant: small-caps;
+}
+
 main div.planes-diagram {
     display: flex;
     justify-content: center;
 }
 
-
 main ol.planes-diagram {
     list-style: none;
     text-align: center;
-    margin-left: 0;
-    padding-left: 0;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
 }
 
 main ol.planes-diagram li {
-    margin-left: 0;
+    margin-inline-start: 0;
     width: 15em;
 }
 
@@ -225,6 +233,7 @@ main ol.planes-diagram li:nth-last-child(2) {
     line-height: 2.5;
 }
 
+
 main ol.planes-diagram li span.planes-arrows {
     display: flex;
     justify-content: space-between;
@@ -236,12 +245,9 @@ main ol.planes-diagram li span.planes-label {
 }
 
 main ol.planes-diagram li span.planes-label:first-child {
-    margin-top: -5px;
+    margin-block-start: -5px;
 }
+
 main ol.planes-diagram li span.planes-label:last-child {
-    margin-top: 5px;
+    margin-block-start: 5px;
 }
-
-
-
-@media screen and (max-width: 800px) {}
