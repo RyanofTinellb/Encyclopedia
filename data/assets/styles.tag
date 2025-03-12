@@ -1,179 +1,196 @@
+a:
+  keys:
+    'on': A
+  props:
+    colour: '#02f'
+    underline: true
+anchor:
+  keys:
+    'on': Alt-n
+  type: anchor
+boson:
+  type: span
+br:
+  close: <br>
+  open: ''
+  pipe: ''
 default:
   props:
     font: Times New Roman
     ime: autocorrect
     size: 18
-a:
-  props:
-    underline: true
-    colour: '#02f'
-  key: A
-anchor:
-  type: anchor
-  key: Alt-n
-boson:
-  type: span
-br:
-  open: ''
-  close: <br>
-  pipe: ''
 desktop:
-  type: div
-  key: Alt-D
-  rank: 150
+  keys:
+    'on': Alt-D
   props:
     background: '#d3d'
+  rank: 150
+  type: div
 dictionary-link:
-  type: anchor
+  keys:
+    'on': Alt-d
   param: https://dictionary.tinellb.com/lex/$text$.html#english|$upper(text)$
-  key: Alt-d
   props:
     colour: '#3d3'
-    underline: true
     ime: transliteration
+    underline: true
+  type: anchor
 em:
+  keys:
+    'on': m
   props:
     italics: true
-  key: m
 external:
-  type: anchor
   param: $lookup:external$|$node$
   props:
-    underline: true
     colour: '#36f'
+    underline: true
+  type: anchor
+figcaption:
+  props:
+    background: '#fd9'
+    left: 15
+  type: line
 figure:
   type: block
-figcaption:
-  type: line
-  props:
-    left: 15
-    background: '#fd9'
 generic-anchor:
+  close: </a>
   open: '<a '
   pipe: '>'
-  close: '</a>'
 h2:
+  keys:
+    'off': Return
+    'on': KeyPress-2
   props:
     bold: true
-    size: 120
-    justification: centre
-    underline: true
-    top: 25
     bottom: 25
-    off-key: Return
-  key: KeyPress-2
+    justification: centre
+    size: 120
+    top: 25
+    underline: true
   type: heading
 h3:
+  keys:
+    'off': Return
+    'on': KeyPress-3
   props:
     bold: true
-    size: 115
-    top: 15
     bottom: 25
     justification: centre
-    off-key: Return
-  key: KeyPress-3
+    size: 115
+    top: 15
   type: heading
 h4:
+  keys:
+    'off': Return
+    'on': KeyPress-4
   props:
     bold: true
     justification: centre
-    off-key: Return
     size: 110
-  key: KeyPress-4
   type: heading
 h5:
+  keys:
+    'off': Return
+    'on': KeyPress-5
   props:
     bold: true
     justification: centre
-    off-key: Return
     size: 105
-  key: KeyPress-5
   type: heading
 h6:
+  keys:
+    'off': Return
+    'on': KeyPress-6
   props:
     bold: true
-    justification: centre
-    off-key: Return
     italics: true
-    underline: true
+    justification: centre
     size: 100
-  key: KeyPress-6
+    underline: true
   type: heading
 h7:
+  keys:
+    'off': Return
+    'on': KeyPress-7
   props:
-    left: 150
     bold: true
     italics: true
-    off-key: Return
+    left: 150
   type: heading
-  key: KeyPress-7
 hierarchy:
-  type: table
-  open: <table class="hierarchy">
   close: </table>
+  open: <table class="hierarchy">
+  type: table
 i:
-  key: i
+  keys:
+    'on': i
   props:
     italics: true
 img:
-  type: line
+  close: '>'
   open: <img class="centre"
   param: alt="$text$" title="$text$" src="$lookup:external$"
-  close: '>'
   props:
-    left: 20
     background: '#9f9'
+    left: 20
+  type: line
 internal-link:
-  type: anchor
   param: $link:lookup:internal$|$node$
   props:
-    underline: true
     colour: '#36d'
+    underline: true
+  type: anchor
 mobile:
-  type: div
-  key: Alt-M
-  rank: 150
+  keys:
+    'on': Alt-M
   props:
     background: '#dd3'
+  rank: 150
+  type: div
 no-breaks:
   type: span
 overline:
+  keys:
+    'on': Alt-O
   props:
     strikeout: true
-  key: Alt-O
   type: span
-planes-diagram:
-  type: line
-  start: <li>
-  end: </li>
-  open: <div class="planes-diagram"><ol class="planes-diagram">
-  close: </ol></div>
-planes-label:
-  type: span
-  props:
-    background: '#c69'
 planes-arrows:
-  type: span
   props:
     size: 90
     underline: true
-small-caps:
   type: span
-  key: Alt-k
+planes-diagram:
+  close: </ol></div>
+  end: </li>
+  open: <div class="planes-diagram"><ol class="planes-diagram">
+  start: <li>
+  type: line
+planes-label:
+  props:
+    background: '#c69'
+  type: span
+small-caps:
+  keys:
+    'on': Alt-k
+  type: span
 strong:
+  keys:
+    'on': b
   props:
     bold: true
-  key: b
 sup:
   props:
     offset: superscript
 symbol:
+  keys:
+    'off': space
+    'on': Alt-s
   props:
-    size: 120
-    italics: true
-    off-key: space
     colour: '#33d'
-  key: Alt-s
+    italics: true
+    size: 120
   type: span
 table:
   type: table
@@ -182,8 +199,8 @@ tbody:
 thead:
   type: block
 ul:
-  start: <li>
   end: </li>
+  start: <li>
   type: block
 universe:
   type: span
