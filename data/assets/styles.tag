@@ -1,12 +1,10 @@
 a:
-  keys:
-    'on': A
+  key: A
   props:
     colour: '#02f'
     underline: true
 anchor:
-  keys:
-    'on': Alt-n
+  key: Alt-n
   type: anchor
 boson:
   type: span
@@ -20,15 +18,13 @@ default:
     ime: autocorrect
     size: 18
 desktop:
-  keys:
-    'on': Alt-D
+  key: Alt-D
   props:
     background: '#d3d'
   rank: 150
   type: div
 dictionary-link:
-  keys:
-    'on': Alt-d
+  key: Alt-d
   param: https://dictionary.tinellb.com/lex/$text$.html#english|$upper(text)$
   props:
     colour: '#3d3'
@@ -36,8 +32,7 @@ dictionary-link:
     underline: true
   type: anchor
 em:
-  keys:
-    'on': m
+  key: m
   props:
     italics: true
 external:
@@ -123,8 +118,7 @@ hierarchy:
   open: <table class="hierarchy">
   type: table
 i:
-  keys:
-    'on': i
+  key: i
   props:
     italics: true
 img:
@@ -142,8 +136,7 @@ internal-link:
     underline: true
   type: anchor
 mobile:
-  keys:
-    'on': Alt-M
+  key: Alt-M
   props:
     background: '#dd3'
   rank: 150
@@ -151,8 +144,7 @@ mobile:
 no-breaks:
   type: span
 overline:
-  keys:
-    'on': Alt-O
+  key: Alt-O
   props:
     strikeout: true
   type: span
@@ -172,12 +164,10 @@ planes-label:
     background: '#c69'
   type: span
 small-caps:
-  keys:
-    'on': Alt-k
+  key: Alt-k
   type: span
 strong:
-  keys:
-    'on': b
+  key: b
   props:
     bold: true
 sup:
