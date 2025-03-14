@@ -55,7 +55,7 @@ generic-anchor:
 h2:
   keys:
     'off': Return
-    'on': KeyPress-2
+    'on': 2
   props:
     bold: true
     bottom: 25
@@ -67,7 +67,7 @@ h2:
 h3:
   keys:
     'off': Return
-    'on': KeyPress-3
+    'on': 3
   props:
     bold: true
     bottom: 25
@@ -78,7 +78,7 @@ h3:
 h4:
   keys:
     'off': Return
-    'on': KeyPress-4
+    'on': 4
   props:
     bold: true
     justification: centre
@@ -87,7 +87,7 @@ h4:
 h5:
   keys:
     'off': Return
-    'on': KeyPress-5
+    'on': 5
   props:
     bold: true
     justification: centre
@@ -96,7 +96,7 @@ h5:
 h6:
   keys:
     'off': Return
-    'on': KeyPress-6
+    'on': 6
   props:
     bold: true
     italics: true
@@ -107,7 +107,7 @@ h6:
 h7:
   keys:
     'off': Return
-    'on': KeyPress-7
+    'on': 7
   props:
     bold: true
     italics: true
