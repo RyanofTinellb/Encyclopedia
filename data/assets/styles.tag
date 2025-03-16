@@ -28,7 +28,7 @@ dictionary-link:
   param: https://dictionary.tinellb.com/lex/$text$.html#english|$upper(text)$
   props:
     colour: '#3d3'
-    ime: transliteration
+    ime: links
     underline: true
   type: anchor
 em:
