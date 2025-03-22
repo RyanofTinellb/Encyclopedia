@@ -49,21 +49,21 @@ entries:
               - 'Tsarein: <universe>E<sup>415</sup>χ</universe>'
             Metaphysics:
               children: {}
-              date: '2024-07-17'
-              position: '1.0'
+              date: '2025-03-23'
+              position: '15.97'
               text:
               - <h2>Planes of Existence</h2>
               - At a fundamental level, existence is nothing more than the movement of darill acting under their own rules. As seen in the <internal-link>medium scale</internal-link> section of the <internal-link>particle physics</internal-link> chapter, though, it can still be useful to abstract this movement, and develop models to explain it.
               - <figure><planes-diagram>Soul (spiritual plane)
-              - ↑
+              - <planes-arrow>↑</planes-arrow>
               - Heart (emotional plane)
-              - ↑
+              - <planes-arrow>↑</planes-arrow>
               - Mind (mental plane)
               - <planes-arrows><planes-label>↑ Subtle</planes-label> ↑ <planes-label>Overt ↓</planes-label></planes-arrows>
               - Body (physical plane)
-              - ↑
+              - <planes-arrow>↑</planes-arrow>
               - Self (fifth plane)
-              - ⇡
+              - <planes-arrow>⇡</planes-arrow>
               - Darill</planes-diagram></figure>
               - <figcaption>The five bodies and their associated planes of existence. </figcaption>
               - 'In this model, each body is emergent from the one below: a sufficiently complex structure on one level gives rise to phenomena on a higher level that are greater than the sum of their parts. The overt bodies consist of the physical body and the self. All other bodies are subtle.'
@@ -79,10 +79,10 @@ entries:
               - <figcaption>The four main senses.</figcaption></figure>
               - <h3>Mind</h3>
               - Thought occurs in the mind.
-              - <figure><table><tbody> etiquette
+              - <figure><tbody><table> etiquette
               - ' intuition'
               - ' rationality'
-              - ' instinct</tbody></table>'
+              - ' instinct</table></tbody>'
               - <figcaption>The four main modes of thought.</figcaption></figure>
               - <h3>Heart</h3>
               - The heart is that which feels emotions. A heart in balance is said to be <i>happy</i>.

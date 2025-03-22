@@ -3,6 +3,8 @@ assets:
   source: C:\Users\Ryan\TinellbianLanguages\encyclopedia\data\data.src
 entries:
 - - Tinellbian Encyclopedia
+  - Entries
+  - Metaphysics
 files: C:\Users\Ryan\TinellbianLanguages\!smeagol\files.yml
 imes:
   autocorrect: C:\Users\Ryan\TinellbianLanguages\encyclopedia\data\assets\autocorrect.ime

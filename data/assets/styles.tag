@@ -148,6 +148,8 @@ overline:
   props:
     strikeout: true
   type: span
+planes-arrow:
+  type: span
 planes-arrows:
   props:
     size: 90

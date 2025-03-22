@@ -160,8 +160,6 @@ main table tr:last-child td:empty {
 }
 
 main .toc {
-    border-left: 1px solid purple;
-    border-bottom: 1px solid purple;
     padding-inline-start: 5%;
     padding-block-end: 2rem;
 }
@@ -239,6 +237,11 @@ main ol.planes-diagram li span.planes-arrows {
     display: flex;
     justify-content: space-between;
     margin: 0.5em;
+    color: light-dark(black, white);
+}
+
+main ol.planes-diagram li span.planes-arrow {
+    color: light-dark(black, white);
 }
 
 main ol.planes-diagram li span.planes-label {
