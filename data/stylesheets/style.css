@@ -7,7 +7,7 @@ body {
 a,
 a:link,
 a:visited {
-    color: black;
+    color: light-dark(black, white);
     text-decoration: underline;
 }
 
@@ -23,7 +23,7 @@ nav.main li.normal {
 }
 
 nav.main a {
-    color: black;
+    color: light-dark(black, white);
     text-decoration: none;
 }
 
@@ -250,17 +250,4 @@ main ol.planes-diagram li span.planes-label:first-child {
 
 main ol.planes-diagram li span.planes-label:last-child {
     margin-block-start: 5px;
-}
-
-@media (prefers-color-scheme: dark) {
-
-    a,
-    a:link,
-    a:visited {
-        color: white;
-    }
-
-    nav.main a {
-        color: white;
-    }
 }
