@@ -36,7 +36,7 @@ em:
   props:
     italics: true
 external:
-  param: $lookup:external$|$node$
+  param: $link:lookup:external$|$node$
   props:
     colour: '#36f'
     underline: true

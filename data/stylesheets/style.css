@@ -177,12 +177,12 @@ main .toc::before {
 }
 
 main .toc {
-	counter-reset: number;
+    counter-reset: number;
 }
 
 main .toc p::before {
-	counter-increment: number;
-	content: counter(number, upper-roman) '.';
+    counter-increment: number;
+    content: counter(number, upper-roman) '.';
     font-size: initial;
     font-variant: small-caps;
 }
@@ -250,4 +250,17 @@ main ol.planes-diagram li span.planes-label:first-child {
 
 main ol.planes-diagram li span.planes-label:last-child {
     margin-block-start: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    a,
+    a:link,
+    a:visited {
+        color: white;
+    }
+
+    nav.main a {
+        color: white;
+    }
 }

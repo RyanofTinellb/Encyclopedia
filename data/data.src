@@ -50,6 +50,7 @@ entries:
             Metaphysics:
               children: {}
               date: '2024-07-17'
+              position: '1.0'
               text:
               - <h2>Planes of Existence</h2>
               - At a fundamental level, existence is nothing more than the movement of darill acting under their own rules. As seen in the <internal-link>medium scale</internal-link> section of the <internal-link>particle physics</internal-link> chapter, though, it can still be useful to abstract this movement, and develop models to explain it.
@@ -214,7 +215,8 @@ entries:
                   - <h3>Large Scale</h3>
                   - Only about 15% of darill can be found forming quasiparticles at any one time. The rest do not interact via the electromagnetic or strong forces, and so are called “dark” matter. Gravity is the dominant force at these scales, as it is the only long-range force that interacts with the darill sea.
                 Spacetime:
-                  date: '2025-01-18'
+                  date: '2025-03-22'
+                  position: '16.227'
                   text:
                   - The Universe, <i>i.e.:</i> all that exists, is likely infinite in extent. Tinellb is the name given to a particular <dictionary-link>bubble</dictionary-link> within the <external>bulk</external>, which takes the form of a 10‑dimensional ellipsoid.
                   - <h2>Dimensions</h2>
@@ -238,6 +240,7 @@ entries:
                   - <figcaption>The bundled ginglaic dimensions, represented here by a Calabi‑Yau manifold. <i>Image attributed to user Jbourjai on <anchor>https://en.wikipedia.org/wiki/File:Calabi_yau.jpg|Wikimedia</anchor>.</i></figcaption></figure>
                   - Movement through gingla is chaotic. Most movement is involuntary, however voluntary movement is possible for some individuals.
               date: '2024-05-30'
+              position: '1.0'
               text:
               - <h2>Foundation Concepts</h2>
               - <h3>Wormholes</h3>
