@@ -6,8 +6,7 @@ a:
 anchor:
   key: Alt-n
   type: anchor
-boson:
-  type: span
+boson: span
 br:
   close: <br>
   open: ''
@@ -46,8 +45,7 @@ figcaption:
     background: '#fd9'
     left: 15
   type: line
-figure:
-  type: block
+figure: block
 generic-anchor:
   close: </a>
   open: '<a '
@@ -141,15 +139,13 @@ mobile:
     background: '#dd3'
   rank: 150
   type: div
-no-breaks:
-  type: span
+no-breaks: span
 overline:
   key: Alt-O
   props:
     strikeout: true
   type: span
-planes-arrow:
-  type: span
+planes-arrow: span
 planes-arrows:
   props:
     size: 90
@@ -184,15 +180,11 @@ symbol:
     italics: true
     size: 120
   type: span
-table:
-  type: table
-tbody:
-  type: block
-thead:
-  type: block
+table: table
+tbody: block
+thead: block
 ul:
   end: </li>
   start: <li>
   type: block
-universe:
-  type: span
+universe: span
