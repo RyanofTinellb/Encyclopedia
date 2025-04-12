@@ -51,13 +51,13 @@ entries:
               title: History - The Tinellbian Encyclopedia
             Metaphysics:
               children: {}
-              date: '2025-03-23'
-              position: '15.97'
+              date: '2025-04-12'
+              position: '15.58'
               text:
               - <h1>Metaphysics</h1>
               - <h2>Planes of Existence</h2>
               - At a fundamental level, existence is nothing more than the movement of darill acting under their own rules. As seen in the <internal-link>medium scale</internal-link> section of the <internal-link>particle physics</internal-link> chapter, though, it can still be useful to abstract this movement, and develop models to explain it.
-              - <figure><planes-diagram>Soul (spiritual plane)
+              - <planes-diagram><figure>Soul (spiritual plane)
               - <planes-arrow>↑</planes-arrow>
               - Heart (emotional plane)
               - <planes-arrow>↑</planes-arrow>
@@ -67,7 +67,7 @@ entries:
               - <planes-arrow>↑</planes-arrow>
               - Self (fifth plane)
               - <planes-arrow>⇡</planes-arrow>
-              - Darill</planes-diagram></figure>
+              - Darill</figure></planes-diagram>
               - <figcaption>The five bodies and their associated planes of existence. </figcaption>
               - 'In this model, each body is emergent from the one below: a sufficiently complex structure on one level gives rise to phenomena on a higher level that are greater than the sum of their parts. The overt bodies consist of the physical body and the self. All other bodies are subtle.'
               - <h3>Self</h3>
