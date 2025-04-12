@@ -17,12 +17,12 @@ img.centre {
     margin-inline-end: auto;
 }
 
-nav.main li.normal {
+nav.sidebar li.normal {
     font-weight: bold;
     text-decoration: underline;
 }
 
-nav.main a {
+nav.sidebar a {
     color: light-dark(black, white);
     text-decoration: none;
 }
