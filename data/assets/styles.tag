@@ -50,6 +50,15 @@ generic-anchor:
   close: </a>
   open: '<a '
   pipe: '>'
+h1:
+  keys:
+    'off': Return
+    'on': 1
+  props:
+    bold: true
+    justification: centre
+    size: 150
+  type: heading
 h2:
   keys:
     'off': Return
