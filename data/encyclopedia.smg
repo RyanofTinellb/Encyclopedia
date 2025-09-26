@@ -2,9 +2,12 @@ assets:
   searchindex: c:\users\ryan\tinellbianlanguages\encyclopedia\data\assets\searching.json
   source: c:\users\ryan\tinellbianlanguages\encyclopedia\data\data.src
 entries:
-- - Tinellbian Encyclopedia
+- &id001
+  - Tinellbian Encyclopedia
   - Entries
-  - Metaphysics
+  - Physics
+  - Particle Physics
+- *id001
 files: c:\users\ryan\tinellbianlanguages\!smeagol\files.yml
 imes:
   autocorrect: c:\users\ryan\tinellbianlanguages\encyclopedia\data\assets\autocorrect.ime
@@ -25,7 +28,6 @@ templates:
   sections:
     basesearch: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\base_search.tpl
     copyright: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\sections\copyright.tpl
-    magnifying glass: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\svg\magnifying glass.tpl
     magnifyingglass: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\svg\magnifying_glass.tpl
     mini-nav: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\sections\navigation_arrows.tpl
     navigationpane: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\sections\navpane.tpl
@@ -33,3 +35,4 @@ templates:
     page404: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\search404.tpl
     search: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\search.tpl
     wholepage: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\wholepage.tpl
+url: http://universe.tinellb.com

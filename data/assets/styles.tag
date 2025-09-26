@@ -6,11 +6,14 @@ a:
 anchor:
   key: Alt-n
   type: anchor
-boson: span
+boson:
+  type: span
+  key: Alt-B
 br:
   close: <br>
   open: ''
   pipe: ''
+code: {}
 default:
   props:
     font: Times New Roman
@@ -35,7 +38,8 @@ em:
   props:
     italics: true
 external:
-  param: $link:lookup:external$|$node$
+  param: $link:lookup$|$node$
+  category: external
   props:
     colour: '#36f'
     underline: true
@@ -50,6 +54,10 @@ generic-anchor:
   close: </a>
   open: '<a '
   pipe: '>'
+grey-box:
+  type: div
+  props:
+    border: true
 h1:
   keys:
     'off': Return
@@ -131,13 +139,15 @@ i:
 img:
   close: '>'
   open: <img class="centre"
-  param: alt="$text$" title="$text$" src="$lookup:external$"
+  param: alt="$text$" title="$text$" src="$lookup$"
+  category: external
   props:
     background: '#9f9'
     left: 20
   type: line
 internal-link:
-  param: $link:lookup:internal$|$node$
+  param: $link:lookup$|$node$
+  category: internal
   props:
     colour: '#36d'
     underline: true
@@ -150,7 +160,9 @@ mobile:
   type: div
 no-breaks: span
 overline:
-  key: Alt-O
+  keys: 
+    'on': Alt-O
+    'off': space
   props:
     strikeout: true
   type: span
@@ -178,6 +190,9 @@ strong:
   props:
     bold: true
 sup:
+  keys:
+    'on': '+'
+    'off': space
   props:
     offset: superscript
 symbol:
