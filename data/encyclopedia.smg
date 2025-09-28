@@ -2,12 +2,10 @@ assets:
   searchindex: c:\users\ryan\tinellbianlanguages\encyclopedia\data\assets\searching.json
   source: c:\users\ryan\tinellbianlanguages\encyclopedia\data\data.src
 entries:
-- &id001
-  - Tinellbian Encyclopedia
+- - Tinellbian Encyclopedia
   - Entries
   - Physics
   - Particle Physics
-- *id001
 files: c:\users\ryan\tinellbianlanguages\!smeagol\files.yml
 imes:
   autocorrect: c:\users\ryan\tinellbianlanguages\encyclopedia\data\assets\autocorrect.ime

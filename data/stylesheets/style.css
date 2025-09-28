@@ -104,18 +104,24 @@ table .boson {
     text-decoration: overline;
 }
 
-.grey-box {
-    background-color: light-dark(rgb(210, 210, 210),rgb(45, 45, 45));
-    border-radius: 10px;
-    width: fit-content;
-    margin-inline-start: 5%;
-    margin-block: 1em;
+.grey-boxes {
+    display: flex;
+    justify-content: space-evenly;
 
-    & p {
+    .grey-box {
+        background-color: light-dark(rgb(210, 210, 210), rgb(45, 45, 45));
+        border-radius: 10px;
+        width: fit-content;
+        margin-block: 1em;
+    }
+
+    p {
         margin-inline-start: 0;
         margin-block: 0.5em;
     }
 }
+
+
 
 figcaption {
     font-size: smaller;

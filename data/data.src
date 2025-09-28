@@ -105,8 +105,8 @@ entries:
             Physics:
               children:
                 Particle Physics:
-                  date: '2025-09-26'
-                  position: '110.16'
+                  date: '2025-09-27'
+                  position: '113.108'
                   text:
                   - <h1>Particle Physics</h1>
                   - <h2>Fundamental Fields</h2>
@@ -152,7 +152,7 @@ entries:
                   - <h5>Triplets</h5>
                   - <figure><table><thead>h |hc2 ↑ |hc2 ↓</thead>
                   - <tbody>h ↑↑ | halvon | <symbol>ч</symbol> | grain | <symbol>з</symbol>
-                  - h ↓↓ | antihalvon | <overline><symbol>ч</symbol></overline> | antigrain | <overline><symbol>з
+                  - h ↓↓ | antihalvon | <symbol><overline>ч</overline></symbol> | antigrain | <overline><symbol>з
                   - </symbol></overline></tbody></table><figcaption>The particles formed of three darill. These consist of a base neutrino and an additional darill.</figcaption></figure>
                   - <h6>Halvons</h6>
                   - Three darill of the same charge, (↑↑↑) or (↓↓↓), form a halvon. Particles involving a halvon interact with the electromagnetic force.
@@ -161,18 +161,18 @@ entries:
                   - <h7>Hextuples</h7>
                   - Hextuples consist of two triplets.
                   - <desktop><figure><table><thead>h |c2 <symbol>ч</symbol> |c2 <symbol>з</symbol> |c2 <symbol>ч</symbol> |c2 <symbol>з</symbol></thead>
-                  - <tbody> <symbol>ч</symbol> | charged antilepton | <overline><symbol>ℓ</symbol></overline> | photon | <symbol>γ</symbol> | large quark | <symbol><small-caps>q</small-caps></symbol> | small antiquark | <overline><symbol>q</symbol></overline>
-                  - ' <overline><symbol>ч</symbol></overline> |c2 | charged lepton | <symbol>ℓ</symbol> | small quark | <symbol>q</symbol> | large antiquark | <overline><symbol><small-caps>q</small-caps></symbol></overline>'
+                  - <tbody> <symbol>ч</symbol> | charged antilepton | <overline><symbol>ℓ</symbol></overline> | photon | <symbol>γ</symbol> | large quark | <small-caps><symbol>q</symbol></small-caps> | small antiquark | <overline><symbol>q</symbol></overline>
+                  - ' <overline><symbol>ч</symbol></overline> |c2 | charged lepton | <symbol>ℓ</symbol> | small quark | <symbol>q</symbol> | large antiquark | <overline><small-caps><symbol>q</symbol></small-caps></overline>'
                   - ' <symbol>з</symbol> |c4 | bigrain | <symbol>ф</symbol> | gluon | <symbol>g</symbol>'
                   - ' <overline><symbol>з</symbol></overline> |c6 | antibigrain | <overline><symbol>ф'
                   - </symbol></overline></tbody></table><figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½</figcaption></figure></desktop>
                   - <mobile><figure><table><thead>h | <symbol>ч</symbol> | <symbol>з</symbol> | <symbol>ч</symbol> | <symbol>з</symbol></thead>
-                  - <tbody> <symbol>ч</symbol> | <overline><symbol>ℓ</symbol></overline> | <symbol>γ</symbol> | <symbol><small-caps>q</small-caps></symbol> | <overline><symbol>q</symbol></overline>
-                  - ' <overline><symbol>ч</symbol></overline> |c1 | <symbol>ℓ</symbol> | <symbol>q</symbol> | <overline><symbol><small-caps>q</small-caps></symbol></overline>'
+                  - <tbody> <symbol>ч</symbol> | <overline><symbol>ℓ</symbol></overline> | <symbol>γ</symbol> | <small-caps><symbol>q</symbol></small-caps> | <overline><symbol>q</symbol></overline>
+                  - ' <overline><symbol>ч</symbol></overline> |c1 | <symbol>ℓ</symbol> | <symbol>q</symbol> | <overline><small-caps><symbol>q</symbol></small-caps></overline>'
                   - ' <symbol>з</symbol> |c2 | <symbol>ф</symbol> | <symbol>g</symbol>'
                   - ' <overline><symbol>з</symbol></overline> |c3 | <overline><symbol>ф</symbol></overline></tbody></table>'
                   - <figcaption>The lowest mass particles formed of six darill. The photon and the gluon have spin 1, the rest have spin ½.
-                  - '<br>|</br>Key — <symbol>ℓ</symbol>: charged lepton, <symbol>γ</symbol>: photon, <symbol>q</symbol>: small quark, <symbol><small-caps>q</small-caps></symbol>: large quark, <symbol>ф</symbol>: bigrain, <symbol>g</symbol>: gluon.</figcaption></figure></mobile>'
+                  - '<br>|</br>Key — <symbol>ℓ</symbol>: charged lepton, <symbol>γ</symbol>: photon, <symbol>q</symbol>: small quark, <small-caps><symbol>q</symbol></small-caps>: large quark, <symbol>ф</symbol>: bigrain, <symbol>g</symbol>: gluon.</figcaption></figure></mobile>'
                   - <h7>Charged Leptons</h7>
                   - The charged leptons have spin ½, electric charge ±1, and color charge 0.
                   - <figure><table><thead>h Generation |h Name |h Symbol</thead>
@@ -216,16 +216,17 @@ entries:
                   - ' <overline><symbol>зз</symbol></overline> | <boson>v</boson><sup>+⅔</sup> | <boson>y</boson><sup>-⅓</sup> | <boson>x</boson><sup>-4/3</sup></tbody></table>'
                   - <figcaption>The massive gauge bosons, each formed by the combination of two halvons and two grains.</figcaption></figure>
                   - These are very unstable particles. Over such a short lifetime, the grain pair can spontaneously become a pair of free darill.
-                  - These bosons mediate the weak force, which allows for shuffling of darill. The bosons on the middle row are lighter than the others, and mediate flavour-changing interactions. The heaviest bosons are virtually never found under standard conditions, but at a high enough energy scale, mediate interactions in which quarks can become leptons and vice versa.
-                  - <grey-box><symbol>u</symbol> + <symbol>u</symbol> ⇌ <boson>x</boson> ⇌ <symbol><overline>d</overline></symbol> + <symbol>e<sup>+</sup></symbol>
-                  - <symbol>u</symbol> + <symbol>d</symbol> ⇌ <boson>y</boson> ⇌ <symbol><overline>u</overline></symbol> + <symbol>e<sup>+</sup></symbol> ⇌ <overline><symbol>d</symbol></overline> + <symbol>ν</symbol>
-                  - <symbol>d</symbol> + <symbol>d</symbol> ⇌ <boson>v</boson> ⇌ <symbol><overline>d</overline></symbol> + <symbol>e<sup>‑</sup></symbol> </grey-box>
-                  - <grey-box><symbol>p</symbol> = <symbol>d</symbol>|<symbol>uu</symbol> ⇌ <symbol>d<overline>d</overline></symbol> + <symbol>e<sup>+</sup></symbol> = <symbol>π<sup>0</sup></symbol> + <symbol>e<sup>+</sup></symbol>
+                  - These bosons mediate the weak force, which allows for shuffling of darill. The bosons on the middle row are lighter than the others, and mediate flavour-changing interactions. The heaviest bosons are virtually never found under standard conditions, but at a high enough energy scale, mediate interactions in which a quark‑quark pair can decay into a lepton‑quark pair.
+                  - <grey-boxes><grey-box><symbol>u</symbol> + <symbol>u</symbol> ⇌ <boson>x</boson> ⇌ <overline><symbol>d</symbol></overline> + <symbol>e<sup>+</sup></symbol>
+                  - <symbol>u</symbol> + <symbol>d</symbol> ⇌ <boson>y</boson> ⇌ <overline><symbol>u</symbol></overline> + <symbol>e<sup>+</sup></symbol> ⇌ <overline><symbol>d</symbol></overline> + <symbol>ν</symbol>
+                  - <symbol>d</symbol> + <symbol>d</symbol> ⇌ <boson>v</boson> ⇌ <overline><symbol>d</symbol></overline> + <symbol>e<sup>‑</sup></symbol> </grey-box></grey-boxes>
+                  - These reactions can occur within nucleons, allowing proton and neutron decay with extremely long half‑lives.
+                  - <grey-boxes><grey-box><symbol>p</symbol> = <symbol>d</symbol>|<symbol>uu</symbol> ⇌ <symbol>d<overline>d</overline></symbol> + <symbol>e<sup>+</sup></symbol> = <symbol>π<sup>0</sup></symbol> + <symbol>e<sup>+</sup></symbol>
                   - <symbol>p</symbol> = <symbol>u</symbol>|<symbol>ud</symbol> ⇌ <symbol>u<overline>u</overline></symbol> + <symbol>e<sup>+</sup></symbol> = <symbol>π<sup>0</sup></symbol> + <symbol>e<sup>+</sup></symbol>
                   - <symbol>p</symbol> = <symbol>u</symbol>|<symbol>ud</symbol> ⇌ <symbol>u<overline>d</overline></symbol> + <symbol>ν</symbol> = <symbol>π<sup>+</sup></symbol> + <symbol>ν</symbol></grey-box>
                   - <grey-box><symbol>n</symbol> = <symbol>u</symbol>|<symbol>dd</symbol> ⇌ <symbol>u<overline>d</overline></symbol> + <symbol>e<sup>‑</sup></symbol> = <symbol>π<sup>+</sup></symbol> +<symbol> e<sup>‑</sup></symbol>
                   - <symbol>n</symbol> = <symbol>d</symbol>|<symbol>ud</symbol> ⇌ <symbol>d<overline>u</overline></symbol> + <symbol>e<sup>+</sup></symbol> = <symbol>π<sup>‑</sup></symbol> +<symbol> e<sup>+</sup></symbol>
-                  - <symbol>n</symbol> = <symbol>d</symbol>|<symbol>ud</symbol> ⇌ <symbol>d<overline>d</overline></symbol> + <symbol>ν</symbol> = <symbol>π<sup>0</sup></symbol> + <symbol>ν</symbol></grey-box>
+                  - <symbol>n</symbol> = <symbol>d</symbol>|<symbol>ud</symbol> ⇌ <symbol>d<overline>d</overline></symbol> + <symbol>ν</symbol> = <symbol>π<sup>0</sup></symbol> + <symbol>ν</symbol></grey-box></grey-boxes>
                   - <h3>Large Scale</h3>
                   - Only about 15% of darill can be found forming quasiparticles at any one time. The rest do not interact via the electromagnetic or strong forces, and so are called “dark” matter. Gravity is the dominant force at these scales, as it is the only long-range force that interacts with the darill sea.
                   title: Particle Physics < Physics - The Tinellbian Encyclopedia

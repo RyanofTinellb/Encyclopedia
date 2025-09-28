@@ -38,7 +38,7 @@ em:
   props:
     italics: true
 external:
-  param: $link:lookup$|$node$
+  param: $lookup$|$node$
   category: external
   props:
     colour: '#36f'
@@ -58,6 +58,11 @@ grey-box:
   type: div
   props:
     border: true
+  rank: -10
+grey-boxes:
+  type: div
+  props:
+    background: '#ccc'
 h1:
   keys:
     'off': Return
@@ -146,7 +151,7 @@ img:
     left: 20
   type: line
 internal-link:
-  param: $link:lookup$|$node$
+  param: $lookup$|$node$
   category: internal
   props:
     colour: '#36d'
