@@ -107,11 +107,15 @@ table .boson {
 .grey-boxes {
     display: flex;
     justify-content: space-evenly;
+    gap: 1em;
+    flex-wrap: wrap;
 
     .grey-box {
         background-color: light-dark(rgb(210, 210, 210), rgb(45, 45, 45));
         border-radius: 10px;
         width: fit-content;
+        min-width: 0;
+        flex-shrink: 0;
         margin-block: 1em;
     }
 

@@ -1,45 +1,45 @@
-behaviouratdifferentscales: entries/physics/particlephysics#behaviouratdifferentscales
-bigrains: entries/physics/particlephysics#bigrains
-chargedleptons: entries/physics/particlephysics#chargedleptons
-darill: entries/physics/particlephysics#darill
-dimensions: entries/physics/spacetime#dimensions
-doublets: entries/physics/particlephysics#doublets
-electromagnetism: entries/physics/particlephysics#electromagnetism
-emotion: entries/metaphysics/emotion
-entries: entries/index
-fermionsandbosons: entries/physics/particlephysics#fermionsandbosons
-foundationalconcepts: entries/metaphysics/index#foundationalconcepts
-foundationconcepts: entries/physics/index#foundationconcepts
-fundamentalfields: entries/physics/particlephysics#fundamentalfields
-generations: entries/physics/particlephysics#generations
-gingla: entries/physics/spacetime#gingla
-gluons: entries/physics/particlephysics#gluons
-grains: entries/physics/particlephysics#grains
-gravity: entries/physics/particlephysics#gravity
-halvons: entries/physics/particlephysics#halvons
-hextuples: entries/physics/particlephysics#hextuples
-higgs: entries/physics/particlephysics#higgs
-history: entries/history
-interactions: entries/physics/particlephysics#interactions
-largescale: entries/physics/particlephysics#largescale
-massivegaugebosons: entries/physics/particlephysics#massivegaugebosons
-matterandantimatter: entries/physics/particlephysics#matterandantimatter
-mediumscale: entries/physics/particlephysics#mediumscale
-metaphysics: entries/metaphysics/index
-particlephysics: entries/physics/particlephysics
-particles: entries/physics/particlephysics#particles
-photons: entries/physics/particlephysics#photons
-physics: entries/physics/index
-planesofexistence: entries/metaphysics/index#planesofexistence
-quarks: entries/physics/particlephysics#quarks
-reality: entries/physics/spacetime#reality
-smallscale: entries/physics/particlephysics#smallscale
-space: entries/physics/spacetime#space
-spacetime: entries/physics/spacetime
-spinfield: entries/physics/particlephysics#spinfield
-strongforce: entries/physics/particlephysics#strongforce
-time: entries/physics/spacetime#time
+behaviouratdifferentscales: entries/Physics/Particle Physics#behaviouratdifferentscales
+bigrains: entries/Physics/Particle Physics#bigrains
+chargedleptons: entries/Physics/Particle Physics#chargedleptons
+darill: entries/Physics/Particle Physics#darill
+dimensions: entries/Physics/Spacetime#dimensions
+doublets: entries/Physics/Particle Physics#doublets
+electromagnetism: entries/Physics/Particle Physics#electromagnetism
+emotion: entries/Metaphysics/Emotion
+entries: entries/Index
+fermionsandbosons: entries/Physics/Particle Physics#fermionsandbosons
+foundationalconcepts: entries/Metaphysics/Index#foundationalconcepts
+foundationconcepts: entries/Physics/Index#foundationconcepts
+fundamentalfields: entries/Physics/Particle Physics#fundamentalfields
+generations: entries/Physics/Particle Physics#generations
+gingla: entries/Physics/Spacetime#gingla
+gluons: entries/Physics/Particle Physics#gluons
+grains: entries/Physics/Particle Physics#grains
+gravity: entries/Physics/Particle Physics#gravity
+halvons: entries/Physics/Particle Physics#halvons
+hextuples: entries/Physics/Particle Physics#hextuples
+higgs: entries/Physics/Particle Physics#higgs
+history: entries/History
+interactions: entries/Physics/Particle Physics#interactions
+largescale: entries/Physics/Particle Physics#largescale
+massivegaugebosons: entries/Physics/Particle Physics#massivegaugebosons
+matterandantimatter: entries/Physics/Particle Physics#matterandantimatter
+mediumscale: entries/Physics/Particle Physics#mediumscale
+metaphysics: entries/Metaphysics/Index
+particlephysics: entries/Physics/Particle Physics
+particles: entries/Physics/Particle Physics#particles
+photons: entries/Physics/Particle Physics#photons
+physics: entries/Physics/Index
+planesofexistence: entries/Metaphysics/Index#planesofexistence
+quarks: entries/Physics/Particle Physics#quarks
+reality: entries/Physics/Spacetime#reality
+smallscale: entries/Physics/Particle Physics#smallscale
+space: entries/Physics/Spacetime#space
+spacetime: entries/Physics/Spacetime
+spinfield: entries/Physics/Particle Physics#spinfield
+strongforce: entries/Physics/Particle Physics#strongforce
+time: entries/Physics/Spacetime#time
 tinellbianencyclopedia: index
-triplets: entries/physics/particlephysics#triplets
-weakforce: entries/physics/particlephysics#weakforce
-wormholes: entries/physics/index#wormholes
+triplets: entries/Physics/Particle Physics#triplets
+weakforce: entries/Physics/Particle Physics#weakforce
+wormholes: entries/Physics/Index#wormholes

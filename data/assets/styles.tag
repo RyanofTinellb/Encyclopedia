@@ -27,7 +27,9 @@ desktop:
   type: div
 dictionary-link:
   key: Alt-d
-  param: https://dictionary.tinellb.com/lex/$text$.html#english|$upper(text)$
+  param:
+    string: $link$|$node$
+    link: https://dictionary.tinellb.com/lex/$text$.html#english
   props:
     colour: '#3d3'
     ime: links
@@ -38,8 +40,10 @@ em:
   props:
     italics: true
 external:
-  param: $lookup$|$node$
-  category: external
+  param:
+    string: $link$|$node$
+    link: $lookup$
+    category: external
   props:
     colour: '#36f'
     underline: true
@@ -144,15 +148,18 @@ i:
 img:
   close: '>'
   open: <img class="centre"
-  param: alt="$text$" title="$text$" src="$lookup$"
-  category: external
+  param:
+    string: alt="$text$" title="$text$" src="$lookup$"
+    category: external
   props:
     background: '#9f9'
     left: 20
   type: line
 internal-link:
-  param: $lookup$|$node$
-  category: internal
+  param:
+    string: $link$|$node$
+    category: internal
+    link: $lookup$
   props:
     colour: '#36d'
     underline: true
