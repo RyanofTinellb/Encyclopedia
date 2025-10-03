@@ -147,7 +147,7 @@ i:
     italics: true
 img:
   close: '>'
-  open: <img class="centre"
+  open: '<img class="centre" '
   param:
     string: alt="$text$" title="$text$" src="$lookup$"
     category: external
@@ -159,7 +159,7 @@ internal-link:
   param:
     string: $link$|$node$
     category: internal
-    link: $lookup$
+    link: $grammar(lookup)$
   props:
     colour: '#36d'
     underline: true

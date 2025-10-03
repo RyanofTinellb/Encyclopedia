@@ -51,13 +51,13 @@ entries:
               title: History - The Tinellbian Encyclopedia
             Metaphysics:
               children: {}
-              date: '2025-04-12'
-              position: '15.58'
+              date: '2025-10-04'
+              position: '15.57'
               text:
               - <h1>Metaphysics</h1>
               - <h2>Planes of Existence</h2>
               - At a fundamental level, existence is nothing more than the movement of darill acting under their own rules. As seen in the <internal-link>medium scale</internal-link> section of the <internal-link>particle physics</internal-link> chapter, though, it can still be useful to abstract this movement, and develop models to explain it.
-              - <planes-diagram><figure>Soul (spiritual plane)
+              - <figure><planes-diagram>Soul (spiritual plane)
               - <planes-arrow>↑</planes-arrow>
               - Heart (emotional plane)
               - <planes-arrow>↑</planes-arrow>
@@ -67,8 +67,8 @@ entries:
               - <planes-arrow>↑</planes-arrow>
               - Self (fifth plane)
               - <planes-arrow>⇡</planes-arrow>
-              - Darill</figure></planes-diagram>
-              - <figcaption>The five bodies and their associated planes of existence. </figcaption>
+              - Darill</planes-diagram>
+              - <figcaption>The five bodies and their associated planes of existence.</figcaption></figure>
               - 'In this model, each body is emergent from the one below: a sufficiently complex structure on one level gives rise to phenomena on a higher level that are greater than the sum of their parts. The overt bodies consist of the physical body and the self. All other bodies are subtle.'
               - <h3>Self</h3>
               - The fifth plane, also known as the “energy plane”, or the “fifth plane, which binds”, is the realm in which darill form quasi‑particles. A body on this level is called a Self, and allows for movement of energy and matter into and out of the lifeform.
@@ -231,8 +231,8 @@ entries:
                   - Only about 15% of darill can be found forming quasiparticles at any one time. The rest do not interact via the electromagnetic or strong forces, and so are called “dark” matter. Gravity is the dominant force at these scales, as it is the only long-range force that interacts with the darill sea.
                   title: Particle Physics < Physics - The Tinellbian Encyclopedia
                 Spacetime:
-                  date: '2025-03-22'
-                  position: '16.227'
+                  date: '2025-10-04'
+                  position: '17.159'
                   text:
                   - <h1>Spacetime</h1>
                   - The Universe, <i>i.e.:</i> all that exists, is likely infinite in extent. Tinellb is the name given to a particular <dictionary-link>bubble</dictionary-link> within the <external>bulk</external>, which takes the form of a 10‑dimensional ellipsoid.

@@ -4,14 +4,13 @@ assets:
 entries:
 - - Tinellbian Encyclopedia
   - Entries
-  - Physics
-  - Particle Physics
+  - Metaphysics
 files: c:\users\ryan\tinellbianlanguages\!smeagol\files.yml
 imes:
   autocorrect: c:\users\ryan\tinellbianlanguages\encyclopedia\data\assets\autocorrect.ime
-languages: c:\users\ryan\tinellbianlanguages\toplevel\data\assets\languages.yml
+languages: c:\users\ryan\tinellbianlanguages\www\data\assets\languages.yml
 links:
-  external: c:\users\ryan\tinellbianlanguages\toplevel\data\assets\external.glk
+  external: c:\users\ryan\tinellbianlanguages\www\data\assets\external.glk
   internal: c:\users\ryan\tinellbianlanguages\encyclopedia\data\assets\internal-links.glk
 locations:
   directory: c:\users\ryan\tinellbianlanguages\encyclopedia
@@ -21,16 +20,16 @@ locations:
 port: 56070
 styles: c:\users\ryan\tinellbianlanguages\encyclopedia\data\assets\styles.tag
 templates:
-  entry: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\entry.tpl
-  main: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\page.tpl
+  entry: c:\users\ryan\tinellbianlanguages\www\data\templates\entry.tpl
+  main: c:\users\ryan\tinellbianlanguages\www\data\templates\page.tpl
   sections:
-    basesearch: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\base_search.tpl
-    copyright: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\sections\copyright.tpl
-    magnifyingglass: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\svg\magnifying_glass.tpl
-    mini-nav: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\sections\navigation_arrows.tpl
-    navigationpane: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\sections\navpane.tpl
+    basesearch: c:\users\ryan\tinellbianlanguages\www\data\templates\base_search.tpl
+    copyright: c:\users\ryan\tinellbianlanguages\www\data\templates\sections\copyright.tpl
+    magnifyingglass: c:\users\ryan\tinellbianlanguages\www\data\templates\svg\magnifying_glass.tpl
+    mini-nav: c:\users\ryan\tinellbianlanguages\www\data\templates\sections\navigation_arrows.tpl
+    navigationpane: c:\users\ryan\tinellbianlanguages\www\data\templates\sections\navpane.tpl
   special:
-    page404: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\search404.tpl
-    search: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\search.tpl
-    wholepage: c:\users\ryan\tinellbianlanguages\toplevel\data\templates\wholepage.tpl
-url: http://universe.tinellb.com
+    page404: c:\users\ryan\tinellbianlanguages\www\data\templates\search404.tpl
+    search: c:\users\ryan\tinellbianlanguages\www\data\templates\search.tpl
+    wholepage: c:\users\ryan\tinellbianlanguages\www\data\templates\wholepage.tpl
+url: http://encyclopedia.tinellb.com
