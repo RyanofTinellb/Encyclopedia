@@ -151,8 +151,12 @@ main table.hierarchy tr:last-child td:empty {
 }
 
 main table td:empty {
-    background-color: #ddd;
+    background-color: light-dark(#ddd, #111);
     border: none;
+}
+
+main table tbody tr:last-child td:empty {
+    border-bottom: 1px solid light-dark(black, white);
 }
 
 main table tr:last-child td:empty {
