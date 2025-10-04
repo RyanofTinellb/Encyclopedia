@@ -27,6 +27,10 @@ nav.sidebar a {
     text-decoration: none;
 }
 
+sup {
+    font-size: small;
+}
+
 h1,
 h2,
 h3,
@@ -99,6 +103,29 @@ table .boson {
 .antimatter {
     text-decoration: overline;
 }
+
+.grey-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+    flex-wrap: wrap;
+
+    .grey-box {
+        background-color: light-dark(rgb(210, 210, 210), rgb(45, 45, 45));
+        border-radius: 10px;
+        width: fit-content;
+        min-width: 0;
+        flex-shrink: 0;
+        margin-block: 1em;
+    }
+
+    p {
+        margin-inline-start: 0;
+        margin-block: 0.5em;
+    }
+}
+
+
 
 figcaption {
     font-size: smaller;

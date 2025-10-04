@@ -6,11 +6,14 @@ a:
 anchor:
   key: Alt-n
   type: anchor
-boson: span
+boson:
+  type: span
+  key: Alt-B
 br:
   close: <br>
   open: ''
   pipe: ''
+code: {}
 default:
   props:
     font: Times New Roman
@@ -24,7 +27,9 @@ desktop:
   type: div
 dictionary-link:
   key: Alt-d
-  param: https://dictionary.tinellb.com/lex/$text$.html#english|$upper(text)$
+  param:
+    string: $link$|$node$
+    link: https://dictionary.tinellb.com/lex/$text$.html#english
   props:
     colour: '#3d3'
     ime: links
@@ -35,7 +40,10 @@ em:
   props:
     italics: true
 external:
-  param: $link:lookup:external$|$node$
+  param:
+    string: $link$|$node$
+    link: $lookup$
+    category: external
   props:
     colour: '#36f'
     underline: true
@@ -50,6 +58,15 @@ generic-anchor:
   close: </a>
   open: '<a '
   pipe: '>'
+grey-box:
+  type: div
+  props:
+    border: true
+  rank: -10
+grey-boxes:
+  type: div
+  props:
+    background: '#ccc'
 h1:
   keys:
     'off': Return
@@ -130,14 +147,19 @@ i:
     italics: true
 img:
   close: '>'
-  open: <img class="centre"
-  param: alt="$text$" title="$text$" src="$lookup:external$"
+  open: '<img class="centre" '
+  param:
+    string: alt="$text$" title="$text$" src="$lookup$"
+    category: external
   props:
     background: '#9f9'
     left: 20
   type: line
 internal-link:
-  param: $link:lookup:internal$|$node$
+  param:
+    string: $link$|$node$
+    category: internal
+    link: $grammar(lookup)$
   props:
     colour: '#36d'
     underline: true
@@ -150,7 +172,9 @@ mobile:
   type: div
 no-breaks: span
 overline:
-  key: Alt-O
+  keys: 
+    'on': Alt-O
+    'off': space
   props:
     strikeout: true
   type: span
@@ -178,6 +202,9 @@ strong:
   props:
     bold: true
 sup:
+  keys:
+    'on': '+'
+    'off': space
   props:
     offset: superscript
 symbol:
