@@ -51,8 +51,8 @@ entries:
               title: History - The Tinellbian Encyclopedia
             Metaphysics:
               children: {}
-              date: '2026-01-14'
-              position: '3.172'
+              date: '2026-05-05'
+              position: '48.102'
               text:
               - <h1>Metaphysics</h1>
               - <h2>Planes of Existence</h2>
@@ -87,6 +87,11 @@ entries:
               - ' rationality'
               - ' instinct</table></tbody>'
               - <figcaption>The four main modes of thought.</figcaption></figure>
+              - <figure><tbody><table> superego | Über-Ich
+              - ' ego | Ich'
+              - ' id | Es'
+              - ' subid | Unter‑Es</table></tbody>'
+              - <figcaption>The four components of the mind.</figcaption></figure>
               - <h3>Heart</h3>
               - The heart is that which feels emotions. A heart in balance is said to be <i>happy</i>.
               - <figure><table><thead>h negative |h neutral |h positive</thead>
@@ -96,7 +101,7 @@ entries:
               - c3 fear
               - </tbody></table><figcaption>The four main emotions. Some emotions use different terms for their positive or negative aspects.</figcaption></figure>
               - <h3>Soul</h3>
-              - The soul is the part of a person that loves, and is also the source of morality.
+              - The soul is the part of a person that loves, and is also the source of morality, ethics and etiquette.
               - <table> compassion
               - ' affection'
               - ' fondness'

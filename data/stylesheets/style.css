@@ -135,7 +135,7 @@ figcaption {
 }
 
 figcaption::before {
-    content: "Fig " counter(table) ".";
+    content: "Fig " counter(table) ". ";
     counter-increment: table;
     font-style: italic;
 }
