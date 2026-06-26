@@ -5,6 +5,7 @@ directory:
     - - Spacetime
     - - Substandard Model
   - - Metaphysics
+    - - Choice
   - - History
 entries:
   children:
@@ -50,7 +51,29 @@ entries:
               - 'Tsarein: <universe>E<sup>415</sup>χ</universe>'
               title: History - The Tinellbian Encyclopedia
             Metaphysics:
-              children: {}
+              children:
+                Choice:
+                  title: Choice - Tinellbian Encyclopedia
+                  text:
+                  - <h1>Choice</h1>
+                  - Choice is a fundamental force. Certain living beings can have an effect on the world around them simply by <i>choosing</i> to do so. This manifests in a number of ways. In most cases, an individual has negligible impact, but there is a greater effect when a group of people is <i>choosing</i>.
+                  - 'Choice is amplified when travelling through a wormhole: such a person can choose qualities, or a specific location.'
+                  - Certain planets were blessed by the gods, that anyone born there will share an ability.
+                  - <table><thead>h world |h plane |h ability</thead>
+                  - <tbody> Brequé | physical | magic
+                  - ' Tsarein | mental | telepathy'
+                  - ' Zhalad | emotional | empathy'
+                  - ' Solaji | spiritual | session</tbody></table>'
+                  - <h2>Magic</h2>
+                  - Magic is the ability to manipulate matter and energy on the physical plane. It is passed through the medium of touch.
+                  - <h2>Telepathy</h2>
+                  - 'A telepath can hear the thoughts of those around them. Telepathy spreads through both space and gingla: the additional four ginglaic dimensions imply that telepathic power drops off quickly as two people move further away.'
+                  - <h2>Empathy</h2>
+                  - An empath can see the emotions of others. As empathy does not spread through gingla, it is stronger than telepathy to a greater distance, but cannot be used between two people with ginglaic separation. Thus Zhaladi and Fezhlê cannot sense each other so.
+                  - <h2>Session</h2>
+                  - People with this ability can sess the love another holds.
+                  position: '17.57'
+                  date: '2026-06-27'
               date: '2026-05-05'
               position: '48.102'
               text:
