@@ -6,6 +6,7 @@ directory:
     - - Substandard Model
   - - Metaphysics
     - - Choice
+    - - Divinity
   - - History
 entries:
   children:
@@ -74,6 +75,53 @@ entries:
                   - People with this ability can sess the love another holds.
                   position: '17.57'
                   date: '2026-06-27'
+                Divinity:
+                  title: Divinity - Tinellbian Encyclopedia
+                  text:
+                  - <h1>Divinity</h1>
+                  - There are or were nine main gods of Tinellb. Six of them still remain on their home planet, Thilia. Of the other three, one is no more, and the other two travel the universe.
+                  - <h2>First Generation</h2>
+                  - These deities came into being before the emergence of life in Tinellb.
+                  - <h3>Yao</h3>
+                  - Yao is the god of Choice and the personification of the creative principle. He is Caemi’s first husband.
+                  - <h3>Caemi</h3>
+                  - Caemi is the personification of the principle by which quasi‑particles arise from the movement of darill, in the substandard model. The goddess of energy, represented by the Sun (or any star). She is the wife of Yao, and of Tserron.
+                  - <h3>Selu</h3>
+                  - Selu was the personification of the principle by which larger structures — atoms, molecules, cells, organs, bodies — arise from elementary particles. They sacrificed themself so that future sentient beings would have access to Choice. They were represented by earth, in the sense of both the planetary body, and the rock and soil by which it is comprised. He was Yao and Caemi’s child.
+                  - <h2>Second Generation</h2>
+                  - As life developed in complexity, further planes of abstraction were found. Each of these levels had an associated deity. They were all the children of Yao and Caemi.
+                  - <h3>Volzd</h3>
+                  - Volzd is the goddess of the heart and emotions. She is represented by fire.
+                  - <h3>Ziguti</h3>
+                  - Ziguti is the god of the soul and love. She is represented by air.
+                  - <h3>Qolt</h3>
+                  - Qolt is the god of the mind and thought. He is represented by water.
+                  - <h2>Third Generation</h2>
+                  - These came into being after life was established, and Selu’s sacrifice embued it with Choice.
+                  - <h3>Vùalq</h3>
+                  - Vùalq is the goddess of the body and the senses. She is represented by wood. She came into being to replace Selu, and is also Yao and Caemi’s child.
+                  - <h3>Tserron</h3>
+                  - Tserron is the god of matter, represented by the Earth (or any planetary body). He was originally an ordinary being who used a ship with a wormhole drive to find Thilia, and became involved with Caemi and Yao. Later, Yao left Thilia by using Tserron’s ship, which was now a tsarship.
+                  - <h3>Tayedu</h3>
+                  - Tayedu is the goddess of entropy, death, chance and the destructive principle. Entropy relenting is what allowed Yao and the others to exist in the first place, and in gratitude, Yao personified that principle as his daughter.
+                  - <h4>Tayedu’s Gift</h4>
+                  - Tinellb has no afterlife, but Tayedu visits each sentient being in their final moment. Her Gift to those she visits is a kind of dreamscape.
+                  - <h2>Other Deities</h2>
+                  - After Yao left Thilia, Caemi and Tserron had more than a hundred children, each represented by one of the atomic elements, including antimaterial elements.
+                  - <h2>Summary</h2>
+                  - <table><thead>h  |h Volzd |h Ziguti |h Qolt |h Vùalq</thead>
+                  - <tbody>h body | heart | soul | mind | body
+                  - h plane | emotional | spiritual | mental | physical
+                  - h action | to feel | to love | to think | to sense
+                  - h element | fire | air | water | wood
+                  - h emotion | passion | contentment | sadness | fear
+                  - h sense | sight | smell | hearing | touch
+                  - h mind | id | superego | ego | subid
+                  - h thought | intuition | etiquette | reason | instinct
+                  - h love | affection | compassion | fondness | attraction
+                  - h ability | empathy | session | telepathy | magic</tbody></table>
+                  position: '28.140'
+                  date: '2026-07-03'
               date: '2026-05-05'
               position: '48.102'
               text:
