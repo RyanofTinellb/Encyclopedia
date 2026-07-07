@@ -161,7 +161,15 @@ main table {
 
 main table td,
 main table th {
-    padding: 2px 1em;
+    padding: 0.4lh 1em;
+}
+
+main table:has(tr:nth-child(7)) thead tr:nth-child(odd) {
+    background-color: light-dark(#999, #333);
+}
+
+main table:has(tr:nth-child(7)) tbody tr:nth-child(even) {
+    background-color: light-dark(#999, #333);
 }
 
 main table.hierarchy td {
