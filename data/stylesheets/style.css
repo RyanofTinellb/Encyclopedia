@@ -164,13 +164,48 @@ main table th {
     padding: 0.4lh 1em;
 }
 
-main table:has(tr:nth-child(7)) thead tr:nth-child(odd) {
-    background-color: light-dark(#999, #333);
+main table:has(tr:nth-child(7)) {
+    & td, & th {
+        border: solid 1px light-dark(#333, #999);
+    }
+
+    & tbody td {
+        border-bottom: solid 1px light-dark(#333, #999);
+    }
+
+    & td:first-child, & th:first-child {
+        border-left: none;
+    }
+
+    & td:last-child, & th:last-child {
+        border-right: none;
+    }
+
+    & tbody tr:nth-child(odd) {
+        background-color: light-dark(#ccc, #122);
+    }
+
+    & thead {
+        /* tr:nth-child(odd) {
+            background-color: light-dark(#999, #333);
+        } */
+
+        & th {
+            border-top: solid 1px light-dark(black, white);
+            border-bottom: solid 2px light-dark(black, white);
+            font-size: 1.8cap;
+            /* text-decoration: underline; */
+        }
+    }
+}
+
+/* main table:has(tr:nth-child(7)) thead tr:nth-child(odd) {
+    
 }
 
 main table:has(tr:nth-child(7)) tbody tr:nth-child(even) {
     background-color: light-dark(#999, #333);
-}
+} */
 
 main table.hierarchy td {
     border: none;

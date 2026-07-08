@@ -109,20 +109,22 @@ entries:
                   - <h2>Other Deities</h2>
                   - After Yao left Thilia, Caemi and Tserron had more than a hundred children, each represented by one of the atomic elements, including antimaterial elements.
                   - <h2>Summary</h2>
-                  - <table><thead>h  |h Volzd |h Ziguti |h Qolt |h Vùalq</thead>
-                  - <tbody>h body | heart | soul | mind | body
-                  - h plane | emotional | spiritual | mental | physical
-                  - h action | to feel | to love | to think | to sense
-                  - h element | fire | air | water | wood
-                  - h dimension | gingla | reality | time | space
-                  - h emotion | passion | contentment | sadness | fear
-                  - h sense | sight | smell | hearing | touch
-                  - h mind | id | superego | ego | subid
-                  - h thought | intuition | etiquette | reason | instinct
-                  - h love | affection | compassion | fondness | attraction
-                  - h ability | empathy | session | telepathy | magic</tbody></table>
-                  position: '37.45'
-                  date: '2026-07-06'
+                  - <table><thead>h Volzd |h Ziguti |h Qolt |h Vùalq</thead>
+                  - <tbody> heart | soul | mind | body
+                  - ' emotional | spiritual | mental | physical'
+                  - ' to feel | to love | to think | to sense'
+                  - ' fire | air | water | wood'
+                  - ' summer | autumn | winter | spring'
+                  - ' desert | mountains | islands | forest'
+                  - ' gingla | reality | time | space'
+                  - ' passion | contentment | sadness | fear'
+                  - ' sight | smell | hearing | touch'
+                  - ' id | superego | ego | subid'
+                  - ' intuition | etiquette | reason | instinct'
+                  - ' affection | compassion | fondness | attraction'
+                  - ' empathy | session | telepathy | magic</tbody></table>'
+                  position: '38.38'
+                  date: '2026-07-08'
               date: '2026-05-05'
               position: '48.102'
               text:
