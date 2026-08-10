@@ -164,7 +164,7 @@ main table th {
     padding: 0.4lh 1em;
 }
 
-main table:has(tr:nth-child(7)) {
+main table:has(tr:nth-child(7)):not(.hierarchy) {
     & td, & th {
         border: solid 1px light-dark(#333, #999);
     }
